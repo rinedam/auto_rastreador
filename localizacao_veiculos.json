@@ -1,50 +1,50 @@
 [
     {
+        "placa": "AWU0380",
+        "Local": "2,017 KM DE POSTO 60"
+    },
+    {
+        "placa": "AUC7B87",
+        "Local": "0,341 KM DE KM 29"
+    },
+    {
+        "placa": "FTT2A72",
+        "Local": "Estrutura de resposta inesperada"
+    },
+    {
         "placa": "FDB0F47",
-        "Local": "0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP"
+        "Local": "0,212 KM DE ROD. FERNAO DIAS, 732 - JACANA, SAO PAULO - SP, 07053-171, BRASIL"
     },
     {
         "placa": "AEO1E22",
-        "Local": "0,084 KM DE ROD. PRES. DUTRA, 107 - AGULHAS NEGRAS, RESENDE - RJ, 27521, BRASIL"
+        "Local": "0,067 KM DE POSTO CAJU"
     },
     {
         "placa": "FHR6I05",
-        "Local": "10,734 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL"
+        "Local": "3,444 KM DE CANDIDO SALES, BAHIA - BRASIL"
     },
     {
         "placa": "BAP2G86",
-        "Local": "0,085 KM DE P. TREVAO -MONTES CLAROS/MG"
-    },
-    {
-        "placa": "HNX2I05",
-        "Local": "0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL"
+        "Local": "0,276 KM DE P. SAO JORGE - V. CONQUISTA/BA"
     },
     {
         "placa": "NYW0C68",
-        "Local": "1,358 KM DE MANOEL VITORINO-BA"
+        "Local": "0,088 KM DE PT. O.D TRANSP. LOG.- ARACAJU/SE"
     },
     {
         "placa": "AZD7648",
-        "Local": "0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL"
+        "Local": "0,159 KM DE P. TULIO - SAO JOSE PINHAIS/PR"
     },
     {
         "placa": "SEC4C87",
-        "Local": "1,078 KM DE BR-010 - LAGOA VERDE - IMPERATRIZ, MARANHAO - BRASIL"
+        "Local": "0,336 KM DE VILA SARNEY - SAO LUIS, MARANHAO - BRASIL"
     },
     {
         "placa": "IMI7I73",
-        "Local": "0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL"
-    },
-    {
-        "placa": "AWN0G48",
-        "Local": "0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL"
+        "Local": "4,678 KM DE AUTO POSTO ESPERANCA"
     },
     {
         "placa": "AWV3011",
         "Local": "0,810 KM DE PRF BR-324"
-    },
-    {
-        "placa": "AZO5G94",
-        "Local": "16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127"
     }
 ]

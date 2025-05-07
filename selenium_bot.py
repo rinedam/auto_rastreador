@@ -140,17 +140,57 @@ def consultar_placas():
                         
                         tabela = driver.find_element(By.ID, "datatables")
                         linhas = tabela.find_elements(By.TAG_NAME, "tr")
-                        
+
+                        placas = []
+                        placas_problematicas = []
+
                         for i, linha in enumerate(linhas):
                             celulas = linha.find_elements(By.TAG_NAME, "td")
                             if len(celulas) > 7:
-                                placa_com_traco = celulas[7].text
-                                placa_sem_traco = placa_com_traco.replace('-', '')
-                                placas.append(placa_sem_traco)
-                        
+                                placa_com_traco = celulas[7].text.strip()
+                                
+                                # Verificar se a placa não está vazia
+                                if placa_com_traco:
+                                    # Verificar se a placa tem um formato válido antes de processar
+                                    if '-' in placa_com_traco:
+                                        placa_sem_traco = placa_com_traco.replace('-', '')
+                                        if placa_sem_traco:  # Verificar se não ficou vazia após substituição
+                                            placas.append(placa_sem_traco)
+                                            logging.info(f"Placa processada com sucesso: {placa_com_traco} -> {placa_sem_traco}")
+                                        else:
+                                            logging.warning(f"Placa ficou vazia após substituir traço: {placa_com_traco}")
+                                            placas_problematicas.append(placa_com_traco)
+                                    else:
+                                        # Se não tem traço, adicionar como está
+                                        placas.append(placa_com_traco)
+                                        logging.info(f"Placa sem traço adicionada: {placa_com_traco}")
+                                else:
+                                    logging.warning(f"Célula da placa vazia na linha {i+1}")
+                                    
+                                    # Tentar obter usando JavaScript como alternativa
+                                    try:
+                                        placa_js = driver.execute_script("return arguments[0].textContent", celulas[7]).strip()
+                                        if placa_js:
+                                            if '-' in placa_js:
+                                                placa_sem_traco = placa_js.replace('-', '')
+                                                if placa_sem_traco:
+                                                    placas.append(placa_sem_traco)
+                                                    logging.info(f"Placa recuperada via JS: {placa_js} -> {placa_sem_traco}")
+                                                else:
+                                                    logging.warning(f"Placa via JS ficou vazia após substituir traço: {placa_js}")
+                                                    placas_problematicas.append(placa_js)
+                                            else:
+                                                placas.append(placa_js)
+                                                logging.info(f"Placa sem traço via JS adicionada: {placa_js}")
+                                    except Exception as e:
+                                        logging.error(f"Erro ao tentar recuperar placa via JS: {e}")
+
                         logging.info(f"Total de placas encontradas: {len(placas)}")
                         for i, placa_item in enumerate(placas, 1):
                             logging.info(f"Placa {i}: {placa_item}")
+
+                        if placas_problematicas:
+                            logging.warning(f"Placas com problemas de processamento: {placas_problematicas}")
 
                     except Exception as e:
                         logging.error(f"Erro ao processar placas: {e}", exc_info=True)
@@ -194,4 +234,5 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     pass
