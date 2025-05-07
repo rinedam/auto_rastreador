@@ -1,0 +1,240 @@
+2025-05-06 17:40:44,605 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-06 17:40:44,605 - INFO - Iniciando o processo de localização de veículos...
+2025-05-06 17:40:44,605 - INFO - Tentando extrair placas via Selenium...
+2025-05-06 17:40:44,606 - INFO - Sistema iniciado e pronto para extração.
+2025-05-06 17:40:44,606 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-06 17:40:45,174 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-06 17:40:45,294 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-06 17:40:45,295 - INFO - Iniciando processo de extração de dados...
+2025-05-06 17:40:49,614 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:40:50,986 - INFO - Aguardando página de login carregar...
+2025-05-06 17:40:51,028 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-06 17:40:51,208 - INFO - Tentando clicar no botão de login por ID...
+2025-05-06 17:40:53,729 - INFO - Aguardando redirecionamento após login...
+2025-05-06 17:40:58,738 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:40:58,738 - INFO - Iniciando extração de dados...
+2025-05-06 17:40:58,738 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-06 17:40:58,862 - INFO - Opção de 50 registros por página selecionada
+2025-05-06 17:41:06,345 - INFO - Total de placas encontradas: 12
+2025-05-06 17:41:06,345 - INFO - Placa 1: FDB0F47
+2025-05-06 17:41:06,345 - INFO - Placa 2: AEO1E22
+2025-05-06 17:41:06,345 - INFO - Placa 3: FHR6I05
+2025-05-06 17:41:06,345 - INFO - Placa 4: BAP2G86
+2025-05-06 17:41:06,345 - INFO - Placa 5: HNX2I05
+2025-05-06 17:41:06,345 - INFO - Placa 6: NYW0C68
+2025-05-06 17:41:06,345 - INFO - Placa 7: AZD7648
+2025-05-06 17:41:06,345 - INFO - Placa 8: SEC4C87
+2025-05-06 17:41:06,346 - INFO - Placa 9: IMI7I73
+2025-05-06 17:41:06,346 - INFO - Placa 10: AWN0G48
+2025-05-06 17:41:06,346 - INFO - Placa 11: AWV3011
+2025-05-06 17:41:06,346 - INFO - Placa 12: AZO5G94
+2025-05-06 17:41:09,605 - INFO - Placas recebidas para processamento: ['FDB0F47', 'AEO1E22', 'FHR6I05', 'BAP2G86', 'HNX2I05', 'NYW0C68', 'AZD7648', 'SEC4C87', 'IMI7I73', 'AWN0G48', 'AWV3011', 'AZO5G94']
+2025-05-06 17:41:09,605 - INFO - Obtendo token da API...
+2025-05-06 17:41:09,729 - INFO - Token da API obtido com sucesso.
+2025-05-06 17:41:09,730 - INFO - Processando placa: FDB0F47
+2025-05-06 17:41:09,974 - INFO - Localização para FDB0F47: 0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP
+2025-05-06 17:41:09,974 - INFO - Processando placa: AEO1E22
+2025-05-06 17:41:10,222 - INFO - Localização para AEO1E22: 0,072 KM DE ROD. PRES. DUTRA, RESENDE - RJ, BRASIL
+2025-05-06 17:41:10,223 - INFO - Processando placa: FHR6I05
+2025-05-06 17:41:10,453 - INFO - Localização para FHR6I05: 17,583 KM DE P. FORMOSO - VEREDAS/MG
+2025-05-06 17:41:10,453 - INFO - Processando placa: BAP2G86
+2025-05-06 17:41:10,797 - INFO - Localização para BAP2G86: 0,088 KM DE P. TREVAO -MONTES CLAROS/MG
+2025-05-06 17:41:10,797 - INFO - Processando placa: HNX2I05
+2025-05-06 17:41:11,058 - INFO - Localização para HNX2I05: 0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:41:11,058 - INFO - Processando placa: NYW0C68
+2025-05-06 17:41:11,407 - INFO - Localização para NYW0C68: 1,358 KM DE MANOEL VITORINO-BA
+2025-05-06 17:41:11,407 - INFO - Processando placa: AZD7648
+2025-05-06 17:41:11,679 - INFO - Localização para AZD7648: 0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL
+2025-05-06 17:41:11,679 - INFO - Processando placa: SEC4C87
+2025-05-06 17:41:11,939 - INFO - Localização para SEC4C87: 0,295 KM DE PT. STA.TEREZINHA -IMPERATRIZ/MA
+2025-05-06 17:41:11,940 - INFO - Processando placa: IMI7I73
+2025-05-06 17:41:12,169 - INFO - Localização para IMI7I73: 0,061 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL
+2025-05-06 17:41:12,170 - INFO - Processando placa: AWN0G48
+2025-05-06 17:41:12,456 - INFO - Localização para AWN0G48: 0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:41:12,456 - INFO - Processando placa: AWV3011
+2025-05-06 17:41:12,717 - INFO - Localização para AWV3011: 0,810 KM DE PRF BR-324
+2025-05-06 17:41:12,717 - INFO - Processando placa: AZO5G94
+2025-05-06 17:41:13,018 - INFO - Localização para AZO5G94: 18,349 KM DE JAICOS-PI
+2025-05-06 17:41:13,018 - ERROR - Erro ao salvar o arquivo JSON: [Errno 2] No such file or directory: '\\home\\ubuntu\\localizacao_veiculos.json'
+2025-05-06 17:41:13,019 - INFO - Processamento concluído. Dados: [{'placa': 'FDB0F47', 'Local': '0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP'}, {'placa': 'AEO1E22', 'Local': '0,072 KM DE ROD. PRES. DUTRA, RESENDE - RJ, BRASIL'}, {'placa': 'FHR6I05', 'Local': '17,583 KM DE P. FORMOSO - VEREDAS/MG'}, {'placa': 'BAP2G86', 'Local': '0,088 KM DE P. TREVAO -MONTES CLAROS/MG'}, {'placa': 'HNX2I05', 'Local': '0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'NYW0C68', 'Local': '1,358 KM DE MANOEL VITORINO-BA'}, {'placa': 'AZD7648', 'Local': '0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL'}, {'placa': 'SEC4C87', 'Local': '0,295 KM DE PT. STA.TEREZINHA -IMPERATRIZ/MA'}, {'placa': 'IMI7I73', 'Local': '0,061 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL'}, {'placa': 'AWN0G48', 'Local': '0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'AWV3011', 'Local': '0,810 KM DE PRF BR-324'}, {'placa': 'AZO5G94', 'Local': '18,349 KM DE JAICOS-PI'}]
+2025-05-06 17:41:13,019 - INFO - Arquivo de saída: \home\ubuntu\localizacao_veiculos.json
+2025-05-06 17:45:18,052 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-06 17:45:18,052 - INFO - Iniciando o processo de localização de veículos...
+2025-05-06 17:45:18,052 - INFO - Tentando extrair placas via Selenium...
+2025-05-06 17:45:18,053 - INFO - Sistema iniciado e pronto para extração.
+2025-05-06 17:45:18,053 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-06 17:45:18,588 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-06 17:45:18,695 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-06 17:45:18,696 - INFO - Iniciando processo de extração de dados...
+2025-05-06 17:45:20,254 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:45:20,905 - INFO - Aguardando página de login carregar...
+2025-05-06 17:45:21,777 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-06 17:45:21,959 - INFO - Tentando clicar no botão de login por ID...
+2025-05-06 17:45:24,618 - INFO - Aguardando redirecionamento após login...
+2025-05-06 17:45:29,625 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:45:29,625 - INFO - Iniciando extração de dados...
+2025-05-06 17:45:29,625 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-06 17:45:29,723 - INFO - Opção de 50 registros por página selecionada
+2025-05-06 17:45:37,136 - INFO - Total de placas encontradas: 12
+2025-05-06 17:45:37,136 - INFO - Placa 1: FDB0F47
+2025-05-06 17:45:37,136 - INFO - Placa 2: AEO1E22
+2025-05-06 17:45:37,136 - INFO - Placa 3: FHR6I05
+2025-05-06 17:45:37,136 - INFO - Placa 4: BAP2G86
+2025-05-06 17:45:37,136 - INFO - Placa 5: HNX2I05
+2025-05-06 17:45:37,136 - INFO - Placa 6: NYW0C68
+2025-05-06 17:45:37,136 - INFO - Placa 7: AZD7648
+2025-05-06 17:45:37,136 - INFO - Placa 8: SEC4C87
+2025-05-06 17:45:37,136 - INFO - Placa 9: IMI7I73
+2025-05-06 17:45:37,136 - INFO - Placa 10: AWN0G48
+2025-05-06 17:45:37,136 - INFO - Placa 11: AWV3011
+2025-05-06 17:45:37,137 - INFO - Placa 12: AZO5G94
+2025-05-06 17:45:39,384 - INFO - Placas recebidas para processamento: ['FDB0F47', 'AEO1E22', 'FHR6I05', 'BAP2G86', 'HNX2I05', 'NYW0C68', 'AZD7648', 'SEC4C87', 'IMI7I73', 'AWN0G48', 'AWV3011', 'AZO5G94']
+2025-05-06 17:45:39,384 - INFO - Obtendo token da API...
+2025-05-06 17:45:39,536 - INFO - Token da API obtido com sucesso.
+2025-05-06 17:45:39,536 - INFO - Processando placa: FDB0F47
+2025-05-06 17:45:39,837 - INFO - Localização para FDB0F47: 0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP
+2025-05-06 17:45:39,837 - INFO - Processando placa: AEO1E22
+2025-05-06 17:45:40,072 - INFO - Localização para AEO1E22: 0,961 KM DE P. ROSA DE OURO - RESENDE/RJ
+2025-05-06 17:45:40,072 - INFO - Processando placa: FHR6I05
+2025-05-06 17:45:40,368 - INFO - Localização para FHR6I05: 15,913 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL
+2025-05-06 17:45:40,368 - INFO - Processando placa: BAP2G86
+2025-05-06 17:45:40,626 - INFO - Localização para BAP2G86: 0,088 KM DE P. TREVAO -MONTES CLAROS/MG
+2025-05-06 17:45:40,626 - INFO - Processando placa: HNX2I05
+2025-05-06 17:45:40,966 - INFO - Localização para HNX2I05: 0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:45:40,966 - INFO - Processando placa: NYW0C68
+2025-05-06 17:45:41,210 - INFO - Localização para NYW0C68: 1,358 KM DE MANOEL VITORINO-BA
+2025-05-06 17:45:41,210 - INFO - Processando placa: AZD7648
+2025-05-06 17:45:41,487 - INFO - Localização para AZD7648: 0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL
+2025-05-06 17:45:41,487 - INFO - Processando placa: SEC4C87
+2025-05-06 17:45:41,950 - INFO - Localização para SEC4C87: 0,272 KM DE PT. STA.TEREZINHA -IMPERATRIZ/MA
+2025-05-06 17:45:41,951 - INFO - Processando placa: IMI7I73
+2025-05-06 17:45:42,231 - INFO - Localização para IMI7I73: 0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL
+2025-05-06 17:45:42,231 - INFO - Processando placa: AWN0G48
+2025-05-06 17:45:42,496 - INFO - Localização para AWN0G48: 0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:45:42,496 - INFO - Processando placa: AWV3011
+2025-05-06 17:45:42,752 - INFO - Localização para AWV3011: 0,810 KM DE PRF BR-324
+2025-05-06 17:45:42,752 - INFO - Processando placa: AZO5G94
+2025-05-06 17:45:43,016 - INFO - Localização para AZO5G94: 16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127
+2025-05-06 17:45:43,016 - ERROR - Erro ao salvar o arquivo JSON: [Errno 13] Permission denied: 'C:\\Users\\Administrador\\Documents\\Projetos\\rastreador\\integracao_placas_logdi\\home\\ubuntu\\integracao_placas_logdi'
+2025-05-06 17:45:43,016 - INFO - Processamento concluído. Dados: [{'placa': 'FDB0F47', 'Local': '0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP'}, {'placa': 'AEO1E22', 'Local': '0,961 KM DE P. ROSA DE OURO - RESENDE/RJ'}, {'placa': 'FHR6I05', 'Local': '15,913 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL'}, {'placa': 'BAP2G86', 'Local': '0,088 KM DE P. TREVAO -MONTES CLAROS/MG'}, {'placa': 'HNX2I05', 'Local': '0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'NYW0C68', 'Local': '1,358 KM DE MANOEL VITORINO-BA'}, {'placa': 'AZD7648', 'Local': '0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL'}, {'placa': 'SEC4C87', 'Local': '0,272 KM DE PT. STA.TEREZINHA -IMPERATRIZ/MA'}, {'placa': 'IMI7I73', 'Local': '0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL'}, {'placa': 'AWN0G48', 'Local': '0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'AWV3011', 'Local': '0,810 KM DE PRF BR-324'}, {'placa': 'AZO5G94', 'Local': '16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127'}]
+2025-05-06 17:45:43,017 - INFO - Arquivo de saída: C:\Users\Administrador\Documents\Projetos\rastreador\integracao_placas_logdi\home\ubuntu\integracao_placas_logdi
+2025-05-06 17:47:16,917 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-06 17:47:16,917 - INFO - Iniciando o processo de localização de veículos...
+2025-05-06 17:47:16,917 - INFO - Tentando extrair placas via Selenium...
+2025-05-06 17:47:16,917 - INFO - Sistema iniciado e pronto para extração.
+2025-05-06 17:47:16,917 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-06 17:47:17,534 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-06 17:47:17,620 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-06 17:47:17,621 - INFO - Iniciando processo de extração de dados...
+2025-05-06 17:47:19,126 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:47:20,309 - INFO - Aguardando página de login carregar...
+2025-05-06 17:47:20,328 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-06 17:47:20,502 - INFO - Tentando clicar no botão de login por ID...
+2025-05-06 17:47:22,976 - INFO - Aguardando redirecionamento após login...
+2025-05-06 17:47:27,981 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:47:27,982 - INFO - Iniciando extração de dados...
+2025-05-06 17:47:27,982 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-06 17:47:28,068 - INFO - Opção de 50 registros por página selecionada
+2025-05-06 17:47:35,442 - INFO - Total de placas encontradas: 12
+2025-05-06 17:47:35,443 - INFO - Placa 1: FDB0F47
+2025-05-06 17:47:35,443 - INFO - Placa 2: AEO1E22
+2025-05-06 17:47:35,443 - INFO - Placa 3: FHR6I05
+2025-05-06 17:47:35,443 - INFO - Placa 4: BAP2G86
+2025-05-06 17:47:35,443 - INFO - Placa 5: HNX2I05
+2025-05-06 17:47:35,443 - INFO - Placa 6: NYW0C68
+2025-05-06 17:47:35,443 - INFO - Placa 7: AZD7648
+2025-05-06 17:47:35,443 - INFO - Placa 8: SEC4C87
+2025-05-06 17:47:35,443 - INFO - Placa 9: IMI7I73
+2025-05-06 17:47:35,443 - INFO - Placa 10: AWN0G48
+2025-05-06 17:47:35,443 - INFO - Placa 11: AWV3011
+2025-05-06 17:47:35,443 - INFO - Placa 12: AZO5G94
+2025-05-06 17:47:38,733 - INFO - Placas recebidas para processamento: ['FDB0F47', 'AEO1E22', 'FHR6I05', 'BAP2G86', 'HNX2I05', 'NYW0C68', 'AZD7648', 'SEC4C87', 'IMI7I73', 'AWN0G48', 'AWV3011', 'AZO5G94']
+2025-05-06 17:47:38,733 - INFO - Obtendo token da API...
+2025-05-06 17:47:38,915 - INFO - Token da API obtido com sucesso.
+2025-05-06 17:47:38,915 - INFO - Processando placa: FDB0F47
+2025-05-06 17:47:39,275 - INFO - Localização para FDB0F47: 0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP
+2025-05-06 17:47:39,275 - INFO - Processando placa: AEO1E22
+2025-05-06 17:47:39,529 - INFO - Localização para AEO1E22: 0,961 KM DE P. ROSA DE OURO - RESENDE/RJ
+2025-05-06 17:47:39,529 - INFO - Processando placa: FHR6I05
+2025-05-06 17:47:39,754 - INFO - Localização para FHR6I05: 15,913 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL
+2025-05-06 17:47:39,754 - INFO - Processando placa: BAP2G86
+2025-05-06 17:47:40,011 - INFO - Localização para BAP2G86: 0,085 KM DE P. TREVAO -MONTES CLAROS/MG
+2025-05-06 17:47:40,011 - INFO - Processando placa: HNX2I05
+2025-05-06 17:47:40,268 - INFO - Localização para HNX2I05: 0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:47:40,269 - INFO - Processando placa: NYW0C68
+2025-05-06 17:47:40,526 - INFO - Localização para NYW0C68: 1,358 KM DE MANOEL VITORINO-BA
+2025-05-06 17:47:40,526 - INFO - Processando placa: AZD7648
+2025-05-06 17:47:40,792 - INFO - Localização para AZD7648: 0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL
+2025-05-06 17:47:40,793 - INFO - Processando placa: SEC4C87
+2025-05-06 17:47:41,026 - INFO - Localização para SEC4C87: 0,205 KM DE PT. STA.TEREZINHA -IMPERATRIZ/MA
+2025-05-06 17:47:41,026 - INFO - Processando placa: IMI7I73
+2025-05-06 17:47:41,241 - INFO - Localização para IMI7I73: 0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL
+2025-05-06 17:47:41,241 - INFO - Processando placa: AWN0G48
+2025-05-06 17:47:41,524 - INFO - Localização para AWN0G48: 0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:47:41,524 - INFO - Processando placa: AWV3011
+2025-05-06 17:47:41,789 - INFO - Localização para AWV3011: 0,810 KM DE PRF BR-324
+2025-05-06 17:47:41,789 - INFO - Processando placa: AZO5G94
+2025-05-06 17:47:42,030 - INFO - Localização para AZO5G94: 16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127
+2025-05-06 17:47:42,031 - ERROR - Erro ao salvar o arquivo JSON: [Errno 13] Permission denied: 'C:\\Users\\Administrador\\Documents\\Projetos\\rastreador\\integracao_placas_logdi\\home\\ubuntu\\integracao_placas_logdi'
+2025-05-06 17:47:42,031 - INFO - Processamento concluído. Dados: [{'placa': 'FDB0F47', 'Local': '0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP'}, {'placa': 'AEO1E22', 'Local': '0,961 KM DE P. ROSA DE OURO - RESENDE/RJ'}, {'placa': 'FHR6I05', 'Local': '15,913 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL'}, {'placa': 'BAP2G86', 'Local': '0,085 KM DE P. TREVAO -MONTES CLAROS/MG'}, {'placa': 'HNX2I05', 'Local': '0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'NYW0C68', 'Local': '1,358 KM DE MANOEL VITORINO-BA'}, {'placa': 'AZD7648', 'Local': '0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL'}, {'placa': 'SEC4C87', 'Local': '0,205 KM DE PT. STA.TEREZINHA -IMPERATRIZ/MA'}, {'placa': 'IMI7I73', 'Local': '0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL'}, {'placa': 'AWN0G48', 'Local': '0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'AWV3011', 'Local': '0,810 KM DE PRF BR-324'}, {'placa': 'AZO5G94', 'Local': '16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127'}]
+2025-05-06 17:47:42,032 - INFO - Arquivo de saída: C:\Users\Administrador\Documents\Projetos\rastreador\integracao_placas_logdi\home\ubuntu\integracao_placas_logdi
+2025-05-06 17:52:19,524 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-06 17:52:19,524 - INFO - Iniciando o processo de localização de veículos...
+2025-05-06 17:52:19,524 - INFO - Tentando extrair placas via Selenium...
+2025-05-06 17:52:19,524 - INFO - Sistema iniciado e pronto para extração.
+2025-05-06 17:52:19,524 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-06 17:52:20,813 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-06 17:52:20,924 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-06 17:52:20,924 - INFO - Iniciando processo de extração de dados...
+2025-05-06 17:52:22,571 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:52:24,347 - INFO - Aguardando página de login carregar...
+2025-05-06 17:52:24,366 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-06 17:52:24,550 - INFO - Tentando clicar no botão de login por ID...
+2025-05-06 17:52:27,193 - INFO - Aguardando redirecionamento após login...
+2025-05-06 17:52:32,199 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-06 17:52:32,200 - INFO - Iniciando extração de dados...
+2025-05-06 17:52:32,200 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-06 17:52:32,285 - INFO - Opção de 50 registros por página selecionada
+2025-05-06 17:52:39,652 - INFO - Total de placas encontradas: 12
+2025-05-06 17:52:39,653 - INFO - Placa 1: FDB0F47
+2025-05-06 17:52:39,653 - INFO - Placa 2: AEO1E22
+2025-05-06 17:52:39,653 - INFO - Placa 3: FHR6I05
+2025-05-06 17:52:39,653 - INFO - Placa 4: BAP2G86
+2025-05-06 17:52:39,653 - INFO - Placa 5: HNX2I05
+2025-05-06 17:52:39,653 - INFO - Placa 6: NYW0C68
+2025-05-06 17:52:39,653 - INFO - Placa 7: AZD7648
+2025-05-06 17:52:39,653 - INFO - Placa 8: SEC4C87
+2025-05-06 17:52:39,653 - INFO - Placa 9: IMI7I73
+2025-05-06 17:52:39,653 - INFO - Placa 10: AWN0G48
+2025-05-06 17:52:39,653 - INFO - Placa 11: AWV3011
+2025-05-06 17:52:39,653 - INFO - Placa 12: AZO5G94
+2025-05-06 17:52:41,868 - INFO - Placas recebidas para processamento: ['FDB0F47', 'AEO1E22', 'FHR6I05', 'BAP2G86', 'HNX2I05', 'NYW0C68', 'AZD7648', 'SEC4C87', 'IMI7I73', 'AWN0G48', 'AWV3011', 'AZO5G94']
+2025-05-06 17:52:41,868 - INFO - Obtendo token da API...
+2025-05-06 17:52:41,990 - INFO - Token da API obtido com sucesso.
+2025-05-06 17:52:41,990 - INFO - Processando placa: FDB0F47
+2025-05-06 17:52:42,226 - INFO - Localização para FDB0F47: 0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP
+2025-05-06 17:52:42,226 - INFO - Processando placa: AEO1E22
+2025-05-06 17:52:42,467 - INFO - Localização para AEO1E22: 0,084 KM DE ROD. PRES. DUTRA, 107 - AGULHAS NEGRAS, RESENDE - RJ, 27521, BRASIL
+2025-05-06 17:52:42,467 - INFO - Processando placa: FHR6I05
+2025-05-06 17:52:42,690 - INFO - Localização para FHR6I05: 10,734 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL
+2025-05-06 17:52:42,690 - INFO - Processando placa: BAP2G86
+2025-05-06 17:52:42,935 - INFO - Localização para BAP2G86: 0,085 KM DE P. TREVAO -MONTES CLAROS/MG
+2025-05-06 17:52:42,935 - INFO - Processando placa: HNX2I05
+2025-05-06 17:52:43,172 - INFO - Localização para HNX2I05: 0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:52:43,172 - INFO - Processando placa: NYW0C68
+2025-05-06 17:52:43,493 - INFO - Localização para NYW0C68: 1,358 KM DE MANOEL VITORINO-BA
+2025-05-06 17:52:43,493 - INFO - Processando placa: AZD7648
+2025-05-06 17:52:43,830 - INFO - Localização para AZD7648: 0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL
+2025-05-06 17:52:43,830 - INFO - Processando placa: SEC4C87
+2025-05-06 17:52:44,068 - INFO - Localização para SEC4C87: 1,078 KM DE BR-010 - LAGOA VERDE - IMPERATRIZ, MARANHAO - BRASIL
+2025-05-06 17:52:44,068 - INFO - Processando placa: IMI7I73
+2025-05-06 17:52:44,385 - INFO - Localização para IMI7I73: 0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL
+2025-05-06 17:52:44,386 - INFO - Processando placa: AWN0G48
+2025-05-06 17:52:44,646 - INFO - Localização para AWN0G48: 0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL
+2025-05-06 17:52:44,646 - INFO - Processando placa: AWV3011
+2025-05-06 17:52:44,896 - INFO - Localização para AWV3011: 0,810 KM DE PRF BR-324
+2025-05-06 17:52:44,896 - INFO - Processando placa: AZO5G94
+2025-05-06 17:52:45,206 - INFO - Localização para AZO5G94: 16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127
+2025-05-06 17:52:45,207 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\rastreador\integracao_placas_logdi\home\ubuntu\integracao_placas_logdi\localizacao_veiculos.json
+2025-05-06 17:52:45,207 - INFO - Processamento concluído. Dados: [{'placa': 'FDB0F47', 'Local': '0,076 KM DE P. JB 4 IRMAOS - JACUPIRANGA/SP'}, {'placa': 'AEO1E22', 'Local': '0,084 KM DE ROD. PRES. DUTRA, 107 - AGULHAS NEGRAS, RESENDE - RJ, 27521, BRASIL'}, {'placa': 'FHR6I05', 'Local': '10,734 KM DE BR-365, 214, BURITIZEIRO - MG, 39280-000, BRASIL'}, {'placa': 'BAP2G86', 'Local': '0,085 KM DE P. TREVAO -MONTES CLAROS/MG'}, {'placa': 'HNX2I05', 'Local': '0,026 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'NYW0C68', 'Local': '1,358 KM DE MANOEL VITORINO-BA'}, {'placa': 'AZD7648', 'Local': '0,019 KM DE R. ANTONIO RODRIGUES DE SOUZA, 50 - GALPAO 03 - JARDIM MENINO DEUS, QUATRO BARRAS - PR, 82420-000, BRASIL'}, {'placa': 'SEC4C87', 'Local': '1,078 KM DE BR-010 - LAGOA VERDE - IMPERATRIZ, MARANHAO - BRASIL'}, {'placa': 'IMI7I73', 'Local': '0,063 KM DE R. DA CODEAL - TABULEIRO DO MARTINS, MACEIO - AL, 57082-117, BRASIL'}, {'placa': 'AWN0G48', 'Local': '0,001 KM DE AVENIDA GETULIO VARGAS, QUADRA 25 LOTE 01/06 VILA - NOSSA SRA. DE LOURDES, APARECIDA DE GOIANIA - GO, 74912-330, BRASIL'}, {'placa': 'AWV3011', 'Local': '0,810 KM DE PRF BR-324'}, {'placa': 'AZO5G94', 'Local': '16,726 KM DE PM BOQUEIRAO DO PIAUI - PI - (86) 3257-0127'}]
+2025-05-06 17:52:45,207 - INFO - Arquivo de saída: C:\Users\Administrador\Documents\Projetos\rastreador\integracao_placas_logdi\home\ubuntu\integracao_placas_logdi\localizacao_veiculos.json

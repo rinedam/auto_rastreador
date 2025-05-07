@@ -1,0 +1,26 @@
+import requests
+from config import API_BASE_URL, API_USER, API_PASSWORD
+
+def get_token():
+    data = {
+        'grant_type': 'password',
+        'username': API_USER,
+        'Password': API_PASSWORD # P maiúsculo conforme pede a documentação da API
+    }
+    base_url = API_BASE_URL if API_BASE_URL.endswith('/') else API_BASE_URL + '/'
+    
+    response = requests.post(base_url + "Token", data=data, verify=False)
+    response.raise_for_status() # Levanta exceção para status HTTP 4xx/5xx
+    return response.json()['access_token']
+
+def get_ultima_posicao_por_placa(token, placa):
+    headers = {"Authorization": f"Bearer {token}"}
+    base_url = API_BASE_URL if API_BASE_URL.endswith('/') else API_BASE_URL + '/'
+    endpoint_url = base_url + f"api/v1/UltimaPosicaoVeiculo/ListaUltimaPosicaoPorPlaca"
+    
+    params = {"placa": placa} # Adicionando o parâmetro placa na URL
+
+    response = requests.get(endpoint_url, headers=headers, params=params, verify=False)
+    response.raise_for_status()
+    return response.json() # Retorna o JSON completo da resposta da API
+
