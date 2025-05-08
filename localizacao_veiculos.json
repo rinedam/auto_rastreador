@@ -1,0 +1,52 @@
+[
+    {
+        "placa": "DBL2I25",
+        "cidade": "Barra Velha",
+        "estado": "Santa Catarina"
+    },
+    {
+        "placa": "AWU0380",
+        "cidade": "Aparecida de Goiânia",
+        "estado": "Goiás"
+    },
+    {
+        "placa": "AOJ0H48",
+        "cidade": "Oliveira",
+        "estado": "Minas Gerais"
+    },
+    {
+        "placa": "FTT2A72",
+        "cidade": "Vitória da Conquista",
+        "estado": "Bahia"
+    },
+    {
+        "placa": "FHR6I05",
+        "cidade": "Capim Grosso",
+        "estado": "Bahia"
+    },
+    {
+        "placa": "BAP2G86",
+        "cidade": "Umbaúba",
+        "estado": "Sergipe"
+    },
+    {
+        "placa": "NYW0C68",
+        "cidade": "Palmares",
+        "estado": "Pernambuco"
+    },
+    {
+        "placa": "AZD7648",
+        "cidade": "São José dos Pinhais",
+        "estado": "Paraná"
+    },
+    {
+        "placa": "SEC4C87",
+        "cidade": "São Luís",
+        "estado": "Maranhão"
+    },
+    {
+        "placa": "AWV3011",
+        "cidade": "Simões Filho",
+        "estado": "Bahia"
+    }
+]

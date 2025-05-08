@@ -4544,3 +4544,359 @@ Stacktrace:
 2025-05-08 16:30:15,648 - INFO - Iniciando extração de dados...
 2025-05-08 16:30:15,648 - INFO - Aguardando carregamento da tabela de dados...
 2025-05-08 16:30:15,762 - INFO - Opção de 50 registros por página selecionada
+2025-05-08 16:37:37,205 - INFO - Iniciando verificação de conexão...
+2025-05-08 16:37:37,696 - INFO - Conexão verificada. Iniciando atualização do sistema...
+2025-05-08 16:37:37,697 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-08 16:37:37,698 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 16:37:37,699 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 16:37:37,700 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 16:37:38,163 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 16:37:38,278 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 16:37:38,279 - INFO - Iniciando processo de extração de dados...
+2025-05-08 16:37:38,356 - INFO - Forçando encerramento do programa...
+2025-05-08 16:42:23,654 - INFO - Horário removido: 16:30
+2025-05-08 16:43:13,813 - INFO - Horário removido: 16:43
+2025-05-08 16:43:14,653 - INFO - Horário removido: 18:00
+2025-05-08 16:43:15,516 - INFO - Horário removido: 08:00
+2025-05-08 16:44:44,532 - INFO - Horário removido: 16:44
+2025-05-08 16:46:05,938 - INFO - Iniciando atualização agendada: 16:46
+2025-05-08 16:46:05,940 - INFO - Iniciando verificação de conexão...
+2025-05-08 16:46:06,417 - INFO - Conexão verificada. Iniciando atualização do sistema...
+2025-05-08 16:46:06,418 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-08 16:46:06,418 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 16:46:06,419 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 16:46:06,419 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 16:46:06,873 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 16:46:06,998 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 16:46:06,999 - INFO - Iniciando processo de extração de dados...
+2025-05-08 16:46:09,981 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 16:46:11,731 - INFO - Forçando encerramento do programa...
+2025-05-08 16:50:24,887 - INFO - Timer de agendamento reiniciado
+2025-05-08 16:50:30,445 - INFO - Horário removido: 16:46
+2025-05-08 16:50:35,220 - INFO - Novo horário adicionado: 16:51
+2025-05-08 16:50:35,856 - INFO - Horários atualizados: ['16:51']
+2025-05-08 16:50:35,857 - INFO - Timer de agendamento reiniciado
+2025-05-08 16:50:47,624 - INFO - Horários atualizados: ['16:51']
+2025-05-08 16:50:47,628 - INFO - Timer de agendamento reiniciado
+2025-05-08 16:51:47,631 - INFO - Iniciando atualização agendada: 16:51
+2025-05-08 16:51:47,633 - INFO - Iniciando verificação de conexão...
+2025-05-08 16:51:47,858 - INFO - Conexão verificada. Iniciando atualização do sistema...
+2025-05-08 16:51:47,858 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-08 16:51:47,859 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 16:51:47,859 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 16:51:47,860 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 16:51:48,053 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 16:51:48,148 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 16:51:48,149 - INFO - Iniciando processo de extração de dados...
+2025-05-08 16:51:51,416 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 16:51:53,076 - INFO - Aguardando página de login carregar...
+2025-05-08 16:51:53,093 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-08 16:51:53,285 - INFO - Tentando clicar no botão de login por ID...
+2025-05-08 16:51:53,860 - INFO - Solicitação para parar o processo foi recebida.
+2025-05-08 16:51:56,043 - INFO - Aguardando redirecionamento após login...
+2025-05-08 16:52:01,055 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 16:52:01,055 - INFO - Iniciando extração de dados...
+2025-05-08 16:52:01,056 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-08 16:52:01,174 - INFO - Opção de 50 registros por página selecionada
+2025-05-08 16:52:08,417 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-08 16:52:08,439 - INFO - Placa processada com sucesso: AWU-0380 -> AWU0380
+2025-05-08 16:52:08,467 - INFO - Placa processada com sucesso: AOJ-0H48 -> AOJ0H48
+2025-05-08 16:52:08,491 - INFO - Placa processada com sucesso: FTT-2A72 -> FTT2A72
+2025-05-08 16:52:08,519 - INFO - Placa processada com sucesso: FDB-0F47 -> FDB0F47
+2025-05-08 16:52:08,542 - WARNING - Célula da placa vazia na linha 8
+2025-05-08 16:52:08,554 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-08 16:52:08,575 - WARNING - Célula da placa vazia na linha 9
+2025-05-08 16:52:08,585 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-08 16:52:08,608 - WARNING - Célula da placa vazia na linha 10
+2025-05-08 16:52:08,620 - INFO - Placa recuperada via JS: NYW-0C68 -> NYW0C68
+2025-05-08 16:52:08,641 - WARNING - Célula da placa vazia na linha 11
+2025-05-08 16:52:08,650 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-08 16:52:08,671 - WARNING - Célula da placa vazia na linha 12
+2025-05-08 16:52:08,676 - INFO - Placa recuperada via JS: SEC-4C87 -> SEC4C87
+2025-05-08 16:52:08,696 - WARNING - Célula da placa vazia na linha 13
+2025-05-08 16:52:08,703 - INFO - Placa recuperada via JS: AWV-3011 -> AWV3011
+2025-05-08 16:52:08,703 - INFO - Total de placas encontradas: 11
+2025-05-08 16:52:08,704 - INFO - Placa 1: DBL2I25
+2025-05-08 16:52:08,704 - INFO - Placa 2: AWU0380
+2025-05-08 16:52:08,704 - INFO - Placa 3: AOJ0H48
+2025-05-08 16:52:08,705 - INFO - Placa 4: FTT2A72
+2025-05-08 16:52:08,705 - INFO - Placa 5: FDB0F47
+2025-05-08 16:52:08,705 - INFO - Placa 6: FHR6I05
+2025-05-08 16:52:08,706 - INFO - Placa 7: BAP2G86
+2025-05-08 16:52:08,706 - INFO - Placa 8: NYW0C68
+2025-05-08 16:52:08,706 - INFO - Placa 9: AZD7648
+2025-05-08 16:52:08,707 - INFO - Placa 10: SEC4C87
+2025-05-08 16:52:08,707 - INFO - Placa 11: AWV3011
+2025-05-08 16:52:10,859 - INFO - Placas recebidas para processamento: ['DBL2I25', 'AWU0380', 'AOJ0H48', 'FTT2A72', 'FDB0F47', 'FHR6I05', 'BAP2G86', 'NYW0C68', 'AZD7648', 'SEC4C87', 'AWV3011']
+2025-05-08 16:52:10,860 - INFO - Obtendo token da API...
+2025-05-08 16:52:10,988 - INFO - Token da API obtido com sucesso.
+2025-05-08 16:52:10,988 - INFO - Processando placa: DBL2I25
+2025-05-08 16:52:12,459 - INFO - Localização para DBL2I25: Barra Velha, Santa Catarina
+2025-05-08 16:52:12,460 - INFO - Processando placa: AWU0380
+2025-05-08 16:52:13,852 - INFO - Forçando encerramento do programa...
+2025-05-08 16:57:48,498 - INFO - Timer de agendamento reiniciado
+2025-05-08 16:57:50,453 - INFO - Iniciando verificação de conexão...
+2025-05-08 16:57:50,983 - INFO - Conexão verificada. Iniciando atualização do sistema...
+2025-05-08 16:57:50,984 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-08 16:57:50,985 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 16:57:50,986 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 16:57:50,987 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 16:57:51,460 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 16:57:51,573 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 16:57:51,574 - INFO - Iniciando processo de extração de dados...
+2025-05-08 16:57:54,686 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 16:57:56,412 - INFO - Aguardando página de login carregar...
+2025-05-08 16:57:56,440 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-08 16:57:56,592 - INFO - Tentando clicar no botão de login por ID...
+2025-05-08 16:57:59,189 - INFO - Aguardando redirecionamento após login...
+2025-05-08 16:58:04,198 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 16:58:04,200 - INFO - Iniciando extração de dados...
+2025-05-08 16:58:04,201 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-08 16:58:04,334 - INFO - Opção de 50 registros por página selecionada
+2025-05-08 16:58:09,749 - INFO - Solicitação para parar o processo foi recebida.
+2025-05-08 16:58:11,613 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-08 16:58:11,631 - INFO - Placa processada com sucesso: AWU-0380 -> AWU0380
+2025-05-08 16:58:11,650 - INFO - Placa processada com sucesso: AOJ-0H48 -> AOJ0H48
+2025-05-08 16:58:11,671 - INFO - Placa processada com sucesso: FTT-2A72 -> FTT2A72
+2025-05-08 16:58:11,691 - INFO - Placa processada com sucesso: FDB-0F47 -> FDB0F47
+2025-05-08 16:58:11,708 - WARNING - Célula da placa vazia na linha 8
+2025-05-08 16:58:11,714 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-08 16:58:11,731 - WARNING - Célula da placa vazia na linha 9
+2025-05-08 16:58:11,737 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-08 16:58:11,757 - WARNING - Célula da placa vazia na linha 10
+2025-05-08 16:58:11,761 - INFO - Placa recuperada via JS: NYW-0C68 -> NYW0C68
+2025-05-08 16:58:11,782 - WARNING - Célula da placa vazia na linha 11
+2025-05-08 16:58:11,788 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-08 16:58:11,803 - WARNING - Célula da placa vazia na linha 12
+2025-05-08 16:58:11,810 - INFO - Placa recuperada via JS: SEC-4C87 -> SEC4C87
+2025-05-08 16:58:11,824 - WARNING - Célula da placa vazia na linha 13
+2025-05-08 16:58:11,829 - INFO - Placa recuperada via JS: AWV-3011 -> AWV3011
+2025-05-08 16:58:11,829 - INFO - Total de placas encontradas: 11
+2025-05-08 16:58:11,829 - INFO - Placa 1: DBL2I25
+2025-05-08 16:58:11,830 - INFO - Placa 2: AWU0380
+2025-05-08 16:58:11,830 - INFO - Placa 3: AOJ0H48
+2025-05-08 16:58:11,830 - INFO - Placa 4: FTT2A72
+2025-05-08 16:58:11,830 - INFO - Placa 5: FDB0F47
+2025-05-08 16:58:11,830 - INFO - Placa 6: FHR6I05
+2025-05-08 16:58:11,831 - INFO - Placa 7: BAP2G86
+2025-05-08 16:58:11,831 - INFO - Placa 8: NYW0C68
+2025-05-08 16:58:11,831 - INFO - Placa 9: AZD7648
+2025-05-08 16:58:11,831 - INFO - Placa 10: SEC4C87
+2025-05-08 16:58:11,831 - INFO - Placa 11: AWV3011
+2025-05-08 16:58:14,060 - INFO - Placas recebidas para processamento: ['DBL2I25', 'AWU0380', 'AOJ0H48', 'FTT2A72', 'FDB0F47', 'FHR6I05', 'BAP2G86', 'NYW0C68', 'AZD7648', 'SEC4C87', 'AWV3011']
+2025-05-08 16:58:14,062 - INFO - Obtendo token da API...
+2025-05-08 16:58:14,377 - INFO - Token da API obtido com sucesso.
+2025-05-08 16:58:14,379 - INFO - Processando placa: DBL2I25
+2025-05-08 16:58:15,804 - INFO - Forçando encerramento do programa...
+2025-05-08 17:03:36,584 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:03:36,587 - INFO - Horários carregados: 16:51
+2025-05-08 17:03:36,588 - INFO - Sistema iniciado e pronto para uso.
+2025-05-08 17:03:46,333 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-08 17:03:46,421 - INFO - Carregados 1 horários configurados
+2025-05-08 17:03:48,532 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-08 17:03:48,534 - INFO - Verificando conexão com a internet...
+2025-05-08 17:03:49,102 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-08 17:03:49,103 - INFO - Consultando placas e localizações dos veículos...
+2025-05-08 17:03:49,104 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 17:03:49,109 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 17:03:49,111 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 17:03:49,566 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 17:03:49,660 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 17:03:49,660 - INFO - Iniciando processo de extração de dados...
+2025-05-08 17:03:53,696 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 17:03:55,536 - INFO - Aguardando página de login carregar...
+2025-05-08 17:03:55,552 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-08 17:03:55,741 - INFO - Tentando clicar no botão de login por ID...
+2025-05-08 17:04:00,232 - INFO - Aguardando redirecionamento após login...
+2025-05-08 17:04:05,241 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 17:04:05,246 - INFO - Iniciando extração de dados...
+2025-05-08 17:04:05,246 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-08 17:04:05,374 - INFO - Opção de 50 registros por página selecionada
+2025-05-08 17:04:12,614 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-08 17:04:12,634 - INFO - Placa processada com sucesso: AWU-0380 -> AWU0380
+2025-05-08 17:04:12,658 - INFO - Placa processada com sucesso: AOJ-0H48 -> AOJ0H48
+2025-05-08 17:04:12,678 - INFO - Placa processada com sucesso: FTT-2A72 -> FTT2A72
+2025-05-08 17:04:12,698 - INFO - Placa processada com sucesso: FHR-6I05 -> FHR6I05
+2025-05-08 17:04:12,724 - WARNING - Célula da placa vazia na linha 8
+2025-05-08 17:04:12,732 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-08 17:04:12,755 - WARNING - Célula da placa vazia na linha 9
+2025-05-08 17:04:12,762 - INFO - Placa recuperada via JS: NYW-0C68 -> NYW0C68
+2025-05-08 17:04:12,783 - WARNING - Célula da placa vazia na linha 10
+2025-05-08 17:04:12,791 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-08 17:04:12,813 - WARNING - Célula da placa vazia na linha 11
+2025-05-08 17:04:12,819 - INFO - Placa recuperada via JS: SEC-4C87 -> SEC4C87
+2025-05-08 17:04:12,845 - WARNING - Célula da placa vazia na linha 12
+2025-05-08 17:04:12,851 - INFO - Placa recuperada via JS: AWV-3011 -> AWV3011
+2025-05-08 17:04:12,851 - INFO - Total de placas encontradas: 10
+2025-05-08 17:04:12,852 - INFO - Placa 1: DBL2I25
+2025-05-08 17:04:12,853 - INFO - Placa 2: AWU0380
+2025-05-08 17:04:12,855 - INFO - Placa 3: AOJ0H48
+2025-05-08 17:04:12,856 - INFO - Placa 4: FTT2A72
+2025-05-08 17:04:12,856 - INFO - Placa 5: FHR6I05
+2025-05-08 17:04:12,856 - INFO - Placa 6: BAP2G86
+2025-05-08 17:04:12,857 - INFO - Placa 7: NYW0C68
+2025-05-08 17:04:12,857 - INFO - Placa 8: AZD7648
+2025-05-08 17:04:12,857 - INFO - Placa 9: SEC4C87
+2025-05-08 17:04:12,858 - INFO - Placa 10: AWV3011
+2025-05-08 17:04:15,055 - INFO - Placas recebidas para processamento: ['DBL2I25', 'AWU0380', 'AOJ0H48', 'FTT2A72', 'FHR6I05', 'BAP2G86', 'NYW0C68', 'AZD7648', 'SEC4C87', 'AWV3011']
+2025-05-08 17:04:15,056 - INFO - Obtendo token da API...
+2025-05-08 17:04:15,200 - INFO - Token da API obtido com sucesso.
+2025-05-08 17:04:15,201 - INFO - Processando placa: DBL2I25
+2025-05-08 17:04:16,736 - INFO - Localização para DBL2I25: Barra Velha, Santa Catarina
+2025-05-08 17:04:16,736 - INFO - Processando placa: AWU0380
+2025-05-08 17:04:18,217 - INFO - Localização para AWU0380: Aparecida de Goiânia, Goiás
+2025-05-08 17:04:18,217 - INFO - Processando placa: AOJ0H48
+2025-05-08 17:04:19,761 - INFO - Localização para AOJ0H48: Oliveira, Minas Gerais
+2025-05-08 17:04:19,762 - INFO - Processando placa: FTT2A72
+2025-05-08 17:04:21,474 - INFO - Localização para FTT2A72: Vitória da Conquista, Bahia
+2025-05-08 17:04:21,475 - INFO - Processando placa: FHR6I05
+2025-05-08 17:04:23,109 - INFO - Localização para FHR6I05: Capim Grosso, Bahia
+2025-05-08 17:04:23,109 - INFO - Processando placa: BAP2G86
+2025-05-08 17:04:24,612 - INFO - Localização para BAP2G86: Cristinápolis, Sergipe
+2025-05-08 17:04:24,615 - INFO - Processando placa: NYW0C68
+2025-05-08 17:04:26,166 - INFO - Localização para NYW0C68: Xexéu, Pernambuco
+2025-05-08 17:04:26,167 - INFO - Processando placa: AZD7648
+2025-05-08 17:04:27,935 - INFO - Localização para AZD7648: São José dos Pinhais, Paraná
+2025-05-08 17:04:27,936 - INFO - Processando placa: SEC4C87
+2025-05-08 17:04:29,441 - INFO - Localização para SEC4C87: São Luís, Maranhão
+2025-05-08 17:04:29,441 - INFO - Processando placa: AWV3011
+2025-05-08 17:04:30,957 - INFO - Localização para AWV3011: Simões Filho, Bahia
+2025-05-08 17:04:30,961 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-08 17:04:30,962 - INFO - Total de 10 veículos com localização obtidos.
+2025-05-08 17:04:30,964 - INFO - Atualizando veículo 1/10: Placa DBL2I25 - Barra Velha/Santa Catarina
+2025-05-08 17:04:30,964 - INFO - Iniciando atualização no SSW para a placa: DBL2I25 - Barra Velha/Santa Catarina
+2025-05-08 17:04:34,143 - INFO - WebDriver iniciado para placa DBL2I25.
+2025-05-08 17:04:39,164 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-08 17:04:47,017 - INFO - Tabela encontrada, processando manifestos...
+2025-05-08 17:04:47,233 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-08 17:04:47,234 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-08 17:04:49,417 - INFO - WebDriver finalizado para placa DBL2I25.
+2025-05-08 17:04:49,418 - INFO - Função atualizar_sistema_para_placa (DBL2I25) concluída.
+2025-05-08 17:04:49,419 - INFO - Veículo DBL2I25 atualizado com sucesso no sistema.
+2025-05-08 17:04:49,419 - INFO - Processo interrompido pelo usuário.
+2025-05-08 17:04:49,421 - INFO - Processo finalizado pelo usuário.
+2025-05-08 17:04:49,422 - INFO - Processo de atualização finalizado.
+2025-05-08 17:04:51,588 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-08 17:04:51,594 - INFO - Janela do aplicativo fechada.
+2025-05-08 17:11:22,065 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:11:22,066 - INFO - Horários carregados: 16:51
+2025-05-08 17:11:22,066 - INFO - Sistema iniciado e pronto para uso.
+2025-05-08 17:11:26,381 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-08 17:16:46,991 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:16:46,993 - INFO - Horários carregados: 16:51
+2025-05-08 17:16:46,994 - INFO - Sistema iniciado e pronto para uso.
+2025-05-08 17:17:23,169 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:17:23,170 - INFO - Horários carregados: 16:51
+2025-05-08 17:17:23,171 - INFO - Sistema iniciado e pronto para uso.
+2025-05-08 17:18:47,259 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-08 17:18:47,304 - INFO - Carregados 1 horários configurados
+2025-05-08 17:18:48,622 - INFO - Configurações de horários salvas: 2 horários
+2025-05-08 17:18:48,623 - INFO - Novo horário adicionado: 00:00
+2025-05-08 17:18:50,617 - INFO - Horários configurados: 16:51, 00:00
+2025-05-08 17:22:04,018 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:22:04,019 - INFO - Horários carregados: 16:51, 00:00
+2025-05-08 17:22:04,019 - INFO - Sistema iniciado e pronto para uso.
+2025-05-08 17:22:07,491 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-08 17:22:07,501 - INFO - Carregados 2 horários configurados
+2025-05-08 17:22:09,573 - INFO - Configurações de horários salvas: 1 horários
+2025-05-08 17:22:09,573 - INFO - Horário removido: 00:00
+2025-05-08 17:22:11,028 - INFO - Configurações de horários salvas: 0 horários
+2025-05-08 17:22:11,029 - INFO - Horário removido: 16:51
+2025-05-08 17:22:22,124 - INFO - Configurações de horários salvas: 1 horários
+2025-05-08 17:22:22,125 - INFO - Novo horário adicionado: 17:23
+2025-05-08 17:22:22,863 - INFO - Horários configurados: 17:23
+2025-05-08 17:22:22,878 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:22:22,880 - INFO - Horários carregados: 17:23
+2025-05-08 17:23:22,875 - INFO - Iniciando atualização agendada para: 17:23
+2025-05-08 17:23:22,878 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-08 17:23:22,880 - INFO - Verificando conexão com a internet...
+2025-05-08 17:23:23,422 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-08 17:23:23,422 - INFO - Consultando placas e localizações dos veículos...
+2025-05-08 17:23:23,423 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 17:23:23,423 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 17:23:23,423 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 17:23:23,885 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 17:23:24,003 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 17:23:24,004 - INFO - Iniciando processo de extração de dados...
+2025-05-08 17:23:27,970 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 17:23:29,473 - INFO - Aguardando página de login carregar...
+2025-05-08 17:23:29,488 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-08 17:23:29,655 - INFO - Tentando clicar no botão de login por ID...
+2025-05-08 17:23:31,691 - INFO - Aguardando redirecionamento após login...
+2025-05-08 17:23:36,696 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 17:23:36,696 - INFO - Iniciando extração de dados...
+2025-05-08 17:23:36,696 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-08 17:23:36,837 - INFO - Opção de 50 registros por página selecionada
+2025-05-08 17:23:40,412 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-08 17:23:44,098 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-08 17:23:44,120 - INFO - Placa processada com sucesso: AWU-0380 -> AWU0380
+2025-05-08 17:23:44,141 - INFO - Placa processada com sucesso: AOJ-0H48 -> AOJ0H48
+2025-05-08 17:23:44,165 - INFO - Placa processada com sucesso: FTT-2A72 -> FTT2A72
+2025-05-08 17:23:44,189 - INFO - Placa processada com sucesso: FHR-6I05 -> FHR6I05
+2025-05-08 17:23:44,210 - WARNING - Célula da placa vazia na linha 8
+2025-05-08 17:23:44,223 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-08 17:23:44,247 - WARNING - Célula da placa vazia na linha 9
+2025-05-08 17:23:44,258 - INFO - Placa recuperada via JS: NYW-0C68 -> NYW0C68
+2025-05-08 17:23:44,280 - WARNING - Célula da placa vazia na linha 10
+2025-05-08 17:23:44,291 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-08 17:23:44,311 - WARNING - Célula da placa vazia na linha 11
+2025-05-08 17:23:44,320 - INFO - Placa recuperada via JS: SEC-4C87 -> SEC4C87
+2025-05-08 17:23:44,340 - WARNING - Célula da placa vazia na linha 12
+2025-05-08 17:23:44,347 - INFO - Placa recuperada via JS: AWV-3011 -> AWV3011
+2025-05-08 17:23:44,347 - INFO - Total de placas encontradas: 10
+2025-05-08 17:23:44,348 - INFO - Placa 1: DBL2I25
+2025-05-08 17:23:44,349 - INFO - Placa 2: AWU0380
+2025-05-08 17:23:44,350 - INFO - Placa 3: AOJ0H48
+2025-05-08 17:23:44,351 - INFO - Placa 4: FTT2A72
+2025-05-08 17:23:44,351 - INFO - Placa 5: FHR6I05
+2025-05-08 17:23:44,352 - INFO - Placa 6: BAP2G86
+2025-05-08 17:23:44,352 - INFO - Placa 7: NYW0C68
+2025-05-08 17:23:44,353 - INFO - Placa 8: AZD7648
+2025-05-08 17:23:44,353 - INFO - Placa 9: SEC4C87
+2025-05-08 17:23:44,353 - INFO - Placa 10: AWV3011
+2025-05-08 17:23:46,520 - INFO - Placas recebidas para processamento: ['DBL2I25', 'AWU0380', 'AOJ0H48', 'FTT2A72', 'FHR6I05', 'BAP2G86', 'NYW0C68', 'AZD7648', 'SEC4C87', 'AWV3011']
+2025-05-08 17:23:46,521 - INFO - Obtendo token da API...
+2025-05-08 17:23:46,674 - INFO - Token da API obtido com sucesso.
+2025-05-08 17:23:46,674 - INFO - Processando placa: DBL2I25
+2025-05-08 17:23:48,126 - INFO - Localização para DBL2I25: Barra Velha, Santa Catarina
+2025-05-08 17:23:48,127 - INFO - Processando placa: AWU0380
+2025-05-08 17:23:49,622 - INFO - Localização para AWU0380: Aparecida de Goiânia, Goiás
+2025-05-08 17:23:49,623 - INFO - Processando placa: AOJ0H48
+2025-05-08 17:23:51,144 - INFO - Localização para AOJ0H48: Oliveira, Minas Gerais
+2025-05-08 17:23:51,145 - INFO - Processando placa: FTT2A72
+2025-05-08 17:23:52,454 - INFO - Localização para FTT2A72: Vitória da Conquista, Bahia
+2025-05-08 17:23:52,454 - INFO - Processando placa: FHR6I05
+2025-05-08 17:23:53,932 - INFO - Localização para FHR6I05: Capim Grosso, Bahia
+2025-05-08 17:23:53,933 - INFO - Processando placa: BAP2G86
+2025-05-08 17:23:55,398 - INFO - Localização para BAP2G86: Umbaúba, Sergipe
+2025-05-08 17:23:55,398 - INFO - Processando placa: NYW0C68
+2025-05-08 17:23:56,859 - INFO - Localização para NYW0C68: Palmares, Pernambuco
+2025-05-08 17:23:56,860 - INFO - Processando placa: AZD7648
+2025-05-08 17:23:58,357 - INFO - Localização para AZD7648: São José dos Pinhais, Paraná
+2025-05-08 17:23:58,358 - INFO - Processando placa: SEC4C87
+2025-05-08 17:23:59,826 - INFO - Localização para SEC4C87: São Luís, Maranhão
+2025-05-08 17:23:59,827 - INFO - Processando placa: AWV3011
+2025-05-08 17:24:01,435 - INFO - Localização para AWV3011: Simões Filho, Bahia
+2025-05-08 17:24:01,438 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-08 17:24:01,439 - INFO - Total de 10 veículos com localização obtidos.
+2025-05-08 17:24:01,449 - INFO - Processo interrompido pelo usuário.
+2025-05-08 17:24:01,450 - INFO - Processo finalizado pelo usuário.
+2025-05-08 17:24:01,452 - INFO - Processo de atualização finalizado.
+2025-05-08 17:24:21,252 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-08 17:24:21,253 - INFO - Verificando conexão com a internet...
+2025-05-08 17:24:21,694 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-08 17:24:21,696 - INFO - Consultando placas e localizações dos veículos...
+2025-05-08 17:24:21,698 - INFO - Iniciando o processo de localização de veículos...
+2025-05-08 17:24:21,699 - INFO - Sistema iniciado e pronto para extração.
+2025-05-08 17:24:21,700 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-08 17:24:22,155 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-08 17:24:22,247 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-08 17:24:22,247 - INFO - Iniciando processo de extração de dados...
+2025-05-08 17:24:22,371 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-08 17:24:25,225 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-08 17:24:26,863 - INFO - Aguardando página de login carregar...
+2025-05-08 17:24:26,889 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-08 17:24:27,074 - INFO - Tentando clicar no botão de login por ID...
+2025-05-08 17:24:27,779 - INFO - Forçando encerramento do programa...
+2025-05-08 17:24:27,780 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-08 17:24:27,781 - INFO - Janela do aplicativo fechada.

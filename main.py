@@ -47,6 +47,16 @@ class SSWUpdaterApp(QMainWindow):
         self.setupLogging()
         self.setup_schedule_timer()
         
+        # Mensagem inicial de log para informar que o sistema está pronto
+        logging.info("Sistema iniciado e pronto para uso.")
+
+    def log_direto(self, msg):
+        # Define cor azul para destacar mensagens importantes
+        self.log_area.setTextColor(QColor(0, 70, 140))
+        self.log_area.append(f"{datetime.now().strftime('%H:%M:%S')} - {msg}")
+        # Rolagem automática para a última linha
+        self.log_area.verticalScrollBar().setValue(self.log_area.verticalScrollBar().maximum())
+        
     def initUI(self):
         self.setWindowTitle('Atualizador de Sistema SSW')
         self.setMinimumSize(800, 600)
@@ -237,19 +247,30 @@ class SSWUpdaterApp(QMainWindow):
             ]
         )
         
+        # Adicionar mensagem inicial na área de log da interface
+        self.log_area.append("Sistema inicializado e pronto para uso.")
+        
     @pyqtSlot(str, int)
     def update_log(self, message, level):
-        # Define cores para os diferentes níveis de log
-        color = QColor(0, 0, 0)  # Preto para INFO
-        if level >= logging.ERROR:
-            color = QColor(255, 0, 0)  # Vermelho para ERROR
-        elif level >= logging.WARNING:
-            color = QColor(255, 165, 0)  # Laranja para WARNING
+        # Esta função recebe logs do sistema logging Python
+        # Mas os logs importantes para o usuário devem usar self.log_direto
+        # para garantir que apareçam na interface
         
-        self.log_area.setTextColor(color)
-        self.log_area.append(message)
-        # Rolagem automática para a última linha
-        self.log_area.verticalScrollBar().setValue(self.log_area.verticalScrollBar().maximum())
+        # Para logs de sistema, só mostramos na interface os erros e warnings
+        if level >= logging.WARNING:
+            # Define cores para os diferentes níveis de log
+            color = QColor(0, 0, 0)  # Preto para INFO
+            if level >= logging.ERROR:
+                color = QColor(255, 0, 0)  # Vermelho para ERROR
+                self.log_area.setTextColor(color)
+                self.log_area.append(f"ERRO DO SISTEMA: {message}")
+            elif level >= logging.WARNING:
+                color = QColor(255, 165, 0)  # Laranja para WARNING
+                self.log_area.setTextColor(color)
+                self.log_area.append(f"AVISO DO SISTEMA: {message}")
+            
+            # Rolagem automática para a última linha
+            self.log_area.verticalScrollBar().setValue(self.log_area.verticalScrollBar().maximum())
     
     def start_update(self):
         if self.running:
@@ -260,35 +281,40 @@ class SSWUpdaterApp(QMainWindow):
         
         self.start_button.setEnabled(False)
         self.stop_button.setEnabled(True)
-        self.exit_button.setEnabled(False)
         self.progress_bar.setVisible(True)
         self.status_label.setText("Atualizando o sistema SSW...")
+        
+        # Log no arquivo e na interface
+        logging.info("Iniciando processo de atualização do sistema SSW...")
+        self.log_direto("INICIANDO ATUALIZAÇÃO DO SISTEMA")
         
         # Função para verificar conexão e executar o processamento em um thread separado
         def update_process():
             try:
-                logging.info("Iniciando verificação de conexão...")
+                logging.info("Verificando conexão com a internet...")
                 if not ssw_updater.verificar_conexao():
                     logging.error("Falha na conexão à internet. Verifique sua conexão e tente novamente.")
                     self.update_status("Falha na conexão", error=True)
                     return
                 
-                logging.info("Conexão verificada. Iniciando atualização do sistema...")
+                logging.info("Conexão internet OK! Iniciando atualização do sistema...")
                 
                 # Obter placas e localizações
-                logging.info("Consultando placas e localizações via processador_placas.py...")
+                logging.info("Consultando placas e localizações dos veículos...")
                 try:
                     _, veiculos_com_localizacao = ssw_updater.processador_placas.processar_localizacao_veiculos()
                     
                     if not veiculos_com_localizacao:
-                        logging.warning("Nenhum veículo com localização retornado. Encerrando processamento.")
+                        logging.warning("Nenhum veículo com localização encontrado. Encerrando processamento.")
                         self.update_status("Nenhum veículo encontrado", warning=True)
+                        self.log_direto("ALERTA: Nenhum veículo com localização foi encontrado!")
                         return
                     
-                    logging.info(f"{len(veiculos_com_localizacao)} veículos com localização obtidos.")
+                    total_veiculos = len(veiculos_com_localizacao)
+                    logging.info(f"Total de {total_veiculos} veículos com localização obtidos.")
+                    self.log_direto(f"CONSULTA: {total_veiculos} veículos encontrados para atualização")
                     
                     # Iterar sobre cada veículo
-                    total_veiculos = len(veiculos_com_localizacao)
                     self.update_progress_range(0, total_veiculos)
                     
                     for i, veiculo_info in enumerate(veiculos_com_localizacao):
@@ -301,24 +327,39 @@ class SSWUpdaterApp(QMainWindow):
                         estado = veiculo_info.get('estado')
                         
                         if not all([placa, cidade, estado]):
-                            logging.warning(f"Veículo {i+1} com dados incompletos. Pulando processamento: {veiculo_info}")
+                            logging.warning(f"Veículo {i+1} com dados incompletos. Pulando: {veiculo_info}")
                             continue
                         
                         self.update_status(f"Processando veículo {i+1}/{total_veiculos}: {placa}")
                         self.update_progress_value(i)
                         
-                        logging.info(f"Processando veículo {i+1}/{total_veiculos}: "
+                        logging.info(f"Atualizando veículo {i+1}/{total_veiculos}: "
                                     f"Placa {placa} - {cidade}/{estado}")
                         
-                        ssw_updater.atualizar_sistema_para_placa(placa, cidade, estado)
+                        try:
+                            ssw_updater.atualizar_sistema_para_placa(placa, cidade, estado)
+                            logging.info(f"Veículo {placa} atualizado com sucesso no sistema.")
+                            # Log a cada 5 veículos ou em casos específicos
+                            if (i+1) % 5 == 0 or i == 0 or i == total_veiculos-1:
+                                self.log_direto(f"ATUALIZADO: Veículo {placa} ({cidade}/{estado})")
+                        except Exception as e:
+                            logging.error(f"Erro ao atualizar veículo {placa}: {e}")
+                            self.log_direto(f"ERRO: Falha ao atualizar veículo {placa}")
+                        
+                        # Atualiza progresso
+                        perc_concluido = int((i+1) / total_veiculos * 100)
+                        if perc_concluido % 25 == 0 and i > 0:  # Log a cada 25% de progresso
+                            logging.info(f"Progresso: {perc_concluido}% concluído ({i+1}/{total_veiculos})")
+                            self.log_direto(f"PROGRESSO: {perc_concluido}% concluído ({i+1}/{total_veiculos} veículos)")
                         
                         if i < total_veiculos - 1 and not self.stop_event.is_set():
-                            logging.info("Aguardando intervalo antes do próximo veículo...")
+                            logging.info("Aguardando intervalo de 5 segundos antes do próximo veículo...")
                             time.sleep(5)
                     
                     if not self.stop_event.is_set():
-                        logging.info("Todos os veículos foram processados com sucesso!")
+                        logging.info("Atualização de todos os veículos concluída com sucesso!")
                         self.update_status("Processamento concluído", success=True)
+                        self.log_direto("SUCESSO: Atualização de todos os veículos concluída!")
                     
                 except Exception as e:
                     logging.error(f"Erro ao obter dados de veículos: {e}", exc_info=True)
@@ -332,6 +373,7 @@ class SSWUpdaterApp(QMainWindow):
                 if not self.stop_event.is_set():
                     self.stop_event.set()
                 self.running_completed()
+                logging.info("Processo de atualização finalizado.")
         
         # Iniciar thread
         self.thread = threading.Thread(target=update_process)
@@ -344,7 +386,8 @@ class SSWUpdaterApp(QMainWindow):
             
         self.stop_event.set()
         self.status_label.setText("Parando o processo...")
-        logging.info("Solicitação para parar o processo foi recebida.")
+        logging.info("Solicitação para interromper o processo recebida. Finalizando operações...")
+        self.log_direto("AVISO: Interrompendo o processo de atualização...")
         
         # Desabilitar botão de parar para evitar múltiplos cliques
         self.stop_button.setEnabled(False)
@@ -359,30 +402,34 @@ class SSWUpdaterApp(QMainWindow):
         if self.stop_event.is_set():
             if self.status_label.text() != "Processamento concluído":
                 self.status_label.setText("Processo interrompido")
+                logging.info("Processo finalizado pelo usuário.")
+                self.log_direto("AVISO: Processo de atualização interrompido pelo usuário")
     
     def close_application(self):
+        # Simplified close application method
         if self.running:
-            confirm = QMessageBox.question(self, 'Confirmar Saída', 
-                                         'Um processo está em execução. Tem certeza que deseja sair?',
-                                         QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
-            if confirm == QMessageBox.Yes:
-                self.stop_event.set()
-                # Aguardar um pouco para permitir que o thread termine
-                time.sleep(0.5)
-                self.close()
-        else:
-            self.close()
-    
+            self.stop_event.set()
+            logging.info("Forçando encerramento do programa...")
+        
+        # Force close any remaining browser windows
+        try:
+            if hasattr(ssw_updater, 'driver'):
+                ssw_updater.driver.quit()
+                logging.info("Driver do navegador fechado.")
+        except Exception as e:
+            logging.warning(f"Não foi possível fechar o driver: {e}")
+        
+        logging.info("Aplicativo encerrado pelo usuário.")
+        
+        # Close the application immediately
+        self.close()
+        sys.exit(0)
+
     def closeEvent(self, event):
-        if self.running:
-            confirm = QMessageBox.question(self, 'Confirmar Saída', 
-                                         'Um processo está em execução. Tem certeza que deseja sair?',
-                                         QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
-            if confirm == QMessageBox.Yes:
-                self.stop_event.set()
-                event.accept()
-            else:
-                event.ignore()
+        # Simplified close event handler - always accept
+        self.stop_event.set()
+        logging.info("Janela do aplicativo fechada.")
+        event.accept()
     
     # Métodos para atualizar a interface a partir de threads
     def update_status(self, message, error=False, warning=False, success=False):
@@ -418,23 +465,79 @@ class SSWUpdaterApp(QMainWindow):
         self.progress_bar.setValue(value)
 
     def show_schedule_config(self):
+        logging.info("Abrindo diálogo de configuração de horários...")
         dialog = ScheduleConfigDialog(self)
         if dialog.exec_() == QDialog.Accepted:
+            # Update schedules immediately when dialog is accepted
             self.schedules = dialog.get_schedules()
-            self.setup_schedule_timer()
             
+            # Atualiza a interface
+            if self.schedules:
+                horarios_str = ', '.join(self.schedules)
+                msg = f"Horários configurados: {horarios_str}"
+                logging.info(msg)
+                self.log_direto(f"CONFIGURAÇÃO: Novos horários configurados: {horarios_str}")
+                self.update_status("Horários atualizados", success=True)
+            else:
+                logging.info("Nenhum horário configurado")
+                self.log_direto("CONFIGURAÇÃO: Todos os horários foram removidos")
+                self.update_status("Sem horários configurados", warning=True)
+                
+            # Restart the timer to ensure immediate check
+            self.setup_schedule_timer()
+
     def setup_schedule_timer(self):
-        # Timer para verificar horários a cada minuto
+        # Cancel existing timer if it exists
+        if hasattr(self, 'schedule_timer') and self.schedule_timer.isActive():
+            self.schedule_timer.stop()
+        
+        # Create new timer
         self.schedule_timer = QTimer()
         self.schedule_timer.timeout.connect(self.check_schedule)
         self.schedule_timer.start(60000)  # 60000 ms = 1 minuto
+        logging.info("Timer de verificação de agendamentos iniciado")
         
+        # Carrega horários existentes
+        try:
+            with open('schedules.json', 'r') as f:
+                self.schedules = json.load(f)
+                if self.schedules:
+                    logging.info(f"Horários carregados: {', '.join(self.schedules)}")
+                else:
+                    logging.info("Nenhum horário de execução configurado")
+        except FileNotFoundError:
+            logging.info("Arquivo de horários não encontrado. Nenhum agendamento ativo.")
+            self.schedules = []
+
     def check_schedule(self):
         current_time = datetime.now().strftime("%H:%M")
+        
+        # A cada 15 minutos, exibe mensagem de verificação
+        current_minute = int(datetime.now().strftime("%M"))
+        if current_minute % 15 == 0:
+            logging.info(f"Verificando agendamentos - Hora atual: {current_time}")
+            
+            if hasattr(self, 'schedules') and self.schedules:
+                horarios = ', '.join(self.schedules)
+                logging.info(f"Próximos horários: {horarios}")
+                
+                # A cada hora exata, exibe os horários na interface
+                if current_minute == 0:
+                    self.log_direto(f"AGENDAMENTO: Próximos horários de execução: {horarios}")
+        
+        # Verifica se há um horário agendado para agora
         if hasattr(self, 'schedules') and current_time in self.schedules:
             if not self.running:
-                logging.info(f"Iniciando atualização agendada: {current_time}")
+                msg = f"Iniciando atualização agendada para: {current_time}"
+                logging.info(msg)
+                self.log_direto(f"AGENDAMENTO: Iniciando atualização automática programada para {current_time}")
+                self.update_status(msg, success=True)
                 self.start_update()
+            else:
+                msg = "Horário agendado encontrado, mas uma atualização já está em andamento"
+                logging.warning(msg)
+                self.log_direto(f"ALERTA: Horário agendado {current_time} ignorado - atualização já em andamento")
+                self.update_status(msg, warning=True)
 
 class ScheduleConfigDialog(QDialog):
     def __init__(self, parent=None):
@@ -452,14 +555,39 @@ class ScheduleConfigDialog(QDialog):
         layout.addWidget(QLabel("Horários configurados:"))
         layout.addWidget(self.schedule_list)
         
-        # Time picker
+        # Botões de adicionar/remover
         time_layout = QHBoxLayout()
+        
+        # Time picker
         self.time_edit = QTimeEdit()
         self.time_edit.setDisplayFormat("HH:mm")
+        time_layout.addWidget(self.time_edit)
+        
+        # Botão adicionar
         add_button = QPushButton("Adicionar")
         add_button.clicked.connect(self.add_time)
-        time_layout.addWidget(self.time_edit)
         time_layout.addWidget(add_button)
+        
+        # Botão remover
+        remove_button = QPushButton("Remover")
+        remove_button.clicked.connect(self.remove_selected_time)
+        remove_button.setStyleSheet("""
+            QPushButton {
+                background-color: #e74c3c;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 15px;
+            }
+            QPushButton:hover {
+                background-color: #c0392b;
+            }
+            QPushButton:disabled {
+                background-color: #95a5a6;
+            }
+        """)
+        time_layout.addWidget(remove_button)
+        
         layout.addLayout(time_layout)
         
         # Botões de OK/Cancelar
@@ -470,6 +598,15 @@ class ScheduleConfigDialog(QDialog):
         button_box.rejected.connect(self.reject)
         layout.addWidget(button_box)
 
+    def remove_selected_time(self):
+        current_item = self.schedule_list.currentItem()
+        if current_item:
+            row = self.schedule_list.row(current_item)
+            horario = current_item.text()
+            self.schedule_list.takeItem(row)
+            self.save_schedules()
+            logging.info(f"Horário removido: {horario}")
+
     def add_time(self):
         time_text = self.time_edit.time().toString("HH:mm")
         # Verifica se o horário já existe
@@ -479,6 +616,9 @@ class ScheduleConfigDialog(QDialog):
             item = QListWidgetItem(time_text)
             self.schedule_list.addItem(item)
             self.save_schedules()
+            logging.info(f"Novo horário adicionado: {time_text}")
+        else:
+            logging.warning(f"O horário {time_text} já está configurado")
 
     def load_schedules(self):
         try:
@@ -486,14 +626,16 @@ class ScheduleConfigDialog(QDialog):
                 schedules = json.load(f)
                 for time_str in schedules:
                     self.schedule_list.addItem(QListWidgetItem(time_str))
+            logging.info(f"Carregados {len(schedules)} horários configurados")
         except FileNotFoundError:
-            pass
+            logging.info("Nenhum arquivo de configuração de horários encontrado")
 
     def save_schedules(self):
         schedules = [self.schedule_list.item(i).text() 
                     for i in range(self.schedule_list.count())]
         with open('schedules.json', 'w') as f:
             json.dump(schedules, f)
+        logging.info(f"Configurações de horários salvas: {len(schedules)} horários")
 
     def get_schedules(self):
         return [self.schedule_list.item(i).text() 
