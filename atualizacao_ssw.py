@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
+from datetime import datetime
 import logging
 from pathlib import Path
 import requests
@@ -40,22 +41,39 @@ def verificar_conexao(url="https://www.google.com/"):
         logging.error(f"Erro ao verificar conexão: {e}")
         return False
 
-def atualizar_sistema_para_placa(placa_atual, localizacao_placa):
-    logging.info(f"Iniciando atualização no SSW para a placa: {placa_atual}, Localização: {localizacao_placa}")
+def atualizar_sistema_para_placa(placa_atual, cidade, estado):
+    """
+    Atualiza o sistema SSW para uma placa específica usando cidade e estado.
+    """
+    logging.info(f"Iniciando atualização no SSW para a placa: {placa_atual} - {cidade}/{estado}")
 
     edge_options = Options()
     edge_options.add_argument("--no-sandbox")
     edge_options.add_argument("--disable-gpu")
     edge_options.add_argument("--window-size=1920,1080")
+    edge_options.add_argument("--disable-dev-shm-usage")
+    edge_options.add_argument("--disable-blink-features=AutomationControlled")
+    edge_options.add_argument("--disable-extensions")
+    edge_options.add_experimental_option("useAutomationExtension", False)
+    edge_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     edge_options.add_experimental_option('prefs', {
         "download.prompt_for_download": False,
         "download.directory_upgrade": True,
-        "safebrowsing.enabled": True
+        "safebrowsing.enabled": True,
+        "credentials_enable_service": False,
+        "profile.password_manager_enabled": False
     })
         
     driver = None
     try:
         driver = webdriver.Edge(options=edge_options)
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                })
+            """
+        })
         logging.info(f"WebDriver iniciado para placa {placa_atual}.")
         
         # Processo de login (sem loop de tentativas)
@@ -64,11 +82,11 @@ def atualizar_sistema_para_placa(placa_atual, localizacao_placa):
         
         driver.find_element(By.NAME, "f1").send_keys("LDI")
         time.sleep(0.5)
-        driver.find_element(By.NAME, "f2").send_keys("12373493977")
+        driver.find_element(By.NAME, "f2").send_keys("41968069020")
         time.sleep(0.5)
-        driver.find_element(By.NAME, "f3").send_keys("gustavo")
+        driver.find_element(By.NAME, "f3").send_keys("botlogdi")
         time.sleep(0.5)
-        driver.find_element(By.NAME, "f4").send_keys("12032006")
+        driver.find_element(By.NAME, "f4").send_keys("logbotdi")
         time.sleep(1)
         login_button = driver.find_element(By.ID, "5")
         driver.execute_script("arguments[0].click();", login_button)
@@ -102,48 +120,104 @@ def atualizar_sistema_para_placa(placa_atual, localizacao_placa):
             tabela = driver.find_element(By.ID, "tblsr")
             linhas = tabela.find_elements(By.TAG_NAME, "tr")
 
+            # Primeiro coleta todos os manifestos autorizados
             for linha in linhas:
                 try:
                     celulas = linha.find_elements(By.TAG_NAME, "td")
-                    if len(celulas) > 0:
-                        texto_linha = linha.text
-                        if "AUTORIZADO" in texto_linha:
-                            valor_coluna_zero = celulas[0].text
-                            # Separa letras dos números usando regex e remove traço dos números
-                            match = re.match(r'([A-Za-z]+)([\d-]+)', valor_coluna_zero)
+                    if len(celulas) >= 2:
+                        logging.debug(f"Analisando linha com {len(celulas)} células")
+                        # Pega o manifesto primeiro (primeira coluna)
+                        manifesto = celulas[0].text.strip()
+                        logging.debug(f"Manifesto encontrado: {manifesto}")
+                        
+                        # Procura especificamente por AUTORIZADO em vermelho nesta linha
+                        autorizado_elements = linha.find_elements(
+                            By.XPATH, 
+                            ".//font[@color='red' and normalize-space(text())='AUTORIZADO']"
+                        )
+                        
+                        if autorizado_elements:
+                            logging.info(f"AUTORIZADO encontrado para manifesto: {manifesto}")
+                            # Modifica o regex para capturar corretamente e juntar os números
+                            match = re.match(r'([A-Z]{3})\s*(\d+)-?(\d+)?', manifesto)
                             if match:
-                                manifesto_cta.append(match.group(1))  # Parte das letras (CTA)
-                                # Remove o traço e quaisquer caracteres não numéricos
-                                numero_limpo = re.sub(r'[^0-9]', '', match.group(2))
-                                manifesto_numero.append(numero_limpo)  # Apenas números
+                                cta = match.group(1)  # Pega CTA
+                                numero_principal = match.group(2)  # Pega números antes do traço
+                                numero_sufixo = match.group(3) or ''  # Pega números de'pois do traço
+                                
+                                # Junta os números sem o traço
+                                numero_completo = f"{numero_principal}{numero_sufixo}"
+                                
+                                manifesto_cta.append(cta)
+                                manifesto_numero.append(numero_completo)
+                                logging.info(f"Manifesto processado e armazenado: CTA={cta}, Número={numero_completo}")
+                            else:
+                                logging.warning(f"Formato de manifesto não reconhecido: {manifesto}")
                 except Exception as e:
-                    logging.error(f"Erro ao processar linha: {e}")
+                    logging.error(f"Erro ao processar linha: {str(e)}")
+                    continue
 
-            print(f"CTAs: {manifesto_cta}")
-            print(f"Números: {manifesto_numero}")
-            time.sleep(1)
+            # Verificação após processamento
+            if manifesto_cta and manifesto_numero:
+                logging.info(f"Total de manifestos encontrados: {len(manifesto_cta)}")
+                logging.info(f"Manifestos CTA: {manifesto_cta}")
+                logging.info(f"Números: {manifesto_numero}")
+            else:
+                logging.warning("Nenhum manifesto autorizado encontrado")
 
-            # Loop para processar cada manifesto encontrado
-            for i in range(len(manifesto_cta)):
-                logging.info(f"Processando manifesto {i+1}/{len(manifesto_cta)}: {manifesto_cta[i]} - {manifesto_numero[i]}")
+            # Verifica se encontrou manifestos
+            if manifesto_cta and manifesto_numero:
+                logging.info(f"Total de manifestos autorizados encontrados: {len(manifesto_cta)}")
+                
+                # Fecha as duas últimas janelas abertas
                 driver.close()
                 driver.switch_to.window(driver.window_handles[-1])
                 driver.close()
+                driver.switch_to.window(driver.window_handles[-1])
                 time.sleep(1)
+                
+                # Continua com o processamento usando os valores separados
                 driver.find_element(By.NAME, "f3").send_keys("33+")
                 time.sleep(1)
+                driver.switch_to.window(driver.window_handles[-1])
 
-                driver.switch_to.window(driver.window_handles[-1])
-                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "11")))
-                driver.find_element(By.ID, "11").send_keys(manifesto_cta[0])
-                driver.find_element(By.ID, "12").send_keys(manifesto_numero[0])
-                time.sleep(1)
-                driver.find_element(By.ID, "13").click()
-                time.sleep(1)
-                
-                driver.switch_to.window(driver.window_handles[-1])
-                
-            
+                # Itera sobre cada manifesto encontrado
+                for i in range(len(manifesto_cta)):
+                    logging.info(f"Processando manifesto {i+1}/{len(manifesto_cta)}: {manifesto_cta[i]} - {manifesto_numero[i]}")
+                    WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "11")))
+                    driver.find_element(By.ID, "11").send_keys(manifesto_cta[i])  # Usa o índice i
+                    driver.find_element(By.ID, "12").send_keys(manifesto_numero[i])  # Usa o índice i
+                    time.sleep(1)
+                    driver.find_element(By.ID, "13").click()
+                    time.sleep(1)
+
+                    driver.switch_to.window(driver.window_handles[-1])
+                    time.sleep(1)
+
+                    driver.find_element(By.NAME, "f3").send_keys("41")
+                    time.sleep(1)
+                    driver.find_element(By.NAME, "f4").send_keys(datetime.now().strftime("%d%m%y"))
+                    time.sleep(1)
+                    driver.find_element(By.NAME, "f5").clear()
+                    time.sleep(0.5)
+                    driver.find_element(By.NAME, "f5").send_keys(datetime.now().strftime("%H%M"))
+                    time.sleep(1)
+                    driver.find_element(By.NAME, "f6").send_keys(f"em transf: {cidade} - {estado}")
+                    time.sleep(0.5)
+                    enviar_button = driver.find_element(By.ID, "9")
+                    driver.execute_script("arguments[0].click();", enviar_button)
+                    time.sleep(80)
+
+                    driver.switch_to.window(driver.window_handles[-1])
+                    ok_button = driver.find_element(By.ID, "0")
+                    driver.execute_script("arguments[0].click();", ok_button)
+                    
+                    time.sleep(1)
+                    
+                logging.info(f"Todos os {len(manifesto_cta)} manifestos foram processados")
+            else:
+                logging.warning("Nenhum manifesto autorizado encontrado na tabela")
+
         except (NoSuchElementException, TimeoutException):
             # Se a tabela não existir, executa este bloco
             logging.info("Tabela não encontrada, executando fluxo alternativo...")
@@ -191,11 +265,17 @@ def atualizar_sistema_para_placa(placa_atual, localizacao_placa):
 
                     driver.find_element(By.NAME, "f3").send_keys("41")
                     time.sleep(1)
-                    driver.find_element(By.NAME, "f6").send_keys(f"em transferência: {localizacao_placa}")
-                    time.sleep(0.5)
-                    enviar_button = driver.find_element(By.ID, "12")
-                    driver.execute_script("arguments[0].click();", enviar_button)
+                    driver.find_element(By.NAME, "f4").send_keys(datetime.now().strftime("%d%m%y"))
                     time.sleep(1)
+                    driver.find_element(By.NAME, "f5").clear()
+                    time.sleep(0.5)
+                    driver.find_element(By.NAME, "f5").send_keys(datetime.now().strftime("%H%M"))
+                    time.sleep(1)
+                    driver.find_element(By.NAME, "f6").send_keys(f"em transf: {cidade} - {estado}")
+                    time.sleep(0.5)
+                    enviar_button = driver.find_element(By.ID, "9")
+                    driver.execute_script("arguments[0].click();", enviar_button)
+                    time.sleep(80)
 
 
                 else:
@@ -233,16 +313,18 @@ def main():
         # Iterar sobre cada veículo
         logging.info("Iniciando processamento individual de cada veículo no sistema SSW...")
         for i, veiculo_info in enumerate(veiculos_com_localizacao):
-            placa_iter = veiculo_info.get('placa')
-            localizacao_iter = veiculo_info.get('Local', 'Localização não especificada')
+            placa = veiculo_info.get('placa')
+            cidade = veiculo_info.get('cidade')
+            estado = veiculo_info.get('estado')
             
-            if not placa_iter:
-                logging.warning(f"Veículo {i+1} não possui 'placa'. Pulando processamento: {veiculo_info}")
+            if not all([placa, cidade, estado]):
+                logging.warning(f"Veículo {i+1} com dados incompletos. Pulando processamento: {veiculo_info}")
                 continue
 
-            logging.info(f"Processando veículo {i+1}/{len(veiculos_com_localizacao)}: Placa {placa_iter}")
+            logging.info(f"Processando veículo {i+1}/{len(veiculos_com_localizacao)}: "
+                        f"Placa {placa} - {cidade}/{estado}")
             
-            atualizar_sistema_para_placa(placa_iter, localizacao_iter)
+            atualizar_sistema_para_placa(placa, cidade, estado)
             
             if i < len(veiculos_com_localizacao) - 1:
                 logging.info("Aguardando intervalo antes do próximo veículo...")

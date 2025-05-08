@@ -2052,3 +2052,88 @@ Stacktrace:
 2025-05-07 17:17:36,648 - INFO - WebDriver iniciado para placa AWU0380.
 2025-05-07 17:17:54,345 - INFO - Tabela não encontrada, executando fluxo alternativo...
 2025-05-07 17:17:54,412 - INFO - Manifesto encontrado - CTA: CTA, Número: 254568
+2025-05-07 17:31:35,537 - INFO - Iniciando script principal...
+2025-05-07 17:31:35,538 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-07 17:31:35,539 - INFO - Iniciando o processo de localização de veículos...
+2025-05-07 17:31:35,540 - INFO - Sistema iniciado e pronto para extração.
+2025-05-07 17:31:35,540 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-07 17:31:36,075 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-07 17:31:36,166 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-07 17:31:36,167 - INFO - Iniciando processo de extração de dados...
+2025-05-07 17:31:37,759 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-07 17:31:39,310 - INFO - Aguardando página de login carregar...
+2025-05-07 17:31:39,328 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-07 17:31:39,506 - INFO - Tentando clicar no botão de login por ID...
+2025-05-07 17:31:42,222 - INFO - Aguardando redirecionamento após login...
+2025-05-07 17:31:47,227 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-07 17:31:47,227 - INFO - Iniciando extração de dados...
+2025-05-07 17:31:47,228 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-07 17:31:47,308 - INFO - Opção de 50 registros por página selecionada
+2025-05-07 17:31:54,552 - INFO - Placa processada com sucesso: AWU-0380 -> AWU0380
+2025-05-07 17:31:54,574 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-07 17:31:54,597 - INFO - Placa processada com sucesso: FTT-2A72 -> FTT2A72
+2025-05-07 17:31:54,619 - INFO - Placa processada com sucesso: FDB-0F47 -> FDB0F47
+2025-05-07 17:31:54,641 - WARNING - Célula da placa vazia na linha 7
+2025-05-07 17:31:54,650 - INFO - Placa recuperada via JS: AEO-1E22 -> AEO1E22
+2025-05-07 17:31:54,669 - WARNING - Célula da placa vazia na linha 8
+2025-05-07 17:31:54,677 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-07 17:31:54,698 - WARNING - Célula da placa vazia na linha 9
+2025-05-07 17:31:54,706 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-07 17:31:54,729 - WARNING - Célula da placa vazia na linha 10
+2025-05-07 17:31:54,735 - INFO - Placa recuperada via JS: NYW-0C68 -> NYW0C68
+2025-05-07 17:31:54,759 - WARNING - Célula da placa vazia na linha 11
+2025-05-07 17:31:54,767 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-07 17:31:54,788 - WARNING - Célula da placa vazia na linha 12
+2025-05-07 17:31:54,797 - INFO - Placa recuperada via JS: SEC-4C87 -> SEC4C87
+2025-05-07 17:31:54,819 - WARNING - Célula da placa vazia na linha 13
+2025-05-07 17:31:54,828 - INFO - Placa recuperada via JS: IMI-7I73 -> IMI7I73
+2025-05-07 17:31:54,850 - WARNING - Célula da placa vazia na linha 14
+2025-05-07 17:31:54,859 - INFO - Placa recuperada via JS: AWV-3011 -> AWV3011
+2025-05-07 17:31:54,860 - INFO - Total de placas encontradas: 12
+2025-05-07 17:31:54,860 - INFO - Placa 1: AWU0380
+2025-05-07 17:31:54,861 - INFO - Placa 2: AUC7B87
+2025-05-07 17:31:54,861 - INFO - Placa 3: FTT2A72
+2025-05-07 17:31:54,861 - INFO - Placa 4: FDB0F47
+2025-05-07 17:31:54,862 - INFO - Placa 5: AEO1E22
+2025-05-07 17:31:54,862 - INFO - Placa 6: FHR6I05
+2025-05-07 17:31:54,862 - INFO - Placa 7: BAP2G86
+2025-05-07 17:31:54,863 - INFO - Placa 8: NYW0C68
+2025-05-07 17:31:54,863 - INFO - Placa 9: AZD7648
+2025-05-07 17:31:54,863 - INFO - Placa 10: SEC4C87
+2025-05-07 17:31:54,863 - INFO - Placa 11: IMI7I73
+2025-05-07 17:31:54,864 - INFO - Placa 12: AWV3011
+2025-05-07 17:31:57,067 - INFO - Placas recebidas para processamento: ['AWU0380', 'AUC7B87', 'FTT2A72', 'FDB0F47', 'AEO1E22', 'FHR6I05', 'BAP2G86', 'NYW0C68', 'AZD7648', 'SEC4C87', 'IMI7I73', 'AWV3011']
+2025-05-07 17:31:57,068 - INFO - Obtendo token da API...
+2025-05-07 17:31:57,175 - INFO - Token da API obtido com sucesso.
+2025-05-07 17:31:57,175 - INFO - Processando placa: AWU0380
+2025-05-07 17:31:57,404 - INFO - Localização para AWU0380: 0,078 KM DE P. 67 - ITAPECERICA/SP
+2025-05-07 17:31:57,405 - INFO - Processando placa: AUC7B87
+2025-05-07 17:31:57,730 - INFO - Localização para AUC7B87: 0,532 KM DE RODOVIA PRESIDENTE DUTRA - QUELUZ, SAO PAULO - BRASIL
+2025-05-07 17:31:57,731 - INFO - Processando placa: FTT2A72
+2025-05-07 17:31:57,834 - WARNING - Estrutura de resposta da API inesperada para a placa FTT2A72 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 999, 'Detalhes': '{Mensagem:Object reference not set to an instance of an object.}', 'ErrosValidacao': []}
+2025-05-07 17:31:57,835 - INFO - Processando placa: FDB0F47
+2025-05-07 17:31:58,067 - INFO - Localização para FDB0F47: 0,053 KM DE ROD. FERNAO DIAS, 1026 - MAIRIPORA, SP, 07053-171, BRASIL
+2025-05-07 17:31:58,069 - INFO - Processando placa: AEO1E22
+2025-05-07 17:31:58,316 - INFO - Localização para AEO1E22: 0,067 KM DE POSTO CAJU
+2025-05-07 17:31:58,317 - INFO - Processando placa: FHR6I05
+2025-05-07 17:31:58,647 - INFO - Localização para FHR6I05: 9,259 KM DE CANDIDO SALES, CANDIDO SALES, BAHIA - BRASIL
+2025-05-07 17:31:58,648 - INFO - Processando placa: BAP2G86
+2025-05-07 17:31:58,906 - INFO - Localização para BAP2G86: 0,276 KM DE P. SAO JORGE - V. CONQUISTA/BA
+2025-05-07 17:31:58,907 - INFO - Processando placa: NYW0C68
+2025-05-07 17:31:59,145 - INFO - Localização para NYW0C68: 0,072 KM DE PT. O.D TRANSP. LOG.- ARACAJU/SE
+2025-05-07 17:31:59,146 - INFO - Processando placa: AZD7648
+2025-05-07 17:31:59,423 - INFO - Localização para AZD7648: 0,159 KM DE P. TULIO - SAO JOSE PINHAIS/PR
+2025-05-07 17:31:59,424 - INFO - Processando placa: SEC4C87
+2025-05-07 17:31:59,677 - INFO - Localização para SEC4C87: 0,336 KM DE VILA SARNEY - SAO LUIS, MARANHAO - BRASIL
+2025-05-07 17:31:59,678 - INFO - Processando placa: IMI7I73
+2025-05-07 17:31:59,902 - INFO - Localização para IMI7I73: 4,253 KM DE JOAQUIM GOMES-AL
+2025-05-07 17:31:59,903 - INFO - Processando placa: AWV3011
+2025-05-07 17:32:00,217 - INFO - Localização para AWV3011: 0,810 KM DE PRF BR-324
+2025-05-07 17:32:00,219 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-07 17:32:00,219 - INFO - 12 veículos com localização obtidos.
+2025-05-07 17:32:00,220 - INFO - Iniciando processamento individual de cada veículo no sistema SSW...
+2025-05-07 17:32:00,220 - INFO - Processando veículo 1/12: Placa AWU0380
+2025-05-07 17:32:00,220 - INFO - Iniciando atualização no SSW para a placa: AWU0380, Localização: 0,078 KM DE P. 67 - ITAPECERICA/SP
+2025-05-07 17:32:01,876 - INFO - WebDriver iniciado para placa AWU0380.
+2025-05-07 17:32:20,013 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-07 17:32:20,074 - INFO - Manifesto encontrado - CTA: CTA, Número: 254568

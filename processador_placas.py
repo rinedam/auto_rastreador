@@ -1,7 +1,7 @@
 import json
 import logging
 from pathlib import Path
-
+import time
 import api_client
 import selenium_bot as selenium_bot
 
@@ -53,20 +53,48 @@ def processar_localizacao_veiculos():
                     dados_api = api_client.get_ultima_posicao_por_placa(token, placa)
                     if isinstance(dados_api, dict) and 'Posicoes' in dados_api and isinstance(dados_api['Posicoes'], list) and len(dados_api['Posicoes']) > 0:
                         primeira_posicao = dados_api['Posicoes'][0]
-                        if isinstance(primeira_posicao, dict) and 'Local' in primeira_posicao:
-                            local = primeira_posicao['Local']
-                            resultados_finais.append({'placa': placa, 'Local': local})
-                            logging.info(f"Localização para {placa}: {local}")
+                        if isinstance(primeira_posicao, dict):
+                            # Prioritizando Latitude e Longitude em vez do campo Local
+                            latitude = primeira_posicao.get('Latitude')
+                            longitude = primeira_posicao.get('Longitude')
+                            
+                            if latitude is not None and longitude is not None:
+                                # Tenta obter cidade e estado das coordenadas
+                                localizacao = api_client.get_cidade_estado_por_coordenadas(latitude, longitude)
+                                if localizacao:
+                                    resultados_finais.append({
+                                        'placa': placa,
+                                        'cidade': localizacao['cidade'],
+                                        'estado': localizacao['estado']
+                                    })
+                                    time.sleep(1)  # Atraso para evitar sobrecarga na API
+                                    logging.info(f"Localização para {placa}: {localizacao['cidade']}, {localizacao['estado']}")
+                                else:
+                                    # Mantém as coordenadas se não conseguir converter
+                                    resultados_finais.append({
+                                        'placa': placa,
+                                        'Latitude': latitude,
+                                        'Longitude': longitude
+                                    })
+                                    logging.info(f"Mantendo coordenadas para {placa}: Lat={latitude}, Long={longitude}")
+                            else:
+                                logging.warning(f"Campos 'Latitude' ou 'Longitude' não encontrados para a placa {placa}")
+                                resultados_finais.append({
+                                    'placa': placa,
+                                    'cidade': None,
+                                    'estado': None,
+                                    'Erro': 'Coordenadas não encontradas'
+                                })
                         else:
-                            logging.warning(f"Campo 'Local' não encontrado dentro de 'Posicoes[0]' para a placa {placa}. Resposta: {primeira_posicao}")
-                            resultados_finais.append({'placa': placa, 'Local': 'Local não encontrado em Posicoes'})
+                            logging.warning(f"Primeira posição não é um dicionário para a placa {placa}. Resposta: {primeira_posicao}")
+                            resultados_finais.append({'placa': placa, 'Latitude': None, 'Longitude': None, 'Erro': 'Formato de resposta inválido'})
                     else:
                         logging.warning(f"Estrutura de resposta da API inesperada para a placa {placa} (esperado 'Posicoes' como lista com itens). Resposta: {dados_api}")
-                        resultados_finais.append({'placa': placa, 'Local': 'Estrutura de resposta inesperada'})
+                        resultados_finais.append({'placa': placa, 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'})
                 
                 except Exception as e:
                     logging.error(f"Erro ao consultar a API para a placa {placa}: {e}")
-                    resultados_finais.append({"placa": placa, "Local": "Erro na consulta"})
+                    resultados_finais.append({"placa": placa, "Latitude": None, "Longitude": None, "Erro": "Erro na consulta"})
 
     output_file_path = Path(__file__).resolve().parent / "localizacao_veiculos.json"
     try:

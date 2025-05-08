@@ -1,5 +1,6 @@
 import requests
-from config import API_BASE_URL, API_USER, API_PASSWORD
+import logging
+from config import API_BASE_URL, API_USER, API_PASSWORD, API2_BASE_URL, LOCATIONIQ_API_KEY
 
 def get_token():
     data = {
@@ -23,4 +24,34 @@ def get_ultima_posicao_por_placa(token, placa):
     response = requests.get(endpoint_url, headers=headers, params=params, verify=False)
     response.raise_for_status()
     return response.json() # Retorna o JSON completo da resposta da API
+
+def get_cidade_estado_por_coordenadas(latitude, longitude):
+    """
+    Converte coordenadas em cidade e estado usando a API LocationIQ.
+    """
+    try:
+        params = {
+            'key': LOCATIONIQ_API_KEY,
+            'lat': latitude,
+            'lon': longitude,
+            'format': 'json'
+        }
+        
+        response = requests.get(API2_BASE_URL, params=params)
+        response.raise_for_status()
+        
+        data = response.json()
+        if 'address' in data:
+            city = data['address'].get('city') or data['address'].get('town') or data['address'].get('municipality')
+            state = data['address'].get('state')
+            
+            if city and state:
+                return {'cidade': city, 'estado': state}
+                
+        logging.warning(f"Dados de endereço incompletos para coordenadas {latitude}, {longitude}")
+        return None
+        
+    except Exception as e:
+        logging.error(f"Erro ao converter coordenadas em endereço: {e}")
+        return None
 

@@ -56,20 +56,36 @@ def consultar_placas():
         logging.warning("Possível problema de conexão com o site de destino")
     
     edge_options = Options()
+    edge_options.add_argument("--no-sandbox")
     edge_options.add_argument("--disable-gpu")
     edge_options.add_argument("--window-size=1920,1080")
-    edge_options.add_argument("--no-sandbox")
     edge_options.add_argument("--disable-dev-shm-usage")
+    edge_options.add_argument("--disable-blink-features=AutomationControlled")
+    edge_options.add_argument("--disable-extensions")
+    edge_options.add_experimental_option("useAutomationExtension", False)
+    edge_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     edge_options.add_experimental_option('prefs', {
         "download.prompt_for_download": False,
         "download.directory_upgrade": True,
-        "safebrowsing.enabled": True
+        "safebrowsing.enabled": True,
+        "credentials_enable_service": False,
+        "profile.password_manager_enabled": False
     })
-        
+    
     logging.info("Iniciando processo de extração de dados...")
     
     try:
-        with webdriver.Edge(options=edge_options) as driver:
+        driver = webdriver.Edge(options=edge_options)
+        # Adiciona script para mascarar a automação
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                })
+            """
+        })
+        
+        with driver:
             max_tentativas = 3
             tentativa = 0
             
