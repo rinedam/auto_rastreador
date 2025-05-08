@@ -4900,3 +4900,15 @@ Stacktrace:
 2025-05-08 17:24:27,779 - INFO - Forçando encerramento do programa...
 2025-05-08 17:24:27,780 - INFO - Aplicativo encerrado pelo usuário.
 2025-05-08 17:24:27,781 - INFO - Janela do aplicativo fechada.
+2025-05-08 17:58:14,862 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:58:33,343 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:58:33,345 - INFO - Horários carregados: 17:23
+2025-05-08 17:58:33,345 - INFO - Sistema iniciado e pronto para uso.
+2025-05-08 17:58:34,724 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-08 17:58:34,773 - INFO - Carregados 1 horários configurados
+2025-05-08 17:58:36,068 - INFO - Configurações de horários salvas: 0 horários
+2025-05-08 17:58:36,068 - INFO - Horário removido: 17:23
+2025-05-08 17:58:36,663 - INFO - Nenhum horário configurado
+2025-05-08 17:58:36,676 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-08 17:58:36,677 - INFO - Nenhum horário de execução configurado
+2025-05-08 17:58:39,140 - INFO - Janela do aplicativo fechada.
