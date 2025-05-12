@@ -1,52 +1,77 @@
 [
     {
-        "placa": "DBL2I25",
-        "cidade": "Barra Velha",
-        "estado": "Santa Catarina"
+        "placa": "AWE4A37",
+        "cidade": "Quatro Barras",
+        "estado": "Paraná"
     },
     {
-        "placa": "AWU0380",
-        "cidade": "Aparecida de Goiânia",
-        "estado": "Goiás"
-    },
-    {
-        "placa": "AOJ0H48",
-        "cidade": "Oliveira",
+        "placa": "NFL7I36",
+        "cidade": "Região Geográfica Imediata de Montes Claros",
         "estado": "Minas Gerais"
     },
     {
-        "placa": "FTT2A72",
+        "placa": "THW3D31",
         "cidade": "Vitória da Conquista",
         "estado": "Bahia"
     },
     {
-        "placa": "FHR6I05",
-        "cidade": "Capim Grosso",
-        "estado": "Bahia"
+        "placa": "NKS9224",
+        "cidade": "Curvelo",
+        "estado": "Minas Gerais"
     },
     {
-        "placa": "BAP2G86",
-        "cidade": "Umbaúba",
-        "estado": "Sergipe"
+        "placa": "AWN0G48",
+        "cidade": "São Paulo",
+        "estado": "São Paulo"
     },
     {
-        "placa": "NYW0C68",
-        "cidade": "Palmares",
-        "estado": "Pernambuco"
-    },
-    {
-        "placa": "AZD7648",
-        "cidade": "São José dos Pinhais",
+        "placa": "ATU9I98",
+        "cidade": "Quatro Barras",
         "estado": "Paraná"
     },
     {
-        "placa": "SEC4C87",
-        "cidade": "São Luís",
-        "estado": "Maranhão"
+        "placa": "AYW1330",
+        "cidade": "Uberlândia",
+        "estado": "Minas Gerais"
     },
     {
-        "placa": "AWV3011",
+        "placa": "AZF4011",
+        "cidade": "Medina",
+        "estado": "Minas Gerais"
+    },
+    {
+        "placa": "TAK3A03",
+        "cidade": "Uberaba",
+        "estado": "Minas Gerais"
+    },
+    {
+        "placa": "JQI0556",
+        "cidade": "Estiva",
+        "estado": "Minas Gerais"
+    },
+    {
+        "placa": "BDF9759",
+        "cidade": "Santa Luz",
+        "estado": "Piauí"
+    },
+    {
+        "placa": "AOJ0H48",
+        "cidade": "Maceió",
+        "estado": "Alagoas"
+    },
+    {
+        "placa": "FTT2A72",
         "cidade": "Simões Filho",
         "estado": "Bahia"
+    },
+    {
+        "placa": "FHR6I05",
+        "cidade": "Juazeiro do Norte",
+        "estado": "Ceará"
+    },
+    {
+        "placa": "AZD7648",
+        "cidade": "Quatro Barras",
+        "estado": "Paraná"
     }
 ]

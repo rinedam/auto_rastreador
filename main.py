@@ -1,19 +1,21 @@
 import sys
 import threading
-import time
 import logging
 from pathlib import Path
-from PyQt5.QtWidgets import (QApplication, QMainWindow, QPushButton, QTextEdit, 
-                             QVBoxLayout, QHBoxLayout, QWidget, QLabel, 
-                             QProgressBar, QMessageBox, QFrame)
+import json
+import time  # Import específico para time.sleep()
+
+from datetime import datetime  # Import específico para datetime
+
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QPushButton, QTextEdit, 
+    QVBoxLayout, QHBoxLayout, QWidget, QLabel, 
+    QProgressBar, QMessageBox, QFrame,
+    QTimeEdit, QDialog, QDialogButtonBox, 
+    QListWidget, QListWidgetItem
+)
 from PyQt5.QtCore import Qt, QObject, pyqtSignal, pyqtSlot, QTimer
 from PyQt5.QtGui import QIcon, QFont, QColor, QPalette
-
-# Adicione estes imports no topo do arquivo
-from PyQt5.QtWidgets import (QTimeEdit, QDialog, QDialogButtonBox, 
-                           QListWidget, QListWidgetItem)
-from datetime import datetime, time
-import json
 
 # Importar o código original
 import atualizacao_ssw as ssw_updater
@@ -252,10 +254,6 @@ class SSWUpdaterApp(QMainWindow):
         
     @pyqtSlot(str, int)
     def update_log(self, message, level):
-        # Esta função recebe logs do sistema logging Python
-        # Mas os logs importantes para o usuário devem usar self.log_direto
-        # para garantir que apareçam na interface
-        
         # Para logs de sistema, só mostramos na interface os erros e warnings
         if level >= logging.WARNING:
             # Define cores para os diferentes níveis de log
@@ -278,8 +276,6 @@ class SSWUpdaterApp(QMainWindow):
             
         self.running = True
         self.stop_event.clear()
-        
-        self.start_button.setEnabled(False)
         self.stop_button.setEnabled(True)
         self.progress_bar.setVisible(True)
         self.status_label.setText("Atualizando o sistema SSW...")

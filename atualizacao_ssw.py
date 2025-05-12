@@ -188,6 +188,7 @@ def atualizar_sistema_para_placa(placa_atual, cidade, estado):
                     driver.find_element(By.ID, "11").send_keys(manifesto_cta[i])  # Usa o índice i
                     driver.find_element(By.ID, "12").send_keys(manifesto_numero[i])  # Usa o índice i
                     time.sleep(1)
+                    janela_atual = driver.current_window_handle
                     driver.find_element(By.ID, "13").click()
                     time.sleep(1)
 
@@ -206,9 +207,9 @@ def atualizar_sistema_para_placa(placa_atual, cidade, estado):
                     time.sleep(0.5)
                     enviar_button = driver.find_element(By.ID, "9")
                     driver.execute_script("arguments[0].click();", enviar_button)
-                    time.sleep(80)
-
-                    driver.switch_to.window(driver.window_handles[-1])
+                    time.sleep(1)
+                    driver.switch_to.window(janela_atual)
+                    WebDriverWait(driver, 80).until(EC.presence_of_element_located((By.ID, "0")))
                     ok_button = driver.find_element(By.ID, "0")
                     driver.execute_script("arguments[0].click();", ok_button)
                     
@@ -257,6 +258,7 @@ def atualizar_sistema_para_placa(placa_atual, cidade, estado):
                     driver.find_element(By.ID, "11").send_keys(manifesto_cta)
                     driver.find_element(By.ID, "12").send_keys(manifesto_numero)
                     time.sleep(1)
+                    janela_atual = driver.current_window_handle
                     driver.find_element(By.ID, "13").click()
                     time.sleep(1)
 
@@ -275,8 +277,9 @@ def atualizar_sistema_para_placa(placa_atual, cidade, estado):
                     time.sleep(0.5)
                     enviar_button = driver.find_element(By.ID, "9")
                     driver.execute_script("arguments[0].click();", enviar_button)
-                    time.sleep(80)
-
+                    time.sleep(1)
+                    driver.switch_to.window(janela_atual)
+                    WebDriverWait(driver, 80).until(EC.presence_of_element_located((By.ID, "0")))
 
                 else:
                     logging.warning("Nenhum manifesto válido encontrado no formulário")

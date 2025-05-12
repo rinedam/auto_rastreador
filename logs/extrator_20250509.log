@@ -1,0 +1,296 @@
+2025-05-09 10:20:33,573 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-09 10:20:33,578 - INFO - Nenhum horário de execução configurado
+2025-05-09 10:20:33,578 - INFO - Sistema iniciado e pronto para uso.
+2025-05-09 10:20:37,053 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-09 10:20:37,105 - INFO - Carregados 0 horários configurados
+2025-05-09 10:20:53,293 - INFO - Janela do aplicativo fechada.
+2025-05-09 14:42:27,945 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-09 14:42:27,946 - INFO - Nenhum horário de execução configurado
+2025-05-09 14:42:27,947 - INFO - Sistema iniciado e pronto para uso.
+2025-05-09 14:42:29,629 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-09 14:42:29,641 - INFO - Verificando conexão com a internet...
+2025-05-09 14:42:29,918 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-09 14:42:29,919 - INFO - Consultando placas e localizações dos veículos...
+2025-05-09 14:42:29,920 - INFO - Iniciando o processo de localização de veículos...
+2025-05-09 14:42:29,920 - INFO - Sistema iniciado e pronto para extração.
+2025-05-09 14:42:29,921 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-09 14:42:30,109 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-09 14:42:30,201 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-09 14:42:30,211 - INFO - Iniciando processo de extração de dados...
+2025-05-09 14:42:34,078 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-09 14:42:35,063 - INFO - Aguardando página de login carregar...
+2025-05-09 14:42:35,108 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-09 14:42:35,343 - INFO - Tentando clicar no botão de login por ID...
+2025-05-09 14:42:38,191 - INFO - Aguardando redirecionamento após login...
+2025-05-09 14:42:43,201 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-09 14:42:43,201 - INFO - Iniciando extração de dados...
+2025-05-09 14:42:43,202 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-09 14:42:43,329 - INFO - Opção de 50 registros por página selecionada
+2025-05-09 14:42:50,589 - INFO - Placa processada com sucesso: AZF-4011 -> AZF4011
+2025-05-09 14:42:50,613 - INFO - Placa processada com sucesso: TAK-3A03 -> TAK3A03
+2025-05-09 14:42:50,636 - INFO - Placa processada com sucesso: JQI-0556 -> JQI0556
+2025-05-09 14:42:50,661 - INFO - Placa processada com sucesso: BCQ-0476 -> BCQ0476
+2025-05-09 14:42:50,684 - INFO - Placa processada com sucesso: FSC-2A29 -> FSC2A29
+2025-05-09 14:42:50,708 - WARNING - Célula da placa vazia na linha 8
+2025-05-09 14:42:50,754 - INFO - Placa recuperada via JS: AOJ-0H48 -> AOJ0H48
+2025-05-09 14:42:50,786 - WARNING - Célula da placa vazia na linha 9
+2025-05-09 14:42:50,797 - INFO - Placa recuperada via JS: FTT-2A72 -> FTT2A72
+2025-05-09 14:42:50,820 - WARNING - Célula da placa vazia na linha 10
+2025-05-09 14:42:50,828 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-09 14:42:50,840 - WARNING - Célula da placa vazia na linha 11
+2025-05-09 14:42:50,848 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-09 14:42:50,863 - WARNING - Célula da placa vazia na linha 12
+2025-05-09 14:42:50,867 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-09 14:42:50,867 - INFO - Total de placas encontradas: 10
+2025-05-09 14:42:50,867 - INFO - Placa 1: AZF4011
+2025-05-09 14:42:50,867 - INFO - Placa 2: TAK3A03
+2025-05-09 14:42:50,868 - INFO - Placa 3: JQI0556
+2025-05-09 14:42:50,868 - INFO - Placa 4: BCQ0476
+2025-05-09 14:42:50,868 - INFO - Placa 5: FSC2A29
+2025-05-09 14:42:50,868 - INFO - Placa 6: AOJ0H48
+2025-05-09 14:42:50,868 - INFO - Placa 7: FTT2A72
+2025-05-09 14:42:50,868 - INFO - Placa 8: FHR6I05
+2025-05-09 14:42:50,869 - INFO - Placa 9: BAP2G86
+2025-05-09 14:42:50,869 - INFO - Placa 10: AZD7648
+2025-05-09 14:42:53,067 - INFO - Placas recebidas para processamento: ['AZF4011', 'TAK3A03', 'JQI0556', 'BCQ0476', 'FSC2A29', 'AOJ0H48', 'FTT2A72', 'FHR6I05', 'BAP2G86', 'AZD7648']
+2025-05-09 14:42:53,069 - INFO - Obtendo token da API...
+2025-05-09 14:42:53,191 - INFO - Token da API obtido com sucesso.
+2025-05-09 14:42:53,192 - INFO - Processando placa: AZF4011
+2025-05-09 14:42:54,683 - INFO - Localização para AZF4011: Pariquera-Açu, São Paulo
+2025-05-09 14:42:54,684 - INFO - Processando placa: TAK3A03
+2025-05-09 14:42:54,942 - WARNING - Estrutura de resposta da API inesperada para a placa TAK3A03 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 999, 'Detalhes': '{Mensagem:Object reference not set to an instance of an object.}', 'ErrosValidacao': []}
+2025-05-09 14:42:54,943 - INFO - Processando placa: JQI0556
+2025-05-09 14:42:56,736 - INFO - Localização para JQI0556: Miracatu, São Paulo
+2025-05-09 14:42:56,737 - INFO - Processando placa: BCQ0476
+2025-05-09 14:42:58,190 - INFO - Localização para BCQ0476: São Paulo, São Paulo
+2025-05-09 14:42:58,190 - INFO - Processando placa: FSC2A29
+2025-05-09 14:42:59,701 - INFO - Localização para FSC2A29: Aparecida de Goiânia, Goiás
+2025-05-09 14:42:59,702 - INFO - Processando placa: AOJ0H48
+2025-05-09 14:43:01,186 - INFO - Localização para AOJ0H48: Bocaiuva, Minas Gerais
+2025-05-09 14:43:01,187 - INFO - Processando placa: FTT2A72
+2025-05-09 14:43:02,537 - INFO - Localização para FTT2A72: Manoel Vitorino, Bahia
+2025-05-09 14:43:02,538 - INFO - Processando placa: FHR6I05
+2025-05-09 14:43:04,030 - INFO - Localização para FHR6I05: Petrolina, Pernambuco
+2025-05-09 14:43:04,031 - INFO - Processando placa: BAP2G86
+2025-05-09 14:43:05,508 - INFO - Localização para BAP2G86: Cabo de Santo Agostinho, Pernambuco
+2025-05-09 14:43:05,509 - INFO - Processando placa: AZD7648
+2025-05-09 14:43:07,077 - INFO - Localização para AZD7648: São José dos Pinhais, Paraná
+2025-05-09 14:43:07,082 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-09 14:43:07,084 - INFO - Total de 10 veículos com localização obtidos.
+2025-05-09 14:43:07,095 - INFO - Atualizando veículo 1/10: Placa AZF4011 - Pariquera-Açu/São Paulo
+2025-05-09 14:43:07,095 - INFO - Iniciando atualização no SSW para a placa: AZF4011 - Pariquera-Açu/São Paulo
+2025-05-09 14:43:08,717 - INFO - WebDriver iniciado para placa AZF4011.
+2025-05-09 14:43:21,469 - INFO - Tabela encontrada, processando manifestos...
+2025-05-09 14:43:21,594 - INFO - AUTORIZADO encontrado para manifesto: CTA 025461-4
+2025-05-09 14:43:21,595 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254614
+2025-05-09 14:43:21,624 - INFO - AUTORIZADO encontrado para manifesto: CTA 025466-5
+2025-05-09 14:43:21,624 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254665
+2025-05-09 14:43:21,651 - INFO - AUTORIZADO encontrado para manifesto: CTA 025464-9
+2025-05-09 14:43:21,651 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254649
+2025-05-09 14:43:21,679 - INFO - AUTORIZADO encontrado para manifesto: CTA 025431-2
+2025-05-09 14:43:21,679 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254312
+2025-05-09 14:43:21,757 - INFO - Total de manifestos encontrados: 4
+2025-05-09 14:43:21,758 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA', 'CTA']
+2025-05-09 14:43:21,758 - INFO - Números: ['0254614', '0254665', '0254649', '0254312']
+2025-05-09 14:43:21,758 - INFO - Total de manifestos autorizados encontrados: 4
+2025-05-09 14:43:23,961 - INFO - Processando manifesto 1/4: CTA - 0254614
+2025-05-09 14:43:25,515 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-09 14:43:26,252 - INFO - Forçando encerramento do programa...
+2025-05-09 14:43:26,252 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-09 14:43:26,260 - INFO - Janela do aplicativo fechada.
+2025-05-09 16:22:55,581 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-09 16:22:55,582 - INFO - Nenhum horário de execução configurado
+2025-05-09 16:22:55,583 - INFO - Sistema iniciado e pronto para uso.
+2025-05-09 16:22:57,841 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-09 16:22:57,887 - INFO - Carregados 0 horários configurados
+2025-05-09 16:22:59,047 - INFO - Nenhum horário configurado
+2025-05-09 16:22:59,055 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-09 16:22:59,056 - INFO - Nenhum horário de execução configurado
+2025-05-09 16:23:03,201 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-09 16:23:03,203 - INFO - Verificando conexão com a internet...
+2025-05-09 16:23:03,705 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-09 16:23:03,707 - INFO - Consultando placas e localizações dos veículos...
+2025-05-09 16:23:03,708 - INFO - Iniciando o processo de localização de veículos...
+2025-05-09 16:23:03,709 - INFO - Sistema iniciado e pronto para extração.
+2025-05-09 16:23:03,710 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-09 16:23:04,153 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-09 16:23:04,248 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-09 16:23:04,248 - INFO - Iniciando processo de extração de dados...
+2025-05-09 16:23:08,918 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-09 16:23:10,628 - INFO - Aguardando página de login carregar...
+2025-05-09 16:23:10,645 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-09 16:23:10,809 - INFO - Tentando clicar no botão de login por ID...
+2025-05-09 16:23:13,851 - INFO - Aguardando redirecionamento após login...
+2025-05-09 16:23:18,862 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-09 16:23:18,862 - INFO - Iniciando extração de dados...
+2025-05-09 16:23:18,862 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-09 16:23:18,972 - INFO - Opção de 50 registros por página selecionada
+2025-05-09 16:23:26,269 - INFO - Placa processada com sucesso: BCQ-0476 -> BCQ0476
+2025-05-09 16:23:26,289 - INFO - Placa processada com sucesso: AZF-4011 -> AZF4011
+2025-05-09 16:23:26,312 - INFO - Placa processada com sucesso: TAK-3A03 -> TAK3A03
+2025-05-09 16:23:26,338 - INFO - Placa processada com sucesso: JQI-0556 -> JQI0556
+2025-05-09 16:23:26,361 - INFO - Placa processada com sucesso: BCQ-0476 -> BCQ0476
+2025-05-09 16:23:26,381 - WARNING - Célula da placa vazia na linha 8
+2025-05-09 16:23:26,389 - INFO - Placa recuperada via JS: FSC-2A29 -> FSC2A29
+2025-05-09 16:23:26,413 - WARNING - Célula da placa vazia na linha 9
+2025-05-09 16:23:26,421 - INFO - Placa recuperada via JS: AOJ-0H48 -> AOJ0H48
+2025-05-09 16:23:26,445 - WARNING - Célula da placa vazia na linha 10
+2025-05-09 16:23:26,451 - INFO - Placa recuperada via JS: FTT-2A72 -> FTT2A72
+2025-05-09 16:23:26,476 - WARNING - Célula da placa vazia na linha 11
+2025-05-09 16:23:26,481 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-09 16:23:26,512 - WARNING - Célula da placa vazia na linha 12
+2025-05-09 16:23:26,523 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-09 16:23:26,545 - WARNING - Célula da placa vazia na linha 13
+2025-05-09 16:23:26,549 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-09 16:23:26,550 - INFO - Total de placas encontradas: 11
+2025-05-09 16:23:26,550 - INFO - Placa 1: BCQ0476
+2025-05-09 16:23:26,550 - INFO - Placa 2: AZF4011
+2025-05-09 16:23:26,550 - INFO - Placa 3: TAK3A03
+2025-05-09 16:23:26,551 - INFO - Placa 4: JQI0556
+2025-05-09 16:23:26,551 - INFO - Placa 5: BCQ0476
+2025-05-09 16:23:26,551 - INFO - Placa 6: FSC2A29
+2025-05-09 16:23:26,553 - INFO - Placa 7: AOJ0H48
+2025-05-09 16:23:26,556 - INFO - Placa 8: FTT2A72
+2025-05-09 16:23:26,556 - INFO - Placa 9: FHR6I05
+2025-05-09 16:23:26,556 - INFO - Placa 10: BAP2G86
+2025-05-09 16:23:26,557 - INFO - Placa 11: AZD7648
+2025-05-09 16:23:28,731 - INFO - Placas recebidas para processamento: ['BCQ0476', 'AZF4011', 'TAK3A03', 'JQI0556', 'BCQ0476', 'FSC2A29', 'AOJ0H48', 'FTT2A72', 'FHR6I05', 'BAP2G86', 'AZD7648']
+2025-05-09 16:23:28,732 - INFO - Obtendo token da API...
+2025-05-09 16:23:28,880 - INFO - Token da API obtido com sucesso.
+2025-05-09 16:23:28,880 - INFO - Processando placa: BCQ0476
+2025-05-09 16:23:30,503 - INFO - Localização para BCQ0476: São Paulo, São Paulo
+2025-05-09 16:23:30,503 - INFO - Processando placa: AZF4011
+2025-05-09 16:23:32,022 - INFO - Localização para AZF4011: Miracatu, São Paulo
+2025-05-09 16:23:32,024 - INFO - Processando placa: TAK3A03
+2025-05-09 16:23:33,544 - INFO - Localização para TAK3A03: Ponta Grossa, Paraná
+2025-05-09 16:23:33,546 - INFO - Processando placa: JQI0556
+2025-05-09 16:23:35,052 - INFO - Localização para JQI0556: Miracatu, São Paulo
+2025-05-09 16:23:35,053 - INFO - Processando placa: BCQ0476
+2025-05-09 16:23:36,521 - INFO - Localização para BCQ0476: São Paulo, São Paulo
+2025-05-09 16:23:36,523 - INFO - Processando placa: FSC2A29
+2025-05-09 16:23:38,083 - INFO - Localização para FSC2A29: Aparecida de Goiânia, Goiás
+2025-05-09 16:23:38,084 - INFO - Processando placa: AOJ0H48
+2025-05-09 16:23:39,593 - INFO - Localização para AOJ0H48: Francisco Sá, Minas Gerais
+2025-05-09 16:23:39,594 - INFO - Processando placa: FTT2A72
+2025-05-09 16:23:41,018 - INFO - Localização para FTT2A72: Manoel Vitorino, Bahia
+2025-05-09 16:23:41,018 - INFO - Processando placa: FHR6I05
+2025-05-09 16:23:42,465 - INFO - Localização para FHR6I05: Petrolina, Pernambuco
+2025-05-09 16:23:42,466 - INFO - Processando placa: BAP2G86
+2025-05-09 16:23:43,999 - INFO - Localização para BAP2G86: Cabo de Santo Agostinho, Pernambuco
+2025-05-09 16:23:44,001 - INFO - Processando placa: AZD7648
+2025-05-09 16:23:45,529 - INFO - Localização para AZD7648: São José dos Pinhais, Paraná
+2025-05-09 16:23:45,533 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-09 16:23:45,534 - INFO - Total de 11 veículos com localização obtidos.
+2025-05-09 16:23:45,545 - INFO - Atualizando veículo 1/11: Placa BCQ0476 - São Paulo/São Paulo
+2025-05-09 16:23:45,545 - INFO - Iniciando atualização no SSW para a placa: BCQ0476 - São Paulo/São Paulo
+2025-05-09 16:23:48,592 - INFO - WebDriver iniciado para placa BCQ0476.
+2025-05-09 16:24:06,480 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-09 16:24:06,537 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-09 16:24:09,773 - INFO - WebDriver finalizado para placa BCQ0476.
+2025-05-09 16:24:09,774 - INFO - Função atualizar_sistema_para_placa (BCQ0476) concluída.
+2025-05-09 16:24:09,775 - INFO - Veículo BCQ0476 atualizado com sucesso no sistema.
+2025-05-09 16:24:09,778 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-09 16:24:09,779 - ERROR - Erro ao obter dados de veículos: type object 'datetime.time' has no attribute 'sleep'
+Traceback (most recent call last):
+  File "C:\Users\Administrador\Documents\Projetos\auto_rastreador\main.py", line 353, in update_process
+    time.sleep(5)
+    ^^^^^^^^^^
+AttributeError: type object 'datetime.time' has no attribute 'sleep'
+2025-05-09 16:24:09,788 - INFO - Processo finalizado pelo usuário.
+2025-05-09 16:24:09,792 - INFO - Processo de atualização finalizado.
+2025-05-09 16:26:06,113 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-09 16:26:06,117 - INFO - Verificando conexão com a internet...
+2025-05-09 16:26:06,604 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-09 16:26:06,606 - INFO - Consultando placas e localizações dos veículos...
+2025-05-09 16:26:06,606 - INFO - Iniciando o processo de localização de veículos...
+2025-05-09 16:26:06,607 - INFO - Sistema iniciado e pronto para extração.
+2025-05-09 16:26:06,607 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-09 16:26:07,065 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-09 16:26:07,166 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-09 16:26:07,168 - INFO - Iniciando processo de extração de dados...
+2025-05-09 16:26:10,338 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-09 16:26:12,369 - INFO - Aguardando página de login carregar...
+2025-05-09 16:26:12,396 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-09 16:26:12,564 - INFO - Tentando clicar no botão de login por ID...
+2025-05-09 16:26:14,902 - INFO - Aguardando redirecionamento após login...
+2025-05-09 16:26:19,911 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-09 16:26:19,912 - INFO - Iniciando extração de dados...
+2025-05-09 16:26:19,913 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-09 16:26:20,008 - INFO - Opção de 50 registros por página selecionada
+2025-05-09 16:26:27,237 - INFO - Placa processada com sucesso: BCQ-0476 -> BCQ0476
+2025-05-09 16:26:27,260 - INFO - Placa processada com sucesso: AZF-4011 -> AZF4011
+2025-05-09 16:26:27,283 - INFO - Placa processada com sucesso: TAK-3A03 -> TAK3A03
+2025-05-09 16:26:27,342 - INFO - Placa processada com sucesso: JQI-0556 -> JQI0556
+2025-05-09 16:26:27,399 - INFO - Placa processada com sucesso: BCQ-0476 -> BCQ0476
+2025-05-09 16:26:27,418 - WARNING - Célula da placa vazia na linha 8
+2025-05-09 16:26:27,426 - INFO - Placa recuperada via JS: FSC-2A29 -> FSC2A29
+2025-05-09 16:26:27,440 - WARNING - Célula da placa vazia na linha 9
+2025-05-09 16:26:27,444 - INFO - Placa recuperada via JS: AOJ-0H48 -> AOJ0H48
+2025-05-09 16:26:27,457 - WARNING - Célula da placa vazia na linha 10
+2025-05-09 16:26:27,462 - INFO - Placa recuperada via JS: FTT-2A72 -> FTT2A72
+2025-05-09 16:26:27,477 - WARNING - Célula da placa vazia na linha 11
+2025-05-09 16:26:27,480 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-09 16:26:27,497 - WARNING - Célula da placa vazia na linha 12
+2025-05-09 16:26:27,501 - INFO - Placa recuperada via JS: BAP-2G86 -> BAP2G86
+2025-05-09 16:26:27,515 - WARNING - Célula da placa vazia na linha 13
+2025-05-09 16:26:27,519 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-09 16:26:27,519 - INFO - Total de placas encontradas: 11
+2025-05-09 16:26:27,519 - INFO - Placa 1: BCQ0476
+2025-05-09 16:26:27,519 - INFO - Placa 2: AZF4011
+2025-05-09 16:26:27,519 - INFO - Placa 3: TAK3A03
+2025-05-09 16:26:27,520 - INFO - Placa 4: JQI0556
+2025-05-09 16:26:27,524 - INFO - Placa 5: BCQ0476
+2025-05-09 16:26:27,525 - INFO - Placa 6: FSC2A29
+2025-05-09 16:26:27,526 - INFO - Placa 7: AOJ0H48
+2025-05-09 16:26:27,526 - INFO - Placa 8: FTT2A72
+2025-05-09 16:26:27,527 - INFO - Placa 9: FHR6I05
+2025-05-09 16:26:27,527 - INFO - Placa 10: BAP2G86
+2025-05-09 16:26:27,527 - INFO - Placa 11: AZD7648
+2025-05-09 16:26:29,832 - INFO - Placas recebidas para processamento: ['BCQ0476', 'AZF4011', 'TAK3A03', 'JQI0556', 'BCQ0476', 'FSC2A29', 'AOJ0H48', 'FTT2A72', 'FHR6I05', 'BAP2G86', 'AZD7648']
+2025-05-09 16:26:29,832 - INFO - Obtendo token da API...
+2025-05-09 16:26:29,954 - INFO - Token da API obtido com sucesso.
+2025-05-09 16:26:29,954 - INFO - Processando placa: BCQ0476
+2025-05-09 16:26:31,475 - INFO - Localização para BCQ0476: São Paulo, São Paulo
+2025-05-09 16:26:31,476 - INFO - Processando placa: AZF4011
+2025-05-09 16:26:32,914 - INFO - Localização para AZF4011: Miracatu, São Paulo
+2025-05-09 16:26:32,915 - INFO - Processando placa: TAK3A03
+2025-05-09 16:26:34,355 - INFO - Localização para TAK3A03: Ponta Grossa, Paraná
+2025-05-09 16:26:34,356 - INFO - Processando placa: JQI0556
+2025-05-09 16:26:35,809 - INFO - Localização para JQI0556: Miracatu, São Paulo
+2025-05-09 16:26:35,810 - INFO - Processando placa: BCQ0476
+2025-05-09 16:26:37,219 - INFO - Localização para BCQ0476: São Paulo, São Paulo
+2025-05-09 16:26:37,220 - INFO - Processando placa: FSC2A29
+2025-05-09 16:26:38,682 - INFO - Localização para FSC2A29: Aparecida de Goiânia, Goiás
+2025-05-09 16:26:38,683 - INFO - Processando placa: AOJ0H48
+2025-05-09 16:26:40,188 - INFO - Localização para AOJ0H48: Francisco Sá, Minas Gerais
+2025-05-09 16:26:40,188 - INFO - Processando placa: FTT2A72
+2025-05-09 16:26:41,511 - INFO - Localização para FTT2A72: Manoel Vitorino, Bahia
+2025-05-09 16:26:41,511 - INFO - Processando placa: FHR6I05
+2025-05-09 16:26:42,927 - INFO - Localização para FHR6I05: Petrolina, Pernambuco
+2025-05-09 16:26:42,928 - INFO - Processando placa: BAP2G86
+2025-05-09 16:26:44,341 - INFO - Localização para BAP2G86: Cabo de Santo Agostinho, Pernambuco
+2025-05-09 16:26:44,342 - INFO - Processando placa: AZD7648
+2025-05-09 16:26:45,786 - INFO - Localização para AZD7648: São José dos Pinhais, Paraná
+2025-05-09 16:26:45,789 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-09 16:26:45,790 - INFO - Total de 11 veículos com localização obtidos.
+2025-05-09 16:26:45,795 - INFO - Atualizando veículo 1/11: Placa BCQ0476 - São Paulo/São Paulo
+2025-05-09 16:26:45,796 - INFO - Iniciando atualização no SSW para a placa: BCQ0476 - São Paulo/São Paulo
+2025-05-09 16:26:48,828 - INFO - WebDriver iniciado para placa BCQ0476.
+2025-05-09 16:27:06,627 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-09 16:27:06,686 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-09 16:27:08,876 - INFO - WebDriver finalizado para placa BCQ0476.
+2025-05-09 16:27:08,877 - INFO - Função atualizar_sistema_para_placa (BCQ0476) concluída.
+2025-05-09 16:27:08,877 - INFO - Veículo BCQ0476 atualizado com sucesso no sistema.
+2025-05-09 16:27:08,879 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-09 16:27:08,880 - ERROR - Erro ao obter dados de veículos: type object 'datetime.time' has no attribute 'sleep'
+Traceback (most recent call last):
+  File "C:\Users\Administrador\Documents\Projetos\auto_rastreador\main.py", line 353, in update_process
+AttributeError: type object 'datetime.time' has no attribute 'sleep'
+2025-05-09 16:27:08,911 - INFO - Processo finalizado pelo usuário.
+2025-05-09 16:27:08,911 - INFO - Processo de atualização finalizado.
+2025-05-09 16:30:02,808 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-09 16:30:02,814 - INFO - Janela do aplicativo fechada.
+2025-05-09 17:11:06,937 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-09 17:11:06,939 - INFO - Nenhum horário de execução configurado
+2025-05-09 17:11:06,940 - INFO - Sistema iniciado e pronto para uso.
+2025-05-09 17:11:18,463 - INFO - Janela do aplicativo fechada.
