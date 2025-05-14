@@ -20,22 +20,27 @@ from PyQt5.QtGui import QIcon, QFont, QColor, QPalette
 # Importar o código original
 import atualizacao_ssw as ssw_updater
 
-# Configuração de diretórios
+# Configuração de diretóriosc
 BASE_DIR = Path(__file__).resolve().parent
 LOGS_DIR = BASE_DIR / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
 
 # Handler personalizado para capturar logs e enviá-los para a interface
 class QTextEditLogger(logging.Handler, QObject):
-    log_signal = pyqtSignal(str, int)  # sinal para enviar mensagem e nível de log
+    log_signal = pyqtSignal(str, int)
 
     def __init__(self):
         logging.Handler.__init__(self)
         QObject.__init__(self)
-        self.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+        # Formato mais detalhado para incluir todos os logs
+        self.setFormatter(
+            logging.Formatter('%(asctime)s - %(levelname)s - %(message)s', 
+                            datefmt='%H:%M:%S')
+        )
 
     def emit(self, record):
         msg = self.format(record)
+        # Emite o sinal com a mensagem formatada e o nível do log
         self.log_signal.emit(msg, record.levelno)
 
 class SSWUpdaterApp(QMainWindow):
@@ -235,40 +240,44 @@ class SSWUpdaterApp(QMainWindow):
         """)
         
     def setupLogging(self):
-        # Configurar log handler para a interface
+        # Remover handlers existentes
+        logging.getLogger().handlers = []
+        
+        # Configurar novo handler para a interface
         self.log_handler = QTextEditLogger()
         self.log_handler.log_signal.connect(self.update_log)
         
-        # Configurar logging
+        # Configurar logging com nível DEBUG para capturar todos os logs
         logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
+            level=logging.DEBUG,
             handlers=[
-                logging.FileHandler(LOGS_DIR / "atualizacao_ssw_v3.log", encoding='utf-8'),
-                self.log_handler
+                self.log_handler,
+                logging.StreamHandler()  # Mantém os logs no terminal também
             ]
         )
         
-        # Adicionar mensagem inicial na área de log da interface
-        self.log_area.append("Sistema inicializado e pronto para uso.")
+        # Define o nível de log para módulos específicos
+        logging.getLogger('selenium').setLevel(logging.INFO)
+        logging.getLogger('urllib3').setLevel(logging.INFO)
+        
+        logging.info("Sistema de logging inicializado")
         
     @pyqtSlot(str, int)
     def update_log(self, message, level):
-        # Para logs de sistema, só mostramos na interface os erros e warnings
-        if level >= logging.WARNING:
-            # Define cores para os diferentes níveis de log
-            color = QColor(0, 0, 0)  # Preto para INFO
-            if level >= logging.ERROR:
-                color = QColor(255, 0, 0)  # Vermelho para ERROR
-                self.log_area.setTextColor(color)
-                self.log_area.append(f"ERRO DO SISTEMA: {message}")
-            elif level >= logging.WARNING:
-                color = QColor(255, 165, 0)  # Laranja para WARNING
-                self.log_area.setTextColor(color)
-                self.log_area.append(f"AVISO DO SISTEMA: {message}")
-            
-            # Rolagem automática para a última linha
-            self.log_area.verticalScrollBar().setValue(self.log_area.verticalScrollBar().maximum())
+        # Mostrar todos os logs, não apenas warnings e errors
+        color = QColor(0, 0, 0)  # Preto para INFO
+        if level >= logging.ERROR:
+            color = QColor(255, 0, 0)  # Vermelho para ERROR
+        elif level >= logging.WARNING:
+            color = QColor(255, 165, 0)  # Laranja para WARNING
+        elif level >= logging.INFO:
+            color = QColor(0, 70, 140)  # Azul para INFO
+
+        self.log_area.setTextColor(color)
+        self.log_area.append(message)
+        self.log_area.verticalScrollBar().setValue(
+            self.log_area.verticalScrollBar().maximum()
+        )
     
     def start_update(self):
         if self.running:
@@ -400,6 +409,13 @@ class SSWUpdaterApp(QMainWindow):
                 self.status_label.setText("Processo interrompido")
                 logging.info("Processo finalizado pelo usuário.")
                 self.log_direto("AVISO: Processo de atualização interrompido pelo usuário")
+
+        # Aguarda 3 segundos e limpa a área de log
+        QTimer.singleShot(3000, self.clear_log_area)
+
+    def clear_log_area(self):
+        self.log_area.clear()
+        self.log_area.append("Sistema pronto para nova execução.")
     
     def close_application(self):
         # Simplified close application method

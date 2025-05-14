@@ -1,17 +1,13 @@
 import json
 import logging
-from pathlib import Path
 import time
 import api_client
-import selenium_bot as selenium_bot
+import selenium_bot
 
-LOGS_DIR_PROCESSADOR = Path(__file__).resolve().parent / "logs_processador"
-LOGS_DIR_PROCESSADOR.mkdir(exist_ok=True) # Cria o diretório de logs se não existir
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(module)s - %(message)s',
     handlers=[
-        logging.FileHandler(LOGS_DIR_PROCESSADOR / "processador.log"),
         logging.StreamHandler()
     ]
 )
@@ -96,15 +92,16 @@ def processar_localizacao_veiculos():
                     logging.error(f"Erro ao consultar a API para a placa {placa}: {e}")
                     resultados_finais.append({"placa": placa, "Latitude": None, "Longitude": None, "Erro": "Erro na consulta"})
 
-    output_file_path = Path(__file__).resolve().parent / "localizacao_veiculos.json"
+    # Salva o arquivo no diretório atual
+    output_file_name = "localizacao_veiculos.json"
     try:
-        with open(output_file_path, "w", encoding="utf-8") as f:
+        with open(output_file_name, "w", encoding="utf-8") as f:
             json.dump(resultados_finais, f, ensure_ascii=False, indent=4)
-        logging.info(f"Resultados salvos em: {output_file_path}")
+        logging.info(f"Resultados salvos em: {output_file_name}")
     except Exception as e:
         logging.error(f"Erro ao salvar o arquivo JSON: {e}")
 
-    return str(output_file_path), resultados_finais
+    return output_file_name, resultados_finais
 
 # ==== EXECUÇÃO DO SCRIPT ====
 

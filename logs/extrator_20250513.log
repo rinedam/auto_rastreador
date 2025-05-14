@@ -1,0 +1,798 @@
+2025-05-13 08:48:25,060 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 08:48:25,061 - INFO - Nenhum horário de execução configurado
+2025-05-13 08:48:25,062 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 08:48:35,638 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 08:48:35,650 - INFO - Verificando conexão com a internet...
+2025-05-13 08:48:36,178 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 08:48:36,179 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 08:48:36,179 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 08:48:36,180 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 08:48:36,181 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 08:48:36,627 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 08:48:36,740 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 08:48:36,740 - INFO - Iniciando processo de extração de dados...
+2025-05-13 08:48:40,508 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 08:48:41,906 - INFO - Aguardando página de login carregar...
+2025-05-13 08:48:41,943 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 08:48:42,242 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 08:48:45,896 - INFO - Aguardando redirecionamento após login...
+2025-05-13 08:48:50,905 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 08:48:50,905 - INFO - Iniciando extração de dados...
+2025-05-13 08:48:50,905 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-13 08:48:51,022 - INFO - Opção de 50 registros por página selecionada
+2025-05-13 08:48:58,259 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-13 08:48:58,278 - INFO - Placa processada com sucesso: AWE-4A37 -> AWE4A37
+2025-05-13 08:48:58,304 - INFO - Placa processada com sucesso: HNX-2I05 -> HNX2I05
+2025-05-13 08:48:58,365 - INFO - Placa processada com sucesso: NFL-7I36 -> NFL7I36
+2025-05-13 08:48:58,406 - INFO - Placa processada com sucesso: THW-3D31 -> THW3D31
+2025-05-13 08:48:58,426 - WARNING - Célula da placa vazia na linha 8
+2025-05-13 08:48:58,431 - INFO - Placa recuperada via JS: NKS-9224 -> NKS9224
+2025-05-13 08:48:58,448 - WARNING - Célula da placa vazia na linha 9
+2025-05-13 08:48:58,456 - INFO - Placa recuperada via JS: AWN-0G48 -> AWN0G48
+2025-05-13 08:48:58,472 - WARNING - Célula da placa vazia na linha 10
+2025-05-13 08:48:58,476 - INFO - Placa recuperada via JS: ATU-9I98 -> ATU9I98
+2025-05-13 08:48:58,494 - WARNING - Célula da placa vazia na linha 11
+2025-05-13 08:48:58,499 - INFO - Placa recuperada via JS: AYW-1330 -> AYW1330
+2025-05-13 08:48:58,515 - WARNING - Célula da placa vazia na linha 12
+2025-05-13 08:48:58,523 - INFO - Placa recuperada via JS: AZF-4011 -> AZF4011
+2025-05-13 08:48:58,549 - WARNING - Célula da placa vazia na linha 13
+2025-05-13 08:48:58,558 - INFO - Placa recuperada via JS: TAK-3A03 -> TAK3A03
+2025-05-13 08:48:58,577 - WARNING - Célula da placa vazia na linha 14
+2025-05-13 08:48:58,580 - INFO - Placa recuperada via JS: JQI-0556 -> JQI0556
+2025-05-13 08:48:58,597 - WARNING - Célula da placa vazia na linha 15
+2025-05-13 08:48:58,604 - INFO - Placa recuperada via JS: BDF-9759 -> BDF9759
+2025-05-13 08:48:58,616 - WARNING - Célula da placa vazia na linha 16
+2025-05-13 08:48:58,625 - INFO - Placa recuperada via JS: AOJ-0H48 -> AOJ0H48
+2025-05-13 08:48:58,641 - WARNING - Célula da placa vazia na linha 17
+2025-05-13 08:48:58,645 - INFO - Placa recuperada via JS: FTT-2A72 -> FTT2A72
+2025-05-13 08:48:58,664 - WARNING - Célula da placa vazia na linha 18
+2025-05-13 08:48:58,672 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-13 08:48:58,673 - INFO - Total de placas encontradas: 16
+2025-05-13 08:48:58,673 - INFO - Placa 1: AUC7B87
+2025-05-13 08:48:58,673 - INFO - Placa 2: AWE4A37
+2025-05-13 08:48:58,674 - INFO - Placa 3: HNX2I05
+2025-05-13 08:48:58,674 - INFO - Placa 4: NFL7I36
+2025-05-13 08:48:58,674 - INFO - Placa 5: THW3D31
+2025-05-13 08:48:58,674 - INFO - Placa 6: NKS9224
+2025-05-13 08:48:58,675 - INFO - Placa 7: AWN0G48
+2025-05-13 08:48:58,675 - INFO - Placa 8: ATU9I98
+2025-05-13 08:48:58,675 - INFO - Placa 9: AYW1330
+2025-05-13 08:48:58,675 - INFO - Placa 10: AZF4011
+2025-05-13 08:48:58,676 - INFO - Placa 11: TAK3A03
+2025-05-13 08:48:58,676 - INFO - Placa 12: JQI0556
+2025-05-13 08:48:58,676 - INFO - Placa 13: BDF9759
+2025-05-13 08:48:58,676 - INFO - Placa 14: AOJ0H48
+2025-05-13 08:48:58,677 - INFO - Placa 15: FTT2A72
+2025-05-13 08:48:58,677 - INFO - Placa 16: FHR6I05
+2025-05-13 08:49:00,872 - INFO - Placas recebidas para processamento: ['AUC7B87', 'AWE4A37', 'HNX2I05', 'NFL7I36', 'THW3D31', 'NKS9224', 'AWN0G48', 'ATU9I98', 'AYW1330', 'AZF4011', 'TAK3A03', 'JQI0556', 'BDF9759', 'AOJ0H48', 'FTT2A72', 'FHR6I05']
+2025-05-13 08:49:00,873 - INFO - Obtendo token da API...
+2025-05-13 08:49:01,010 - INFO - Token da API obtido com sucesso.
+2025-05-13 08:49:01,011 - INFO - Processando placa: AUC7B87
+2025-05-13 08:49:02,583 - INFO - Localização para AUC7B87: Registro, São Paulo
+2025-05-13 08:49:02,584 - INFO - Processando placa: AWE4A37
+2025-05-13 08:49:04,018 - INFO - Localização para AWE4A37: Mimoso do Sul, Espírito Santo
+2025-05-13 08:49:04,019 - INFO - Processando placa: HNX2I05
+2025-05-13 08:49:05,800 - INFO - Localização para HNX2I05: Duque de Caxias, Rio de Janeiro
+2025-05-13 08:49:05,800 - INFO - Processando placa: NFL7I36
+2025-05-13 08:49:07,294 - INFO - Localização para NFL7I36: Região Geográfica Imediata de Salinas, Minas Gerais
+2025-05-13 08:49:07,294 - INFO - Processando placa: THW3D31
+2025-05-13 08:49:08,733 - INFO - Localização para THW3D31: Abaré, Bahia
+2025-05-13 08:49:08,734 - INFO - Processando placa: NKS9224
+2025-05-13 08:49:10,213 - INFO - Localização para NKS9224: Pedra Azul, Minas Gerais
+2025-05-13 08:49:10,214 - INFO - Processando placa: AWN0G48
+2025-05-13 08:49:11,689 - INFO - Localização para AWN0G48: São Paulo, São Paulo
+2025-05-13 08:49:11,690 - INFO - Processando placa: ATU9I98
+2025-05-13 08:49:13,272 - INFO - Localização para ATU9I98: Quatro Barras, Paraná
+2025-05-13 08:49:13,273 - INFO - Processando placa: AYW1330
+2025-05-13 08:49:14,692 - INFO - Localização para AYW1330: Santa Maria, Federal District
+2025-05-13 08:49:14,693 - INFO - Processando placa: AZF4011
+2025-05-13 08:49:16,124 - INFO - Localização para AZF4011: Vitória da Conquista, Bahia
+2025-05-13 08:49:16,125 - INFO - Processando placa: TAK3A03
+2025-05-13 08:49:17,676 - INFO - Localização para TAK3A03: Salinas, Minas Gerais
+2025-05-13 08:49:17,676 - INFO - Processando placa: JQI0556
+2025-05-13 08:49:19,149 - INFO - Localização para JQI0556: Estiva, Minas Gerais
+2025-05-13 08:49:19,149 - INFO - Processando placa: BDF9759
+2025-05-13 08:49:20,604 - INFO - Localização para BDF9759: Timon, Maranhão
+2025-05-13 08:49:20,604 - INFO - Processando placa: AOJ0H48
+2025-05-13 08:49:22,070 - INFO - Localização para AOJ0H48: Maceió, Alagoas
+2025-05-13 08:49:22,071 - INFO - Processando placa: FTT2A72
+2025-05-13 08:49:23,495 - INFO - Localização para FTT2A72: Camaçari, Bahia
+2025-05-13 08:49:23,496 - INFO - Processando placa: FHR6I05
+2025-05-13 08:49:24,920 - INFO - Localização para FHR6I05: Fortaleza, Ceará
+2025-05-13 08:49:24,923 - INFO - Resultados salvos em: C:\Users\Administrador\Documents\Projetos\auto_rastreador\localizacao_veiculos.json
+2025-05-13 08:49:24,924 - INFO - Total de 16 veículos com localização obtidos.
+2025-05-13 08:49:24,934 - INFO - Atualizando veículo 1/16: Placa AUC7B87 - Registro/São Paulo
+2025-05-13 08:49:24,935 - INFO - Iniciando atualização no SSW para a placa: AUC7B87 - Registro/São Paulo
+2025-05-13 08:49:26,638 - INFO - WebDriver iniciado para placa AUC7B87.
+2025-05-13 08:49:39,502 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:49:39,608 - INFO - AUTORIZADO encontrado para manifesto: CTA 025545-9
+2025-05-13 08:49:39,608 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255459
+2025-05-13 08:49:39,641 - INFO - AUTORIZADO encontrado para manifesto: CTA 025544-1
+2025-05-13 08:49:39,642 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255441
+2025-05-13 08:49:39,673 - INFO - Total de manifestos encontrados: 2
+2025-05-13 08:49:39,673 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 08:49:39,673 - INFO - Números: ['0255459', '0255441']
+2025-05-13 08:49:39,673 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 08:49:41,849 - INFO - Processando manifesto 1/2: CTA - 0255459
+2025-05-13 08:49:51,527 - INFO - Processando manifesto 2/2: CTA - 0255441
+2025-05-13 08:50:06,488 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 08:50:08,809 - INFO - WebDriver finalizado para placa AUC7B87.
+2025-05-13 08:50:08,809 - INFO - Função atualizar_sistema_para_placa (AUC7B87) concluída.
+2025-05-13 08:50:08,810 - INFO - Veículo AUC7B87 atualizado com sucesso no sistema.
+2025-05-13 08:50:08,811 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:50:13,812 - INFO - Atualizando veículo 2/16: Placa AWE4A37 - Mimoso do Sul/Espírito Santo
+2025-05-13 08:50:13,814 - INFO - Iniciando atualização no SSW para a placa: AWE4A37 - Mimoso do Sul/Espírito Santo
+2025-05-13 08:50:16,096 - INFO - WebDriver iniciado para placa AWE4A37.
+2025-05-13 08:50:28,661 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:50:28,772 - INFO - AUTORIZADO encontrado para manifesto: CTA 025538-6
+2025-05-13 08:50:28,772 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255386
+2025-05-13 08:50:28,810 - INFO - AUTORIZADO encontrado para manifesto: CTA 025537-8
+2025-05-13 08:50:28,810 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255378
+2025-05-13 08:50:28,880 - INFO - Total de manifestos encontrados: 2
+2025-05-13 08:50:28,880 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 08:50:28,880 - INFO - Números: ['0255386', '0255378']
+2025-05-13 08:50:28,881 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 08:50:31,083 - INFO - Processando manifesto 1/2: CTA - 0255386
+2025-05-13 08:50:40,933 - INFO - Processando manifesto 2/2: CTA - 0255378
+2025-05-13 08:50:59,451 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 08:51:01,684 - INFO - WebDriver finalizado para placa AWE4A37.
+2025-05-13 08:51:01,684 - INFO - Função atualizar_sistema_para_placa (AWE4A37) concluída.
+2025-05-13 08:51:01,685 - INFO - Veículo AWE4A37 atualizado com sucesso no sistema.
+2025-05-13 08:51:01,685 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:51:06,686 - INFO - Atualizando veículo 3/16: Placa HNX2I05 - Duque de Caxias/Rio de Janeiro
+2025-05-13 08:51:06,686 - INFO - Iniciando atualização no SSW para a placa: HNX2I05 - Duque de Caxias/Rio de Janeiro
+2025-05-13 08:51:08,276 - INFO - WebDriver iniciado para placa HNX2I05.
+2025-05-13 08:51:20,941 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:51:21,046 - INFO - AUTORIZADO encontrado para manifesto: CTA 025516-5
+2025-05-13 08:51:21,047 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255165
+2025-05-13 08:51:21,215 - INFO - Total de manifestos encontrados: 1
+2025-05-13 08:51:21,216 - INFO - Manifestos CTA: ['CTA']
+2025-05-13 08:51:21,216 - INFO - Números: ['0255165']
+2025-05-13 08:51:21,216 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-13 08:51:23,455 - INFO - Processando manifesto 1/1: CTA - 0255165
+2025-05-13 08:51:42,551 - INFO - Todos os 1 manifestos foram processados
+2025-05-13 08:51:44,798 - INFO - WebDriver finalizado para placa HNX2I05.
+2025-05-13 08:51:44,800 - INFO - Função atualizar_sistema_para_placa (HNX2I05) concluída.
+2025-05-13 08:51:44,801 - INFO - Veículo HNX2I05 atualizado com sucesso no sistema.
+2025-05-13 08:51:44,802 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:51:49,803 - INFO - Atualizando veículo 4/16: Placa NFL7I36 - Região Geográfica Imediata de Salinas/Minas Gerais
+2025-05-13 08:51:49,804 - INFO - Iniciando atualização no SSW para a placa: NFL7I36 - Região Geográfica Imediata de Salinas/Minas Gerais
+2025-05-13 08:51:51,405 - INFO - WebDriver iniciado para placa NFL7I36.
+2025-05-13 08:52:04,194 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:52:04,298 - INFO - AUTORIZADO encontrado para manifesto: CTA 025509-2
+2025-05-13 08:52:04,299 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255092
+2025-05-13 08:52:04,333 - INFO - AUTORIZADO encontrado para manifesto: CTA 025510-6
+2025-05-13 08:52:04,334 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255106
+2025-05-13 08:52:04,438 - INFO - Total de manifestos encontrados: 2
+2025-05-13 08:52:04,438 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 08:52:04,438 - INFO - Números: ['0255092', '0255106']
+2025-05-13 08:52:04,438 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 08:52:06,655 - INFO - Processando manifesto 1/2: CTA - 0255092
+2025-05-13 08:52:16,521 - INFO - Processando manifesto 2/2: CTA - 0255106
+2025-05-13 08:52:37,093 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 08:52:39,404 - INFO - WebDriver finalizado para placa NFL7I36.
+2025-05-13 08:52:39,404 - INFO - Função atualizar_sistema_para_placa (NFL7I36) concluída.
+2025-05-13 08:52:39,405 - INFO - Veículo NFL7I36 atualizado com sucesso no sistema.
+2025-05-13 08:52:39,405 - INFO - Progresso: 25% concluído (4/16)
+2025-05-13 08:52:39,407 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:52:44,407 - INFO - Atualizando veículo 5/16: Placa THW3D31 - Abaré/Bahia
+2025-05-13 08:52:44,408 - INFO - Iniciando atualização no SSW para a placa: THW3D31 - Abaré/Bahia
+2025-05-13 08:52:45,946 - INFO - WebDriver iniciado para placa THW3D31.
+2025-05-13 08:53:03,793 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-13 08:53:03,861 - INFO - Manifesto encontrado - CTA: CTA, Número: 255084
+2025-05-13 08:53:32,085 - INFO - WebDriver finalizado para placa THW3D31.
+2025-05-13 08:53:32,086 - INFO - Função atualizar_sistema_para_placa (THW3D31) concluída.
+2025-05-13 08:53:32,086 - INFO - Veículo THW3D31 atualizado com sucesso no sistema.
+2025-05-13 08:53:32,089 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:53:37,090 - INFO - Atualizando veículo 6/16: Placa NKS9224 - Pedra Azul/Minas Gerais
+2025-05-13 08:53:37,090 - INFO - Iniciando atualização no SSW para a placa: NKS9224 - Pedra Azul/Minas Gerais
+2025-05-13 08:53:38,734 - INFO - WebDriver iniciado para placa NKS9224.
+2025-05-13 08:53:51,389 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:53:51,498 - INFO - AUTORIZADO encontrado para manifesto: CTA 025507-6
+2025-05-13 08:53:51,498 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255076
+2025-05-13 08:53:51,532 - INFO - AUTORIZADO encontrado para manifesto: CTA 025506-8
+2025-05-13 08:53:51,532 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255068
+2025-05-13 08:53:51,533 - INFO - Total de manifestos encontrados: 2
+2025-05-13 08:53:51,533 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 08:53:51,533 - INFO - Números: ['0255076', '0255068']
+2025-05-13 08:53:51,533 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 08:53:53,786 - INFO - Processando manifesto 1/2: CTA - 0255076
+2025-05-13 08:54:09,854 - INFO - Processando manifesto 2/2: CTA - 0255068
+2025-05-13 08:54:28,866 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 08:54:31,075 - INFO - WebDriver finalizado para placa NKS9224.
+2025-05-13 08:54:31,075 - INFO - Função atualizar_sistema_para_placa (NKS9224) concluída.
+2025-05-13 08:54:31,076 - INFO - Veículo NKS9224 atualizado com sucesso no sistema.
+2025-05-13 08:54:31,076 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:54:36,078 - INFO - Atualizando veículo 7/16: Placa AWN0G48 - São Paulo/São Paulo
+2025-05-13 08:54:36,079 - INFO - Iniciando atualização no SSW para a placa: AWN0G48 - São Paulo/São Paulo
+2025-05-13 08:54:37,884 - INFO - WebDriver iniciado para placa AWN0G48.
+2025-05-13 08:54:55,830 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-13 08:54:55,886 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-13 08:54:58,076 - INFO - WebDriver finalizado para placa AWN0G48.
+2025-05-13 08:54:58,077 - INFO - Função atualizar_sistema_para_placa (AWN0G48) concluída.
+2025-05-13 08:54:58,078 - INFO - Veículo AWN0G48 atualizado com sucesso no sistema.
+2025-05-13 08:54:58,079 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:55:03,080 - INFO - Atualizando veículo 8/16: Placa ATU9I98 - Quatro Barras/Paraná
+2025-05-13 08:55:03,081 - INFO - Iniciando atualização no SSW para a placa: ATU9I98 - Quatro Barras/Paraná
+2025-05-13 08:55:05,049 - INFO - WebDriver iniciado para placa ATU9I98.
+2025-05-13 08:55:17,633 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:55:17,734 - INFO - AUTORIZADO encontrado para manifesto: CTA 025503-3
+2025-05-13 08:55:17,734 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255033
+2025-05-13 08:55:17,805 - INFO - AUTORIZADO encontrado para manifesto: CTA 025502-5
+2025-05-13 08:55:17,807 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255025
+2025-05-13 08:55:17,914 - INFO - Total de manifestos encontrados: 2
+2025-05-13 08:55:17,915 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 08:55:17,915 - INFO - Números: ['0255033', '0255025']
+2025-05-13 08:55:17,915 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 08:55:20,131 - INFO - Processando manifesto 1/2: CTA - 0255033
+2025-05-13 08:55:29,952 - INFO - Processando manifesto 2/2: CTA - 0255025
+2025-05-13 08:55:47,369 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 08:55:49,579 - INFO - WebDriver finalizado para placa ATU9I98.
+2025-05-13 08:55:49,580 - INFO - Função atualizar_sistema_para_placa (ATU9I98) concluída.
+2025-05-13 08:55:49,581 - INFO - Veículo ATU9I98 atualizado com sucesso no sistema.
+2025-05-13 08:55:49,581 - INFO - Progresso: 50% concluído (8/16)
+2025-05-13 08:55:49,583 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:55:54,584 - INFO - Atualizando veículo 9/16: Placa AYW1330 - Santa Maria/Federal District
+2025-05-13 08:55:54,585 - INFO - Iniciando atualização no SSW para a placa: AYW1330 - Santa Maria/Federal District
+2025-05-13 08:55:56,203 - INFO - WebDriver iniciado para placa AYW1330.
+2025-05-13 08:56:08,921 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:56:09,087 - INFO - AUTORIZADO encontrado para manifesto: CTA 025500-9
+2025-05-13 08:56:09,087 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255009
+2025-05-13 08:56:09,118 - INFO - Total de manifestos encontrados: 1
+2025-05-13 08:56:09,118 - INFO - Manifestos CTA: ['CTA']
+2025-05-13 08:56:09,118 - INFO - Números: ['0255009']
+2025-05-13 08:56:09,119 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-13 08:56:11,386 - INFO - Processando manifesto 1/1: CTA - 0255009
+2025-05-13 08:56:25,392 - INFO - Todos os 1 manifestos foram processados
+2025-05-13 08:56:27,598 - INFO - WebDriver finalizado para placa AYW1330.
+2025-05-13 08:56:27,599 - INFO - Função atualizar_sistema_para_placa (AYW1330) concluída.
+2025-05-13 08:56:27,600 - INFO - Veículo AYW1330 atualizado com sucesso no sistema.
+2025-05-13 08:56:27,600 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:56:32,601 - INFO - Atualizando veículo 10/16: Placa AZF4011 - Vitória da Conquista/Bahia
+2025-05-13 08:56:32,602 - INFO - Iniciando atualização no SSW para a placa: AZF4011 - Vitória da Conquista/Bahia
+2025-05-13 08:56:34,188 - INFO - WebDriver iniciado para placa AZF4011.
+2025-05-13 08:56:47,451 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:56:47,595 - INFO - AUTORIZADO encontrado para manifesto: CTA 025466-5
+2025-05-13 08:56:47,596 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254665
+2025-05-13 08:56:47,632 - INFO - AUTORIZADO encontrado para manifesto: CTA 025461-4
+2025-05-13 08:56:47,633 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254614
+2025-05-13 08:56:47,671 - INFO - AUTORIZADO encontrado para manifesto: CTA 025464-9
+2025-05-13 08:56:47,671 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254649
+2025-05-13 08:56:47,704 - INFO - AUTORIZADO encontrado para manifesto: CTA 025431-2
+2025-05-13 08:56:47,705 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254312
+2025-05-13 08:56:47,796 - INFO - Total de manifestos encontrados: 4
+2025-05-13 08:56:47,797 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA', 'CTA']
+2025-05-13 08:56:47,798 - INFO - Números: ['0254665', '0254614', '0254649', '0254312']
+2025-05-13 08:56:47,798 - INFO - Total de manifestos autorizados encontrados: 4
+2025-05-13 08:56:49,984 - INFO - Processando manifesto 1/4: CTA - 0254665
+2025-05-13 08:57:06,446 - INFO - Processando manifesto 2/4: CTA - 0254614
+2025-05-13 08:57:20,352 - INFO - Processando manifesto 3/4: CTA - 0254649
+2025-05-13 08:57:35,256 - INFO - Processando manifesto 4/4: CTA - 0254312
+2025-05-13 08:57:44,994 - INFO - Todos os 4 manifestos foram processados
+2025-05-13 08:57:47,256 - INFO - WebDriver finalizado para placa AZF4011.
+2025-05-13 08:57:47,257 - INFO - Função atualizar_sistema_para_placa (AZF4011) concluída.
+2025-05-13 08:57:47,257 - INFO - Veículo AZF4011 atualizado com sucesso no sistema.
+2025-05-13 08:57:47,259 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:57:52,261 - INFO - Atualizando veículo 11/16: Placa TAK3A03 - Salinas/Minas Gerais
+2025-05-13 08:57:52,261 - INFO - Iniciando atualização no SSW para a placa: TAK3A03 - Salinas/Minas Gerais
+2025-05-13 08:57:53,840 - INFO - WebDriver iniciado para placa TAK3A03.
+2025-05-13 08:58:06,520 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:58:06,621 - INFO - AUTORIZADO encontrado para manifesto: CTA 025495-9
+2025-05-13 08:58:06,622 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254959
+2025-05-13 08:58:06,654 - INFO - AUTORIZADO encontrado para manifesto: CTA 025496-7
+2025-05-13 08:58:06,654 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254967
+2025-05-13 08:58:06,655 - INFO - Total de manifestos encontrados: 2
+2025-05-13 08:58:06,655 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 08:58:06,657 - INFO - Números: ['0254959', '0254967']
+2025-05-13 08:58:06,657 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 08:58:08,882 - INFO - Processando manifesto 1/2: CTA - 0254959
+2025-05-13 08:58:24,786 - INFO - Processando manifesto 2/2: CTA - 0254967
+2025-05-13 08:58:36,554 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 08:58:38,806 - INFO - WebDriver finalizado para placa TAK3A03.
+2025-05-13 08:58:38,806 - INFO - Função atualizar_sistema_para_placa (TAK3A03) concluída.
+2025-05-13 08:58:38,807 - INFO - Veículo TAK3A03 atualizado com sucesso no sistema.
+2025-05-13 08:58:38,807 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:58:43,809 - INFO - Atualizando veículo 12/16: Placa JQI0556 - Estiva/Minas Gerais
+2025-05-13 08:58:43,810 - INFO - Iniciando atualização no SSW para a placa: JQI0556 - Estiva/Minas Gerais
+2025-05-13 08:58:45,274 - INFO - WebDriver iniciado para placa JQI0556.
+2025-05-13 08:59:03,163 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-13 08:59:03,226 - INFO - Manifesto encontrado - CTA: CTA, Número: 254941
+2025-05-13 08:59:25,648 - INFO - WebDriver finalizado para placa JQI0556.
+2025-05-13 08:59:25,649 - INFO - Função atualizar_sistema_para_placa (JQI0556) concluída.
+2025-05-13 08:59:25,650 - INFO - Veículo JQI0556 atualizado com sucesso no sistema.
+2025-05-13 08:59:25,651 - INFO - Progresso: 75% concluído (12/16)
+2025-05-13 08:59:25,653 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 08:59:30,654 - INFO - Atualizando veículo 13/16: Placa BDF9759 - Timon/Maranhão
+2025-05-13 08:59:30,655 - INFO - Iniciando atualização no SSW para a placa: BDF9759 - Timon/Maranhão
+2025-05-13 08:59:32,398 - INFO - WebDriver iniciado para placa BDF9759.
+2025-05-13 08:59:45,052 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 08:59:45,219 - INFO - AUTORIZADO encontrado para manifesto: CTA 025492-4
+2025-05-13 08:59:45,220 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254924
+2025-05-13 08:59:45,275 - INFO - Total de manifestos encontrados: 1
+2025-05-13 08:59:45,275 - INFO - Manifestos CTA: ['CTA']
+2025-05-13 08:59:45,276 - INFO - Números: ['0254924']
+2025-05-13 08:59:45,276 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-13 08:59:47,456 - INFO - Processando manifesto 1/1: CTA - 0254924
+2025-05-13 09:00:25,053 - INFO - Verificando agendamentos - Hora atual: 09:00
+2025-05-13 09:00:30,244 - INFO - Todos os 1 manifestos foram processados
+2025-05-13 09:00:32,442 - INFO - WebDriver finalizado para placa BDF9759.
+2025-05-13 09:00:32,443 - INFO - Função atualizar_sistema_para_placa (BDF9759) concluída.
+2025-05-13 09:00:32,443 - INFO - Veículo BDF9759 atualizado com sucesso no sistema.
+2025-05-13 09:00:32,444 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 09:00:37,445 - INFO - Atualizando veículo 14/16: Placa AOJ0H48 - Maceió/Alagoas
+2025-05-13 09:00:37,446 - INFO - Iniciando atualização no SSW para a placa: AOJ0H48 - Maceió/Alagoas
+2025-05-13 09:00:39,330 - INFO - WebDriver iniciado para placa AOJ0H48.
+2025-05-13 09:00:51,988 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 09:00:52,094 - INFO - AUTORIZADO encontrado para manifesto: CTA 025448-7
+2025-05-13 09:00:52,095 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254487
+2025-05-13 09:00:52,128 - INFO - AUTORIZADO encontrado para manifesto: CTA 025449-5
+2025-05-13 09:00:52,128 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0254495
+2025-05-13 09:00:52,128 - INFO - Total de manifestos encontrados: 2
+2025-05-13 09:00:52,129 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-13 09:00:52,129 - INFO - Números: ['0254487', '0254495']
+2025-05-13 09:00:52,129 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-13 09:00:54,380 - INFO - Processando manifesto 1/2: CTA - 0254487
+2025-05-13 09:01:14,969 - INFO - Processando manifesto 2/2: CTA - 0254495
+2025-05-13 09:01:31,877 - INFO - Todos os 2 manifestos foram processados
+2025-05-13 09:01:34,060 - INFO - WebDriver finalizado para placa AOJ0H48.
+2025-05-13 09:01:34,060 - INFO - Função atualizar_sistema_para_placa (AOJ0H48) concluída.
+2025-05-13 09:01:34,061 - INFO - Veículo AOJ0H48 atualizado com sucesso no sistema.
+2025-05-13 09:01:34,061 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 09:01:39,062 - INFO - Atualizando veículo 15/16: Placa FTT2A72 - Camaçari/Bahia
+2025-05-13 09:01:39,063 - INFO - Iniciando atualização no SSW para a placa: FTT2A72 - Camaçari/Bahia
+2025-05-13 09:01:40,647 - INFO - WebDriver iniciado para placa FTT2A72.
+2025-05-13 09:01:58,788 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-13 09:01:58,836 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-13 09:02:01,123 - INFO - WebDriver finalizado para placa FTT2A72.
+2025-05-13 09:02:01,123 - INFO - Função atualizar_sistema_para_placa (FTT2A72) concluída.
+2025-05-13 09:02:01,124 - INFO - Veículo FTT2A72 atualizado com sucesso no sistema.
+2025-05-13 09:02:01,124 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-13 09:02:06,125 - INFO - Atualizando veículo 16/16: Placa FHR6I05 - Fortaleza/Ceará
+2025-05-13 09:02:06,126 - INFO - Iniciando atualização no SSW para a placa: FHR6I05 - Fortaleza/Ceará
+2025-05-13 09:02:07,798 - INFO - WebDriver iniciado para placa FHR6I05.
+2025-05-13 09:02:20,482 - INFO - Tabela encontrada, processando manifestos...
+2025-05-13 09:02:20,644 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-13 09:02:20,645 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-13 09:02:22,861 - INFO - WebDriver finalizado para placa FHR6I05.
+2025-05-13 09:02:22,862 - INFO - Função atualizar_sistema_para_placa (FHR6I05) concluída.
+2025-05-13 09:02:22,863 - INFO - Veículo FHR6I05 atualizado com sucesso no sistema.
+2025-05-13 09:02:22,866 - INFO - Progresso: 100% concluído (16/16)
+2025-05-13 09:02:22,867 - INFO - Atualização de todos os veículos concluída com sucesso!
+2025-05-13 09:02:22,870 - INFO - Processo finalizado pelo usuário.
+2025-05-13 09:02:22,872 - INFO - Processo de atualização finalizado.
+2025-05-13 09:02:28,898 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 09:02:28,906 - INFO - Janela do aplicativo fechada.
+2025-05-13 09:12:21,745 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 09:12:21,746 - INFO - Nenhum horário de execução configurado
+2025-05-13 09:12:21,746 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 09:14:56,964 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 09:14:56,964 - INFO - Nenhum horário de execução configurado
+2025-05-13 09:14:56,964 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 09:14:58,939 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 09:14:58,953 - INFO - Verificando conexão com a internet...
+2025-05-13 09:14:59,247 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 09:14:59,248 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 09:14:59,248 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 09:14:59,248 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 09:14:59,249 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 09:14:59,450 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 09:14:59,528 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 09:14:59,528 - INFO - Iniciando processo de extração de dados...
+2025-05-13 09:15:01,195 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:15:03,297 - INFO - Aguardando página de login carregar...
+2025-05-13 09:15:03,497 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 09:15:03,740 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 09:15:05,417 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 09:15:05,897 - INFO - Forçando encerramento do programa...
+2025-05-13 09:15:05,897 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 09:15:05,904 - INFO - Janela do aplicativo fechada.
+2025-05-13 09:37:31,774 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 09:37:31,775 - INFO - Nenhum horário de execução configurado
+2025-05-13 09:37:31,776 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 09:37:33,200 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 09:37:33,205 - INFO - Verificando conexão com a internet...
+2025-05-13 09:37:33,669 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 09:37:33,669 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 09:37:33,669 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 09:37:33,670 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 09:37:33,670 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 09:37:34,117 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 09:37:34,202 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 09:37:34,203 - INFO - Iniciando processo de extração de dados...
+2025-05-13 09:37:37,797 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:37:39,697 - INFO - Aguardando página de login carregar...
+2025-05-13 09:37:39,727 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 09:37:39,914 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 09:37:43,737 - INFO - Aguardando redirecionamento após login...
+2025-05-13 09:37:48,761 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:37:48,761 - INFO - Iniciando extração de dados...
+2025-05-13 09:37:48,761 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-13 09:37:48,882 - INFO - Opção de 50 registros por página selecionada
+2025-05-13 09:37:51,414 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 09:37:52,038 - INFO - Forçando encerramento do programa...
+2025-05-13 09:37:52,038 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 09:37:52,056 - INFO - Janela do aplicativo fechada.
+2025-05-13 09:38:38,408 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 09:38:38,408 - INFO - Nenhum horário de execução configurado
+2025-05-13 09:38:38,408 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 09:38:39,519 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 09:38:39,521 - INFO - Verificando conexão com a internet...
+2025-05-13 09:38:39,982 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 09:38:39,982 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 09:38:39,982 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 09:38:39,983 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 09:38:39,983 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 09:38:40,474 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 09:38:40,580 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 09:38:40,581 - INFO - Iniciando processo de extração de dados...
+2025-05-13 09:38:43,725 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:38:45,619 - INFO - Aguardando página de login carregar...
+2025-05-13 09:38:45,647 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 09:38:45,830 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 09:38:48,190 - INFO - Aguardando redirecionamento após login...
+2025-05-13 09:38:48,230 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 09:38:51,206 - INFO - Forçando encerramento do programa...
+2025-05-13 09:38:51,206 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 09:38:51,206 - INFO - Janela do aplicativo fechada.
+2025-05-13 09:51:38,794 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 09:51:38,795 - INFO - Nenhum horário de execução configurado
+2025-05-13 09:51:38,795 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 09:51:40,150 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 09:51:40,159 - INFO - Verificando conexão com a internet...
+2025-05-13 09:51:40,602 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 09:51:40,603 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 09:51:40,603 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 09:51:40,603 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 09:51:40,603 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 09:51:41,044 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 09:51:41,130 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 09:51:41,130 - INFO - Iniciando processo de extração de dados...
+2025-05-13 09:51:47,257 - ERROR - Erro crítico no WebDriver ou Selenium: Message: session not created: Microsoft Edge failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6027802E5+25029]
+	(No symbol) [0x00007FF6026D52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6029FD73A+1947706]
+	(No symbol) [0x00007FF6024E4E6F]
+	(No symbol) [0x00007FF6024E03B3]
+	(No symbol) [0x00007FF6025252CD]
+	(No symbol) [0x00007FF6025243CB]
+	(No symbol) [0x00007FF602518DF3]
+	(No symbol) [0x00007FF6024ED6A6]
+	(No symbol) [0x00007FF6024ECBB3]
+	(No symbol) [0x00007FF6024ED4D3]
+	(No symbol) [0x00007FF6025E638D]
+	(No symbol) [0x00007FF6025F3F2F]
+	(No symbol) [0x00007FF6025EC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6028676EA+284650]
+	(No symbol) [0x00007FF6026E2C81]
+	(No symbol) [0x00007FF6026DB724]
+	(No symbol) [0x00007FF6026DB873]
+	(No symbol) [0x00007FF6026CD4B6]
+	BaseThreadInitThunk [0x00007FFC3F2D7374+20]
+	RtlUserThreadStart [0x00007FFC4023CC91+33]
+Traceback (most recent call last):
+  File "c:\Users\Administrador\Documents\Projetos\auto_rastreador\selenium_bot.py", line 81, in consultar_placas
+    driver = webdriver.Edge(options=edge_options)
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\edge\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.EDGE["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Microsoft Edge failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6027802E5+25029]
+	(No symbol) [0x00007FF6026D52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6029FD73A+1947706]
+	(No symbol) [0x00007FF6024E4E6F]
+	(No symbol) [0x00007FF6024E03B3]
+	(No symbol) [0x00007FF6025252CD]
+	(No symbol) [0x00007FF6025243CB]
+	(No symbol) [0x00007FF602518DF3]
+	(No symbol) [0x00007FF6024ED6A6]
+	(No symbol) [0x00007FF6024ECBB3]
+	(No symbol) [0x00007FF6024ED4D3]
+	(No symbol) [0x00007FF6025E638D]
+	(No symbol) [0x00007FF6025F3F2F]
+	(No symbol) [0x00007FF6025EC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6028676EA+284650]
+	(No symbol) [0x00007FF6026E2C81]
+	(No symbol) [0x00007FF6026DB724]
+	(No symbol) [0x00007FF6026DB873]
+	(No symbol) [0x00007FF6026CD4B6]
+	BaseThreadInitThunk [0x00007FFC3F2D7374+20]
+	RtlUserThreadStart [0x00007FFC4023CC91+33]
+
+2025-05-13 09:51:47,289 - WARNING - Nenhuma placa foi retornada pela função consultar_placas(). O JSON final estará vazio.
+2025-05-13 09:51:47,289 - INFO - Nenhuma placa para processar. Encerrando a consulta à API.
+2025-05-13 09:51:47,290 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-13 09:51:47,290 - WARNING - Nenhum veículo com localização encontrado. Encerrando processamento.
+2025-05-13 09:51:47,297 - INFO - Processo finalizado pelo usuário.
+2025-05-13 09:51:47,298 - INFO - Processo de atualização finalizado.
+2025-05-13 09:51:51,269 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 09:51:51,269 - INFO - Janela do aplicativo fechada.
+2025-05-13 09:53:30,379 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 09:53:30,380 - INFO - Nenhum horário de execução configurado
+2025-05-13 09:53:30,380 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 09:53:31,317 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 09:53:31,321 - INFO - Verificando conexão com a internet...
+2025-05-13 09:53:31,789 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 09:53:31,789 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 09:53:31,790 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 09:53:31,790 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 09:53:31,790 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 09:53:32,245 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 09:53:32,359 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 09:53:32,359 - INFO - Iniciando processo de extração de dados...
+2025-05-13 09:53:35,509 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:53:37,098 - INFO - Aguardando página de login carregar...
+2025-05-13 09:53:37,126 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 09:53:37,325 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 09:53:38,447 - INFO - Aguardando redirecionamento após login...
+2025-05-13 09:53:39,117 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 09:53:43,451 - ERROR - Erro do WebDriver na tentativa 1: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=136.0.3240.64)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6027802E5+25029]
+	(No symbol) [0x00007FF6026D52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6029FD73A+1947706]
+	(No symbol) [0x00007FF60248C28F]
+	(No symbol) [0x00007FF60251EAE0]
+	(No symbol) [0x00007FF60253609A]
+	(No symbol) [0x00007FF602518DF3]
+	(No symbol) [0x00007FF6024ED6A6]
+	(No symbol) [0x00007FF6024ECBB3]
+	(No symbol) [0x00007FF6024ED4D3]
+	(No symbol) [0x00007FF6025E638D]
+	(No symbol) [0x00007FF6025F3F2F]
+	(No symbol) [0x00007FF6025EC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6028676EA+284650]
+	(No symbol) [0x00007FF6026E2C81]
+	(No symbol) [0x00007FF6026DB724]
+	(No symbol) [0x00007FF6026DB873]
+	(No symbol) [0x00007FF6026CD4B6]
+	BaseThreadInitThunk [0x00007FFC3F2D7374+20]
+	RtlUserThreadStart [0x00007FFC4023CC91+33]
+
+2025-05-13 09:53:43,451 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:53:43,454 - ERROR - Erro do WebDriver na tentativa 2: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=136.0.3240.64)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6027802E5+25029]
+	(No symbol) [0x00007FF6026D52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6029FD73A+1947706]
+	(No symbol) [0x00007FF60248C28F]
+	(No symbol) [0x00007FF60251EAE0]
+	(No symbol) [0x00007FF60253609A]
+	(No symbol) [0x00007FF602518DF3]
+	(No symbol) [0x00007FF6024ED6A6]
+	(No symbol) [0x00007FF6024ECBB3]
+	(No symbol) [0x00007FF6024ED4D3]
+	(No symbol) [0x00007FF6025E638D]
+	(No symbol) [0x00007FF6025F3F2F]
+	(No symbol) [0x00007FF6025EC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6028676EA+284650]
+	(No symbol) [0x00007FF6026E2C81]
+	(No symbol) [0x00007FF6026DB724]
+	(No symbol) [0x00007FF6026DB873]
+	(No symbol) [0x00007FF6026CD4B6]
+	BaseThreadInitThunk [0x00007FFC3F2D7374+20]
+	RtlUserThreadStart [0x00007FFC4023CC91+33]
+
+2025-05-13 09:53:43,454 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 09:53:43,459 - ERROR - Erro do WebDriver na tentativa 3: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=136.0.3240.64)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6027802E5+25029]
+	(No symbol) [0x00007FF6026D52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6029FD73A+1947706]
+	(No symbol) [0x00007FF60248C28F]
+	(No symbol) [0x00007FF60251EAE0]
+	(No symbol) [0x00007FF60253609A]
+	(No symbol) [0x00007FF602518DF3]
+	(No symbol) [0x00007FF6024ED6A6]
+	(No symbol) [0x00007FF6024ECBB3]
+	(No symbol) [0x00007FF6024ED4D3]
+	(No symbol) [0x00007FF6025E638D]
+	(No symbol) [0x00007FF6025F3F2F]
+	(No symbol) [0x00007FF6025EC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6028676EA+284650]
+	(No symbol) [0x00007FF6026E2C81]
+	(No symbol) [0x00007FF6026DB724]
+	(No symbol) [0x00007FF6026DB873]
+	(No symbol) [0x00007FF6026CD4B6]
+	BaseThreadInitThunk [0x00007FFC3F2D7374+20]
+	RtlUserThreadStart [0x00007FFC4023CC91+33]
+
+2025-05-13 09:53:43,460 - ERROR - Número máximo de tentativas de login/extração atingido.
+2025-05-13 09:53:45,544 - WARNING - Nenhuma placa foi retornada pela função consultar_placas(). O JSON final estará vazio.
+2025-05-13 09:53:45,545 - INFO - Nenhuma placa para processar. Encerrando a consulta à API.
+2025-05-13 09:53:45,547 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-13 09:53:45,547 - WARNING - Nenhum veículo com localização encontrado. Encerrando processamento.
+2025-05-13 09:53:45,569 - INFO - Processo finalizado pelo usuário.
+2025-05-13 09:53:45,570 - INFO - Processo de atualização finalizado.
+2025-05-13 10:14:40,266 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 10:14:40,268 - INFO - Nenhum horário de execução configurado
+2025-05-13 10:14:40,268 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 10:14:41,404 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 10:14:41,411 - INFO - Verificando conexão com a internet...
+2025-05-13 10:14:41,898 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 10:14:41,898 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 10:14:41,898 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 10:14:41,898 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 10:14:41,898 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 10:14:42,338 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 10:14:42,432 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 10:14:42,432 - INFO - Iniciando processo de extração de dados...
+2025-05-13 10:14:45,531 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 10:14:46,452 - INFO - Aguardando página de login carregar...
+2025-05-13 10:14:47,387 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 10:14:47,579 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 10:14:48,339 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 10:14:48,570 - INFO - Forçando encerramento do programa...
+2025-05-13 10:14:48,570 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 10:14:48,572 - INFO - Janela do aplicativo fechada.
+2025-05-13 10:36:56,980 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 10:36:56,982 - INFO - Nenhum horário de execução configurado
+2025-05-13 10:36:56,982 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 10:36:58,801 - INFO - Abrindo diálogo de configuração de horários...
+2025-05-13 10:36:58,840 - INFO - Carregados 0 horários configurados
+2025-05-13 10:37:00,447 - INFO - Configurações de horários salvas: 1 horários
+2025-05-13 10:37:00,448 - INFO - Novo horário adicionado: 00:00
+2025-05-13 10:37:00,964 - INFO - Horários configurados: 00:00
+2025-05-13 10:37:00,975 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 10:37:00,984 - INFO - Horários carregados: 00:00
+2025-05-13 10:37:03,113 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 10:37:03,116 - INFO - Verificando conexão com a internet...
+2025-05-13 10:37:03,618 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 10:37:03,618 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 10:37:03,618 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 10:37:03,619 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 10:37:03,619 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 10:37:04,077 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 10:37:04,172 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 10:37:04,173 - INFO - Iniciando processo de extração de dados...
+2025-05-13 10:37:08,757 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 10:37:10,231 - INFO - Aguardando página de login carregar...
+2025-05-13 10:37:10,277 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-13 10:37:10,469 - INFO - Tentando clicar no botão de login por ID...
+2025-05-13 10:37:11,104 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 10:37:15,011 - INFO - Aguardando redirecionamento após login...
+2025-05-13 10:37:20,017 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-13 10:37:20,017 - INFO - Iniciando extração de dados...
+2025-05-13 10:37:20,017 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-13 10:37:20,130 - INFO - Opção de 50 registros por página selecionada
+2025-05-13 10:37:27,840 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-13 10:37:28,009 - WARNING - Célula da placa vazia na linha 4
+2025-05-13 10:37:28,017 - INFO - Placa recuperada via JS: AWE-4A37 -> AWE4A37
+2025-05-13 10:37:28,043 - WARNING - Célula da placa vazia na linha 5
+2025-05-13 10:37:28,048 - INFO - Placa recuperada via JS: HNX-2I05 -> HNX2I05
+2025-05-13 10:37:28,071 - WARNING - Célula da placa vazia na linha 6
+2025-05-13 10:37:28,075 - INFO - Placa recuperada via JS: NFL-7I36 -> NFL7I36
+2025-05-13 10:37:28,093 - WARNING - Célula da placa vazia na linha 7
+2025-05-13 10:37:28,097 - INFO - Placa recuperada via JS: THW-3D31 -> THW3D31
+2025-05-13 10:37:28,115 - WARNING - Célula da placa vazia na linha 8
+2025-05-13 10:37:28,122 - INFO - Placa recuperada via JS: NKS-9224 -> NKS9224
+2025-05-13 10:37:28,138 - WARNING - Célula da placa vazia na linha 9
+2025-05-13 10:37:28,143 - INFO - Placa recuperada via JS: AWN-0G48 -> AWN0G48
+2025-05-13 10:37:28,163 - WARNING - Célula da placa vazia na linha 10
+2025-05-13 10:37:28,170 - INFO - Placa recuperada via JS: AZF-4011 -> AZF4011
+2025-05-13 10:37:28,188 - WARNING - Célula da placa vazia na linha 11
+2025-05-13 10:37:28,192 - INFO - Placa recuperada via JS: TAK-3A03 -> TAK3A03
+2025-05-13 10:37:28,210 - WARNING - Célula da placa vazia na linha 12
+2025-05-13 10:37:28,215 - INFO - Placa recuperada via JS: JQI-0556 -> JQI0556
+2025-05-13 10:37:28,233 - WARNING - Célula da placa vazia na linha 13
+2025-05-13 10:37:28,239 - INFO - Placa recuperada via JS: BDF-9759 -> BDF9759
+2025-05-13 10:37:28,890 - WARNING - Célula da placa vazia na linha 14
+2025-05-13 10:37:28,901 - INFO - Placa recuperada via JS: AOJ-0H48 -> AOJ0H48
+2025-05-13 10:37:28,926 - WARNING - Célula da placa vazia na linha 15
+2025-05-13 10:37:28,933 - INFO - Placa recuperada via JS: FTT-2A72 -> FTT2A72
+2025-05-13 10:37:28,957 - WARNING - Célula da placa vazia na linha 16
+2025-05-13 10:37:28,965 - INFO - Placa recuperada via JS: FHR-6I05 -> FHR6I05
+2025-05-13 10:37:28,966 - INFO - Total de placas encontradas: 14
+2025-05-13 10:37:28,966 - INFO - Placa 1: AUC7B87
+2025-05-13 10:37:28,966 - INFO - Placa 2: AWE4A37
+2025-05-13 10:37:28,966 - INFO - Placa 3: HNX2I05
+2025-05-13 10:37:28,967 - INFO - Placa 4: NFL7I36
+2025-05-13 10:37:28,967 - INFO - Placa 5: THW3D31
+2025-05-13 10:37:28,967 - INFO - Placa 6: NKS9224
+2025-05-13 10:37:28,968 - INFO - Placa 7: AWN0G48
+2025-05-13 10:37:28,968 - INFO - Placa 8: AZF4011
+2025-05-13 10:37:28,969 - INFO - Placa 9: TAK3A03
+2025-05-13 10:37:28,970 - INFO - Placa 10: JQI0556
+2025-05-13 10:37:28,971 - INFO - Placa 11: BDF9759
+2025-05-13 10:37:28,971 - INFO - Placa 12: AOJ0H48
+2025-05-13 10:37:28,972 - INFO - Placa 13: FTT2A72
+2025-05-13 10:37:28,973 - INFO - Placa 14: FHR6I05
+2025-05-13 10:37:31,476 - INFO - Placas recebidas para processamento: ['AUC7B87', 'AWE4A37', 'HNX2I05', 'NFL7I36', 'THW3D31', 'NKS9224', 'AWN0G48', 'AZF4011', 'TAK3A03', 'JQI0556', 'BDF9759', 'AOJ0H48', 'FTT2A72', 'FHR6I05']
+2025-05-13 10:37:31,478 - INFO - Obtendo token da API...
+2025-05-13 10:37:31,612 - INFO - Token da API obtido com sucesso.
+2025-05-13 10:37:31,612 - INFO - Processando placa: AUC7B87
+2025-05-13 10:37:33,109 - INFO - Localização para AUC7B87: Juquitiba, São Paulo
+2025-05-13 10:37:33,110 - INFO - Processando placa: AWE4A37
+2025-05-13 10:37:34,592 - INFO - Localização para AWE4A37: Mimoso do Sul, Espírito Santo
+2025-05-13 10:37:34,593 - INFO - Processando placa: HNX2I05
+2025-05-13 10:37:36,042 - INFO - Localização para HNX2I05: Duque de Caxias, Rio de Janeiro
+2025-05-13 10:37:36,042 - INFO - Processando placa: NFL7I36
+2025-05-13 10:37:37,647 - INFO - Localização para NFL7I36: Encruzilhada, Bahia
+2025-05-13 10:37:37,647 - INFO - Processando placa: THW3D31
+2025-05-13 10:37:39,109 - INFO - Localização para THW3D31: Região Geográfica Imediata de Brejo Santo, Ceará
+2025-05-13 10:37:39,110 - INFO - Processando placa: NKS9224
+2025-05-13 10:37:40,588 - INFO - Localização para NKS9224: Vitória da Conquista, Bahia
+2025-05-13 10:37:40,589 - INFO - Processando placa: AWN0G48
+2025-05-13 10:37:42,073 - INFO - Localização para AWN0G48: São Paulo, São Paulo
+2025-05-13 10:37:42,074 - INFO - Processando placa: AZF4011
+2025-05-13 10:37:43,544 - INFO - Localização para AZF4011: Vitória da Conquista, Bahia
+2025-05-13 10:37:43,545 - INFO - Processando placa: TAK3A03
+2025-05-13 10:37:45,023 - INFO - Localização para TAK3A03: Região Geográfica Imediata de Pedra Azul, Minas Gerais
+2025-05-13 10:37:45,024 - INFO - Processando placa: JQI0556
+2025-05-13 10:37:46,480 - INFO - Localização para JQI0556: Estiva, Minas Gerais
+2025-05-13 10:37:46,481 - INFO - Processando placa: BDF9759
+2025-05-13 10:37:47,929 - INFO - Localização para BDF9759: Caxias, Maranhão
+2025-05-13 10:37:47,930 - INFO - Processando placa: AOJ0H48
+2025-05-13 10:37:49,502 - INFO - Localização para AOJ0H48: Joaquim Gomes, Alagoas
+2025-05-13 10:37:49,503 - INFO - Processando placa: FTT2A72
+2025-05-13 10:37:50,962 - INFO - Localização para FTT2A72: Camaçari, Bahia
+2025-05-13 10:37:50,963 - INFO - Processando placa: FHR6I05
+2025-05-13 10:37:52,403 - INFO - Localização para FHR6I05: Fortaleza, Ceará
+2025-05-13 10:37:52,407 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-13 10:37:52,408 - INFO - Total de 14 veículos com localização obtidos.
+2025-05-13 10:37:52,422 - INFO - Processo interrompido pelo usuário.
+2025-05-13 10:37:52,428 - INFO - Processo finalizado pelo usuário.
+2025-05-13 10:37:52,440 - INFO - Processo de atualização finalizado.
+2025-05-13 10:37:59,969 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 10:37:59,970 - INFO - Verificando conexão com a internet...
+2025-05-13 10:38:00,426 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 10:38:00,426 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 10:38:00,426 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 10:38:00,426 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 10:38:00,427 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 10:38:00,536 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 10:38:00,865 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 10:38:00,949 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 10:38:00,953 - INFO - Iniciando processo de extração de dados...
+2025-05-13 10:38:01,096 - INFO - Forçando encerramento do programa...
+2025-05-13 10:38:01,096 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 10:38:01,103 - INFO - Janela do aplicativo fechada.
+2025-05-13 10:38:07,488 - INFO - Timer de verificação de agendamentos iniciado
+2025-05-13 10:38:07,488 - INFO - Horários carregados: 00:00
+2025-05-13 10:38:07,489 - INFO - Sistema iniciado e pronto para uso.
+2025-05-13 10:38:09,114 - INFO - Iniciando processo de atualização do sistema SSW...
+2025-05-13 10:38:09,125 - INFO - Verificando conexão com a internet...
+2025-05-13 10:38:09,595 - INFO - Conexão internet OK! Iniciando atualização do sistema...
+2025-05-13 10:38:09,595 - INFO - Consultando placas e localizações dos veículos...
+2025-05-13 10:38:09,595 - INFO - Iniciando o processo de localização de veículos...
+2025-05-13 10:38:09,595 - INFO - Sistema iniciado e pronto para extração.
+2025-05-13 10:38:09,595 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-13 10:38:10,050 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-13 10:38:10,158 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-13 10:38:10,159 - INFO - Iniciando processo de extração de dados...
+2025-05-13 10:38:11,673 - INFO - Solicitação para interromper o processo recebida. Finalizando operações...
+2025-05-13 10:38:11,928 - INFO - Forçando encerramento do programa...
+2025-05-13 10:38:11,928 - INFO - Aplicativo encerrado pelo usuário.
+2025-05-13 10:38:11,929 - INFO - Janela do aplicativo fechada.

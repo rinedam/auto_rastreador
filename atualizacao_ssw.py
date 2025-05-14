@@ -41,28 +41,30 @@ def verificar_conexao(url="https://www.google.com/"):
         logging.error(f"Erro ao verificar conexão: {e}")
         return False
 
+def setup_edge_options():
+    edge_options = Options()
+    edge_options.add_argument("--log-level=OFF")
+    edge_options.add_argument("--silent")
+    edge_options.add_argument("--disable-logging")
+    edge_options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
+    edge_options.add_experimental_option('useAutomationExtension', False)
+    edge_options.add_experimental_option('prefs', {
+        "credentials_enable_service": False,
+        "profile.password_manager_enabled": False,
+        "logging": {
+            "browser": "OFF",
+            "performance": "OFF"
+        }
+    })
+    return edge_options
+
 def atualizar_sistema_para_placa(placa_atual, cidade, estado):
     """
     Atualiza o sistema SSW para uma placa específica usando cidade e estado.
     """
     logging.info(f"Iniciando atualização no SSW para a placa: {placa_atual} - {cidade}/{estado}")
 
-    edge_options = Options()
-    edge_options.add_argument("--no-sandbox")
-    edge_options.add_argument("--disable-gpu")
-    edge_options.add_argument("--window-size=1920,1080")
-    edge_options.add_argument("--disable-dev-shm-usage")
-    edge_options.add_argument("--disable-blink-features=AutomationControlled")
-    edge_options.add_argument("--disable-extensions")
-    edge_options.add_experimental_option("useAutomationExtension", False)
-    edge_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    edge_options.add_experimental_option('prefs', {
-        "download.prompt_for_download": False,
-        "download.directory_upgrade": True,
-        "safebrowsing.enabled": True,
-        "credentials_enable_service": False,
-        "profile.password_manager_enabled": False
-    })
+    edge_options = setup_edge_options()
         
     driver = None
     try:

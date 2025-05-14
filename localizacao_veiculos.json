@@ -1,48 +1,58 @@
 [
     {
-        "placa": "AWE4A37",
-        "cidade": "Quatro Barras",
-        "estado": "Paraná"
-    },
-    {
-        "placa": "NFL7I36",
-        "cidade": "Região Geográfica Imediata de Montes Claros",
-        "estado": "Minas Gerais"
-    },
-    {
-        "placa": "THW3D31",
-        "cidade": "Vitória da Conquista",
-        "estado": "Bahia"
-    },
-    {
-        "placa": "NKS9224",
-        "cidade": "Curvelo",
-        "estado": "Minas Gerais"
-    },
-    {
         "placa": "AWN0G48",
-        "cidade": "São Paulo",
+        "cidade": "Vargem",
         "estado": "São Paulo"
     },
     {
-        "placa": "ATU9I98",
-        "cidade": "Quatro Barras",
+        "placa": "AZD7648",
+        "cidade": "Região Geográfica Imediata de Posse-Campos Belos",
+        "estado": "Goiás"
+    },
+    {
+        "placa": "MIT0D60",
+        "cidade": "Pouso Alegre",
+        "estado": "Minas Gerais"
+    },
+    {
+        "placa": "NKK1I30",
+        "cidade": "Campina Grande do Sul",
         "estado": "Paraná"
     },
     {
-        "placa": "AYW1330",
-        "cidade": "Uberlândia",
-        "estado": "Minas Gerais"
+        "placa": "IMH3181",
+        "cidade": "Barra do Piraí",
+        "estado": "Rio de Janeiro"
     },
     {
-        "placa": "AZF4011",
-        "cidade": "Medina",
-        "estado": "Minas Gerais"
+        "placa": "AUC7B87",
+        "cidade": "Serra",
+        "estado": "Espírito Santo"
+    },
+    {
+        "placa": "NFL7I36",
+        "cidade": "Juazeiro",
+        "estado": "Bahia"
+    },
+    {
+        "placa": "THW3D31",
+        "cidade": "Tabuleiro do Norte",
+        "estado": "Ceará"
+    },
+    {
+        "placa": "NKS9224",
+        "cidade": "Satuba",
+        "estado": "Alagoas"
+    },
+    {
+        "placa": "AWN0G48",
+        "cidade": "Vargem",
+        "estado": "São Paulo"
     },
     {
         "placa": "TAK3A03",
-        "cidade": "Uberaba",
-        "estado": "Minas Gerais"
+        "cidade": "Região Geográfica Imediata de Brejo Santo",
+        "estado": "Ceará"
     },
     {
         "placa": "JQI0556",
@@ -51,27 +61,12 @@
     },
     {
         "placa": "BDF9759",
-        "cidade": "Santa Luz",
-        "estado": "Piauí"
+        "cidade": "São Luís",
+        "estado": "Maranhão"
     },
     {
         "placa": "AOJ0H48",
-        "cidade": "Maceió",
-        "estado": "Alagoas"
-    },
-    {
-        "placa": "FTT2A72",
-        "cidade": "Simões Filho",
-        "estado": "Bahia"
-    },
-    {
-        "placa": "FHR6I05",
-        "cidade": "Juazeiro do Norte",
-        "estado": "Ceará"
-    },
-    {
-        "placa": "AZD7648",
-        "cidade": "Quatro Barras",
-        "estado": "Paraná"
+        "cidade": "Cabedelo",
+        "estado": "Paraíba"
     }
 ]
