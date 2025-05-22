@@ -1,0 +1,28 @@
+# Considerar apenas arquivos Python como linguagem
+*.py linguist-language=Python
+
+# Ignorar arquivos TeX como documentação
+*.tex linguist-documentation
+
+# Ignorar arquivos HTML como documentação
+*.html linguist-documentation
+
+# Ignorar PDFs como documentação
+*.pdf linguist-documentation
+
+# Ignorar arquivos auxiliares e de compilação LaTeX
+*.aux linguist-generated
+*.log linguist-generated
+*.out linguist-generated
+*.toc linguist-generated
+
+# Ignorar imagens e arquivos binários
+*.png linguist-generated
+*.jpg linguist-generated
+*.jpeg linguist-generated
+*.svg linguist-generated
+
+# Ignorar diretórios inteiros
+build/** linguist-generated
+dist/** linguist-generated
+logs/** linguist-generated
