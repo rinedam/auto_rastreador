@@ -1,0 +1,90 @@
+2025-05-21 08:16:31,463 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-21 08:16:31,464 - INFO - Iniciando o processo de localização de veículos...
+2025-05-21 08:16:31,465 - INFO - Sistema iniciado e pronto para extração.
+2025-05-21 08:16:31,465 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-21 08:16:31,979 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-21 08:16:32,080 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-21 08:16:32,082 - INFO - Iniciando processo de extração de dados...
+2025-05-21 08:16:35,997 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-21 08:16:36,451 - INFO - Aguardando página de login carregar...
+2025-05-21 08:16:37,461 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-21 08:16:37,746 - INFO - Tentando clicar no botão de login por ID...
+2025-05-21 08:16:38,054 - INFO - Aguardando redirecionamento após login...
+2025-05-21 08:16:43,065 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-21 08:16:43,066 - INFO - Iniciando extração de dados...
+2025-05-21 08:16:43,066 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-21 08:16:43,239 - INFO - Opção de 50 registros por página selecionada
+2025-05-21 08:16:45,375 - INFO - Placa processada com sucesso: TAY-4G55 -> TAY4G55
+2025-05-21 08:16:45,397 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-21 08:16:45,421 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-21 08:16:45,449 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-21 08:16:45,472 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-21 08:16:45,489 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-21 08:16:45,509 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-21 08:16:45,532 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-21 08:16:45,550 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-21 08:16:45,567 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-21 08:16:45,587 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-21 08:16:45,621 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-21 08:16:45,642 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-21 08:16:45,659 - INFO - Placa processada com sucesso: AZO-5G94 -> AZO5G94
+2025-05-21 08:16:45,676 - WARNING - Célula da placa vazia na linha 16
+2025-05-21 08:16:45,685 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-21 08:16:45,705 - WARNING - Célula da placa vazia na linha 17
+2025-05-21 08:16:45,710 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-21 08:16:45,713 - INFO - Total de placas encontradas: 16
+2025-05-21 08:16:45,714 - INFO - Placa 1: TAY4G55
+2025-05-21 08:16:45,715 - INFO - Placa 2: MJQ9F49
+2025-05-21 08:16:45,715 - INFO - Placa 3: MFV2F58
+2025-05-21 08:16:45,716 - INFO - Placa 4: EZU2F66
+2025-05-21 08:16:45,718 - INFO - Placa 5: AUC7B87
+2025-05-21 08:16:45,719 - INFO - Placa 6: AOE1440
+2025-05-21 08:16:45,720 - INFO - Placa 7: AYO8H84
+2025-05-21 08:16:45,720 - INFO - Placa 8: MXD4E39
+2025-05-21 08:16:45,721 - INFO - Placa 9: BCJ8G36
+2025-05-21 08:16:45,721 - INFO - Placa 10: RYZ8I09
+2025-05-21 08:16:45,722 - INFO - Placa 11: MIT8I71
+2025-05-21 08:16:45,722 - INFO - Placa 12: AXL6G70
+2025-05-21 08:16:45,722 - INFO - Placa 13: MKQ1B65
+2025-05-21 08:16:45,723 - INFO - Placa 14: AZO5G94
+2025-05-21 08:16:45,723 - INFO - Placa 15: APY4F10
+2025-05-21 08:16:45,723 - INFO - Placa 16: AZD7648
+2025-05-21 08:16:48,121 - INFO - Placas recebidas para processamento: ['TAY4G55', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-21 08:16:48,125 - INFO - Obtendo token da API...
+2025-05-21 08:16:48,285 - INFO - Token da API obtido com sucesso.
+2025-05-21 08:16:48,285 - INFO - Processando placa: TAY4G55
+2025-05-21 08:16:49,750 - INFO - Localização para TAY4G55: Uberlândia, Minas Gerais
+2025-05-21 08:16:49,750 - INFO - Processando placa: MJQ9F49
+2025-05-21 08:16:51,240 - INFO - Localização para MJQ9F49: Quatro Barras, Paraná
+2025-05-21 08:16:51,241 - INFO - Processando placa: MFV2F58
+2025-05-21 08:16:52,681 - INFO - Localização para MFV2F58: Campinorte, Goiás
+2025-05-21 08:16:52,682 - INFO - Processando placa: EZU2F66
+2025-05-21 08:16:52,923 - WARNING - Estrutura de resposta da API inesperada para a placa EZU2F66 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-21 08:16:52,924 - INFO - Processando placa: AUC7B87
+2025-05-21 08:16:54,409 - INFO - Localização para AUC7B87: Quatro Barras, Paraná
+2025-05-21 08:16:54,410 - INFO - Processando placa: AOE1440
+2025-05-21 08:16:55,902 - INFO - Localização para AOE1440: Aparecida de Goiânia, Goiás
+2025-05-21 08:16:55,903 - INFO - Processando placa: AYO8H84
+2025-05-21 08:16:57,320 - INFO - Localização para AYO8H84: Ananindeua, Pará
+2025-05-21 08:16:57,321 - INFO - Processando placa: MXD4E39
+2025-05-21 08:16:58,816 - INFO - Localização para MXD4E39: Conceição do Jacuípe, Bahia
+2025-05-21 08:16:58,817 - INFO - Processando placa: BCJ8G36
+2025-05-21 08:17:00,283 - INFO - Localização para BCJ8G36: Quatro Barras, Paraná
+2025-05-21 08:17:00,283 - INFO - Processando placa: RYZ8I09
+2025-05-21 08:17:01,699 - INFO - Localização para RYZ8I09: Parnamirim, Rio Grande do Norte
+2025-05-21 08:17:01,700 - INFO - Processando placa: MIT8I71
+2025-05-21 08:17:01,961 - WARNING - Estrutura de resposta da API inesperada para a placa MIT8I71 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-21 08:17:01,962 - INFO - Processando placa: AXL6G70
+2025-05-21 08:17:03,446 - INFO - Localização para AXL6G70: Simões Filho, Bahia
+2025-05-21 08:17:03,447 - INFO - Processando placa: MKQ1B65
+2025-05-21 08:17:04,887 - INFO - Localização para MKQ1B65: São Luís, Maranhão
+2025-05-21 08:17:04,888 - INFO - Processando placa: AZO5G94
+2025-05-21 08:17:06,446 - INFO - Localização para AZO5G94: Petrolina, Pernambuco
+2025-05-21 08:17:06,447 - INFO - Processando placa: APY4F10
+2025-05-21 08:17:06,909 - INFO - Nome da cidade ajustado para: Curvelo
+2025-05-21 08:17:07,910 - INFO - Localização para APY4F10: Curvelo, Minas Gerais
+2025-05-21 08:17:07,911 - INFO - Processando placa: AZD7648
+2025-05-21 08:17:09,345 - INFO - Localização para AZD7648: Belém, Pará
+2025-05-21 08:17:09,349 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-21 08:17:09,349 - INFO - Processamento concluído. Dados: [{'placa': 'TAY4G55', 'cidade': 'Uberlândia', 'estado': 'Minas Gerais'}, {'placa': 'MJQ9F49', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'MFV2F58', 'cidade': 'Campinorte', 'estado': 'Goiás'}, {'placa': 'EZU2F66', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}, {'placa': 'AUC7B87', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'AOE1440', 'cidade': 'Aparecida de Goiânia', 'estado': 'Goiás'}, {'placa': 'AYO8H84', 'cidade': 'Ananindeua', 'estado': 'Pará'}, {'placa': 'MXD4E39', 'cidade': 'Conceição do Jacuípe', 'estado': 'Bahia'}, {'placa': 'BCJ8G36', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'RYZ8I09', 'cidade': 'Parnamirim', 'estado': 'Rio Grande do Norte'}, {'placa': 'MIT8I71', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}, {'placa': 'AXL6G70', 'cidade': 'Simões Filho', 'estado': 'Bahia'}, {'placa': 'MKQ1B65', 'cidade': 'São Luís', 'estado': 'Maranhão'}, {'placa': 'AZO5G94', 'cidade': 'Petrolina', 'estado': 'Pernambuco'}, {'placa': 'APY4F10', 'cidade': 'Curvelo', 'estado': 'Minas Gerais'}, {'placa': 'AZD7648', 'cidade': 'Belém', 'estado': 'Pará'}]
+2025-05-21 08:17:09,350 - INFO - Arquivo de saída: localizacao_veiculos.json

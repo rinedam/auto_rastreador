@@ -1,0 +1,496 @@
+2025-05-16 11:09:57,747 - INFO - Iniciando script principal...
+2025-05-16 11:09:57,748 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-16 11:09:57,749 - INFO - Iniciando o processo de localização de veículos...
+2025-05-16 11:09:57,749 - INFO - Sistema iniciado e pronto para extração.
+2025-05-16 11:09:57,749 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-16 11:09:58,333 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-16 11:09:58,435 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-16 11:09:58,436 - INFO - Iniciando processo de extração de dados...
+2025-05-16 11:10:00,645 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-16 11:10:02,123 - INFO - Aguardando página de login carregar...
+2025-05-16 11:10:02,148 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-16 11:10:02,325 - INFO - Tentando clicar no botão de login por ID...
+2025-05-16 11:10:05,208 - INFO - Aguardando redirecionamento após login...
+2025-05-16 11:10:10,217 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-16 11:10:10,218 - INFO - Iniciando extração de dados...
+2025-05-16 11:10:10,218 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-16 11:10:10,335 - INFO - Opção de 50 registros por página selecionada
+2025-05-16 11:10:17,597 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-16 11:10:17,620 - WARNING - Célula da placa vazia na linha 4
+2025-05-16 11:10:17,631 - INFO - Placa recuperada via JS: ARV-8C21 -> ARV8C21
+2025-05-16 11:10:17,654 - WARNING - Célula da placa vazia na linha 5
+2025-05-16 11:10:17,667 - INFO - Placa recuperada via JS: DBL-2I25 -> DBL2I25
+2025-05-16 11:10:17,692 - WARNING - Célula da placa vazia na linha 6
+2025-05-16 11:10:17,701 - INFO - Placa recuperada via JS: AZO-5G94 -> AZO5G94
+2025-05-16 11:10:17,721 - WARNING - Célula da placa vazia na linha 7
+2025-05-16 11:10:17,732 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-16 11:10:17,750 - WARNING - Célula da placa vazia na linha 8
+2025-05-16 11:10:17,755 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-16 11:10:17,775 - WARNING - Célula da placa vazia na linha 9
+2025-05-16 11:10:17,780 - INFO - Placa recuperada via JS: NKK-1I30 -> NKK1I30
+2025-05-16 11:10:17,798 - WARNING - Célula da placa vazia na linha 10
+2025-05-16 11:10:17,802 - INFO - Placa recuperada via JS: IMH-3181 -> IMH3181
+2025-05-16 11:10:17,818 - WARNING - Célula da placa vazia na linha 11
+2025-05-16 11:10:17,824 - INFO - Placa recuperada via JS: ATD-3011 -> ATD3011
+2025-05-16 11:10:17,844 - WARNING - Célula da placa vazia na linha 12
+2025-05-16 11:10:17,849 - INFO - Placa recuperada via JS: NKS-9224 -> NKS9224
+2025-05-16 11:10:17,866 - WARNING - Célula da placa vazia na linha 13
+2025-05-16 11:10:17,871 - INFO - Placa recuperada via JS: TAK-3A03 -> TAK3A03
+2025-05-16 11:10:17,887 - WARNING - Célula da placa vazia na linha 14
+2025-05-16 11:10:17,895 - INFO - Placa recuperada via JS: JQI-0556 -> JQI0556
+2025-05-16 11:10:17,896 - INFO - Total de placas encontradas: 12
+2025-05-16 11:10:17,896 - INFO - Placa 1: MKQ1B65
+2025-05-16 11:10:17,897 - INFO - Placa 2: ARV8C21
+2025-05-16 11:10:17,897 - INFO - Placa 3: DBL2I25
+2025-05-16 11:10:17,897 - INFO - Placa 4: AZO5G94
+2025-05-16 11:10:17,898 - INFO - Placa 5: APY4F10
+2025-05-16 11:10:17,898 - INFO - Placa 6: AZD7648
+2025-05-16 11:10:17,898 - INFO - Placa 7: NKK1I30
+2025-05-16 11:10:17,898 - INFO - Placa 8: IMH3181
+2025-05-16 11:10:17,899 - INFO - Placa 9: ATD3011
+2025-05-16 11:10:17,899 - INFO - Placa 10: NKS9224
+2025-05-16 11:10:17,899 - INFO - Placa 11: TAK3A03
+2025-05-16 11:10:17,899 - INFO - Placa 12: JQI0556
+2025-05-16 11:10:20,521 - INFO - Placas recebidas para processamento: ['MKQ1B65', 'ARV8C21', 'DBL2I25', 'AZO5G94', 'APY4F10', 'AZD7648', 'NKK1I30', 'IMH3181', 'ATD3011', 'NKS9224', 'TAK3A03', 'JQI0556']
+2025-05-16 11:10:20,521 - INFO - Obtendo token da API...
+2025-05-16 11:10:20,642 - INFO - Token da API obtido com sucesso.
+2025-05-16 11:10:20,643 - INFO - Processando placa: MKQ1B65
+2025-05-16 11:10:22,182 - INFO - Localização para MKQ1B65: Wenceslau Braz, Paraná
+2025-05-16 11:10:22,183 - INFO - Processando placa: ARV8C21
+2025-05-16 11:10:22,432 - WARNING - Estrutura de resposta da API inesperada para a placa ARV8C21 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 999, 'Detalhes': '{Mensagem:Object reference not set to an instance of an object.}', 'ErrosValidacao': []}
+2025-05-16 11:10:22,433 - INFO - Processando placa: DBL2I25
+2025-05-16 11:10:23,866 - INFO - Localização para DBL2I25: Garuva, Santa Catarina
+2025-05-16 11:10:23,867 - INFO - Processando placa: AZO5G94
+2025-05-16 11:10:25,284 - INFO - Localização para AZO5G94: Atibaia, São Paulo
+2025-05-16 11:10:25,284 - INFO - Processando placa: APY4F10
+2025-05-16 11:10:25,535 - WARNING - Estrutura de resposta da API inesperada para a placa APY4F10 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 999, 'Detalhes': '{Mensagem:Object reference not set to an instance of an object.}', 'ErrosValidacao': []}
+2025-05-16 11:10:25,536 - INFO - Processando placa: AZD7648
+2025-05-16 11:10:27,089 - INFO - Localização para AZD7648: Miracema do Tocantins, Tocantins
+2025-05-16 11:10:27,090 - INFO - Processando placa: NKK1I30
+2025-05-16 11:10:28,513 - INFO - Localização para NKK1I30: Corinto, Minas Gerais
+2025-05-16 11:10:28,513 - INFO - Processando placa: IMH3181
+2025-05-16 11:10:29,968 - INFO - Localização para IMH3181: Encruzilhada, Bahia
+2025-05-16 11:10:29,969 - INFO - Processando placa: ATD3011
+2025-05-16 11:10:31,412 - INFO - Localização para ATD3011: Boa Nova, Bahia
+2025-05-16 11:10:31,412 - INFO - Processando placa: NKS9224
+2025-05-16 11:10:32,915 - INFO - Localização para NKS9224: Parnamirim, Rio Grande do Norte
+2025-05-16 11:10:32,916 - INFO - Processando placa: TAK3A03
+2025-05-16 11:10:34,363 - INFO - Localização para TAK3A03: Fortaleza, Ceará
+2025-05-16 11:10:34,364 - INFO - Processando placa: JQI0556
+2025-05-16 11:10:35,861 - INFO - Localização para JQI0556: Estiva, Minas Gerais
+2025-05-16 11:10:35,865 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-16 11:10:35,866 - INFO - 12 veículos com localização obtidos.
+2025-05-16 11:10:35,867 - INFO - Iniciando processamento individual de cada veículo no sistema SSW...
+2025-05-16 11:10:35,868 - INFO - Processando veículo 1/12: Placa MKQ1B65 - Wenceslau Braz/Paraná
+2025-05-16 11:10:35,871 - INFO - Iniciando atualização no SSW para a placa: MKQ1B65 - Wenceslau Braz/Paraná
+2025-05-16 11:10:37,545 - INFO - WebDriver iniciado para placa MKQ1B65.
+2025-05-16 11:13:37,623 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:13:37,739 - INFO - AUTORIZADO encontrado para manifesto: CTA 025612-9
+2025-05-16 11:13:37,741 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256129
+2025-05-16 11:13:37,775 - INFO - AUTORIZADO encontrado para manifesto: CTA 025613-7
+2025-05-16 11:13:37,776 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256137
+2025-05-16 11:13:37,777 - INFO - Total de manifestos encontrados: 2
+2025-05-16 11:13:37,778 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-16 11:13:37,779 - INFO - Números: ['0256129', '0256137']
+2025-05-16 11:13:37,782 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-16 11:13:39,991 - INFO - Processando manifesto 1/2: CTA - 0256129
+2025-05-16 11:13:50,280 - INFO - Processando manifesto 2/2: CTA - 0256137
+2025-05-16 11:14:15,586 - INFO - Todos os 2 manifestos foram processados
+2025-05-16 11:14:17,860 - INFO - WebDriver finalizado para placa MKQ1B65.
+2025-05-16 11:14:17,861 - INFO - Função atualizar_sistema_para_placa (MKQ1B65) concluída.
+2025-05-16 11:14:17,862 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:14:22,863 - WARNING - Veículo 2 com dados incompletos. Pulando processamento: {'placa': 'ARV8C21', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}
+2025-05-16 11:14:22,864 - INFO - Processando veículo 3/12: Placa DBL2I25 - Garuva/Santa Catarina
+2025-05-16 11:14:22,865 - INFO - Iniciando atualização no SSW para a placa: DBL2I25 - Garuva/Santa Catarina
+2025-05-16 11:14:24,579 - INFO - WebDriver iniciado para placa DBL2I25.
+2025-05-16 11:14:48,606 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:14:54,050 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-16 11:14:54,050 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-16 11:14:56,248 - INFO - WebDriver finalizado para placa DBL2I25.
+2025-05-16 11:14:56,249 - INFO - Função atualizar_sistema_para_placa (DBL2I25) concluída.
+2025-05-16 11:14:56,249 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:15:01,250 - INFO - Processando veículo 4/12: Placa AZO5G94 - Atibaia/São Paulo
+2025-05-16 11:15:01,250 - INFO - Iniciando atualização no SSW para a placa: AZO5G94 - Atibaia/São Paulo
+2025-05-16 11:15:03,134 - INFO - WebDriver iniciado para placa AZO5G94.
+2025-05-16 11:15:25,936 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:15:26,045 - INFO - AUTORIZADO encontrado para manifesto: CTA 025604-8
+2025-05-16 11:15:26,045 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256048
+2025-05-16 11:15:26,077 - INFO - AUTORIZADO encontrado para manifesto: CTA 025605-6
+2025-05-16 11:15:26,077 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256056
+2025-05-16 11:15:26,108 - INFO - AUTORIZADO encontrado para manifesto: CTA 025600-5
+2025-05-16 11:15:26,109 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256005
+2025-05-16 11:15:26,134 - INFO - AUTORIZADO encontrado para manifesto: CTA 025603-0
+2025-05-16 11:15:26,134 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256030
+2025-05-16 11:15:26,228 - INFO - Total de manifestos encontrados: 4
+2025-05-16 11:15:26,228 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA', 'CTA']
+2025-05-16 11:15:26,228 - INFO - Números: ['0256048', '0256056', '0256005', '0256030']
+2025-05-16 11:15:26,228 - INFO - Total de manifestos autorizados encontrados: 4
+2025-05-16 11:15:28,499 - INFO - Processando manifesto 1/4: CTA - 0256048
+2025-05-16 11:15:45,001 - INFO - Processando manifesto 2/4: CTA - 0256056
+2025-05-16 11:15:54,724 - INFO - Processando manifesto 3/4: CTA - 0256005
+2025-05-16 11:16:05,385 - INFO - Processando manifesto 4/4: CTA - 0256030
+2025-05-16 11:16:19,277 - INFO - Todos os 4 manifestos foram processados
+2025-05-16 11:16:21,512 - INFO - WebDriver finalizado para placa AZO5G94.
+2025-05-16 11:16:21,512 - INFO - Função atualizar_sistema_para_placa (AZO5G94) concluída.
+2025-05-16 11:16:21,513 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:16:26,514 - WARNING - Veículo 5 com dados incompletos. Pulando processamento: {'placa': 'APY4F10', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}
+2025-05-16 11:16:26,515 - INFO - Processando veículo 6/12: Placa AZD7648 - Miracema do Tocantins/Tocantins
+2025-05-16 11:16:26,516 - INFO - Iniciando atualização no SSW para a placa: AZD7648 - Miracema do Tocantins/Tocantins
+2025-05-16 11:16:28,170 - INFO - WebDriver iniciado para placa AZD7648.
+2025-05-16 11:16:48,456 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:16:48,585 - INFO - AUTORIZADO encontrado para manifesto: CTA 025521-1
+2025-05-16 11:16:48,585 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255211
+2025-05-16 11:16:48,621 - INFO - AUTORIZADO encontrado para manifesto: CTA 025520-3
+2025-05-16 11:16:48,621 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255203
+2025-05-16 11:16:48,657 - INFO - AUTORIZADO encontrado para manifesto: CTA 025519-0
+2025-05-16 11:16:48,658 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255190
+2025-05-16 11:16:48,691 - INFO - Total de manifestos encontrados: 3
+2025-05-16 11:16:48,691 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA']
+2025-05-16 11:16:48,692 - INFO - Números: ['0255211', '0255203', '0255190']
+2025-05-16 11:16:48,692 - INFO - Total de manifestos autorizados encontrados: 3
+2025-05-16 11:16:51,005 - INFO - Processando manifesto 1/3: CTA - 0255211
+2025-05-16 11:17:02,264 - INFO - Processando manifesto 2/3: CTA - 0255203
+2025-05-16 11:17:11,844 - INFO - Processando manifesto 3/3: CTA - 0255190
+2025-05-16 11:17:24,621 - INFO - Todos os 3 manifestos foram processados
+2025-05-16 11:17:26,869 - INFO - WebDriver finalizado para placa AZD7648.
+2025-05-16 11:17:26,869 - INFO - Função atualizar_sistema_para_placa (AZD7648) concluída.
+2025-05-16 11:17:26,870 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:17:31,870 - INFO - Processando veículo 7/12: Placa NKK1I30 - Corinto/Minas Gerais
+2025-05-16 11:17:31,871 - INFO - Iniciando atualização no SSW para a placa: NKK1I30 - Corinto/Minas Gerais
+2025-05-16 11:17:33,638 - INFO - WebDriver iniciado para placa NKK1I30.
+2025-05-16 11:18:11,478 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:18:11,573 - INFO - AUTORIZADO encontrado para manifesto: CTA 025570-0
+2025-05-16 11:18:11,574 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255700
+2025-05-16 11:18:11,625 - INFO - Total de manifestos encontrados: 1
+2025-05-16 11:18:11,626 - INFO - Manifestos CTA: ['CTA']
+2025-05-16 11:18:11,626 - INFO - Números: ['0255700']
+2025-05-16 11:18:11,626 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-16 11:18:13,898 - INFO - Processando manifesto 1/1: CTA - 0255700
+2025-05-16 11:18:34,467 - INFO - Todos os 1 manifestos foram processados
+2025-05-16 11:18:37,761 - INFO - WebDriver finalizado para placa NKK1I30.
+2025-05-16 11:18:37,762 - INFO - Função atualizar_sistema_para_placa (NKK1I30) concluída.
+2025-05-16 11:18:37,763 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:18:42,765 - INFO - Processando veículo 8/12: Placa IMH3181 - Encruzilhada/Bahia
+2025-05-16 11:18:42,766 - INFO - Iniciando atualização no SSW para a placa: IMH3181 - Encruzilhada/Bahia
+2025-05-16 11:18:44,441 - INFO - WebDriver iniciado para placa IMH3181.
+2025-05-16 11:19:08,768 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:19:08,866 - INFO - AUTORIZADO encontrado para manifesto: CTA 025564-5
+2025-05-16 11:19:08,867 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255645
+2025-05-16 11:19:08,898 - INFO - AUTORIZADO encontrado para manifesto: CTA 025562-9
+2025-05-16 11:19:08,899 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255629
+2025-05-16 11:19:08,935 - INFO - AUTORIZADO encontrado para manifesto: CTA 025563-7
+2025-05-16 11:19:08,935 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255637
+2025-05-16 11:19:08,935 - INFO - Total de manifestos encontrados: 3
+2025-05-16 11:19:08,936 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA']
+2025-05-16 11:19:08,936 - INFO - Números: ['0255645', '0255629', '0255637']
+2025-05-16 11:19:08,936 - INFO - Total de manifestos autorizados encontrados: 3
+2025-05-16 11:19:11,197 - INFO - Processando manifesto 1/3: CTA - 0255645
+2025-05-16 11:19:22,010 - INFO - Processando manifesto 2/3: CTA - 0255629
+2025-05-16 11:19:37,944 - INFO - Processando manifesto 3/3: CTA - 0255637
+2025-05-16 11:19:50,771 - INFO - Todos os 3 manifestos foram processados
+2025-05-16 11:19:53,010 - INFO - WebDriver finalizado para placa IMH3181.
+2025-05-16 11:19:53,010 - INFO - Função atualizar_sistema_para_placa (IMH3181) concluída.
+2025-05-16 11:19:53,011 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:19:58,012 - INFO - Processando veículo 9/12: Placa ATD3011 - Boa Nova/Bahia
+2025-05-16 11:19:58,013 - INFO - Iniciando atualização no SSW para a placa: ATD3011 - Boa Nova/Bahia
+2025-05-16 11:19:59,706 - INFO - WebDriver iniciado para placa ATD3011.
+2025-05-16 11:20:33,568 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:20:33,674 - INFO - AUTORIZADO encontrado para manifesto: CTA 025513-1
+2025-05-16 11:20:33,675 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255131
+2025-05-16 11:20:33,765 - INFO - Total de manifestos encontrados: 1
+2025-05-16 11:20:33,766 - INFO - Manifestos CTA: ['CTA']
+2025-05-16 11:20:33,766 - INFO - Números: ['0255131']
+2025-05-16 11:20:33,766 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-16 11:20:35,978 - INFO - Processando manifesto 1/1: CTA - 0255131
+2025-05-16 11:20:50,916 - INFO - Todos os 1 manifestos foram processados
+2025-05-16 11:20:53,086 - INFO - WebDriver finalizado para placa ATD3011.
+2025-05-16 11:20:53,087 - INFO - Função atualizar_sistema_para_placa (ATD3011) concluída.
+2025-05-16 11:20:53,088 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:20:58,089 - INFO - Processando veículo 10/12: Placa NKS9224 - Parnamirim/Rio Grande do Norte
+2025-05-16 11:20:58,090 - INFO - Iniciando atualização no SSW para a placa: NKS9224 - Parnamirim/Rio Grande do Norte
+2025-05-16 11:20:59,648 - INFO - WebDriver iniciado para placa NKS9224.
+2025-05-16 11:22:21,079 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:22:21,210 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-16 11:22:21,210 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-16 11:22:23,408 - INFO - WebDriver finalizado para placa NKS9224.
+2025-05-16 11:22:23,409 - INFO - Função atualizar_sistema_para_placa (NKS9224) concluída.
+2025-05-16 11:22:23,409 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:22:28,410 - INFO - Processando veículo 11/12: Placa TAK3A03 - Fortaleza/Ceará
+2025-05-16 11:22:28,411 - INFO - Iniciando atualização no SSW para a placa: TAK3A03 - Fortaleza/Ceará
+2025-05-16 11:22:30,141 - INFO - WebDriver iniciado para placa TAK3A03.
+2025-05-16 11:22:58,338 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 11:22:58,480 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-16 11:22:58,481 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-16 11:23:00,673 - INFO - WebDriver finalizado para placa TAK3A03.
+2025-05-16 11:23:00,674 - INFO - Função atualizar_sistema_para_placa (TAK3A03) concluída.
+2025-05-16 11:23:00,675 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 11:23:05,676 - INFO - Processando veículo 12/12: Placa JQI0556 - Estiva/Minas Gerais
+2025-05-16 11:23:05,676 - INFO - Iniciando atualização no SSW para a placa: JQI0556 - Estiva/Minas Gerais
+2025-05-16 11:23:07,539 - INFO - WebDriver iniciado para placa JQI0556.
+2025-05-16 11:24:39,494 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-16 11:24:39,556 - INFO - Manifesto encontrado - CTA: CTA, Número: 254941
+2025-05-16 11:25:01,032 - INFO - WebDriver finalizado para placa JQI0556.
+2025-05-16 11:25:01,033 - INFO - Função atualizar_sistema_para_placa (JQI0556) concluída.
+2025-05-16 11:25:01,033 - INFO - Todos os veículos listados foram processados.
+2025-05-16 11:25:01,033 - INFO - Script principal finalizado.
+2025-05-16 13:39:57,562 - INFO - Iniciando script principal...
+2025-05-16 13:39:57,563 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-16 13:39:57,564 - INFO - Iniciando o processo de localização de veículos...
+2025-05-16 13:39:57,565 - INFO - Sistema iniciado e pronto para extração.
+2025-05-16 13:39:57,565 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-16 13:39:58,066 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-16 13:39:58,163 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-16 13:39:58,164 - INFO - Iniciando processo de extração de dados...
+2025-05-16 13:40:00,563 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-16 13:40:02,131 - INFO - Aguardando página de login carregar...
+2025-05-16 13:40:02,147 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-16 13:40:02,338 - INFO - Tentando clicar no botão de login por ID...
+2025-05-16 13:40:04,876 - INFO - Aguardando redirecionamento após login...
+2025-05-16 13:40:09,887 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-16 13:40:09,887 - INFO - Iniciando extração de dados...
+2025-05-16 13:40:09,888 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-16 13:40:10,041 - INFO - Opção de 50 registros por página selecionada
+2025-05-16 13:40:17,324 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-16 13:40:17,344 - WARNING - Célula da placa vazia na linha 4
+2025-05-16 13:40:17,355 - INFO - Placa recuperada via JS: MKQ-1B65 -> MKQ1B65
+2025-05-16 13:40:17,379 - WARNING - Célula da placa vazia na linha 5
+2025-05-16 13:40:17,389 - INFO - Placa recuperada via JS: ARV-8C21 -> ARV8C21
+2025-05-16 13:40:17,412 - WARNING - Célula da placa vazia na linha 6
+2025-05-16 13:40:17,422 - INFO - Placa recuperada via JS: DBL-2I25 -> DBL2I25
+2025-05-16 13:40:17,443 - WARNING - Célula da placa vazia na linha 7
+2025-05-16 13:40:17,453 - INFO - Placa recuperada via JS: AZO-5G94 -> AZO5G94
+2025-05-16 13:40:17,473 - WARNING - Célula da placa vazia na linha 8
+2025-05-16 13:40:17,479 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-16 13:40:17,501 - WARNING - Célula da placa vazia na linha 9
+2025-05-16 13:40:17,509 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-16 13:40:17,529 - WARNING - Célula da placa vazia na linha 10
+2025-05-16 13:40:17,537 - INFO - Placa recuperada via JS: NKK-1I30 -> NKK1I30
+2025-05-16 13:40:17,556 - WARNING - Célula da placa vazia na linha 11
+2025-05-16 13:40:17,562 - INFO - Placa recuperada via JS: IMH-3181 -> IMH3181
+2025-05-16 13:40:17,580 - WARNING - Célula da placa vazia na linha 12
+2025-05-16 13:40:17,588 - INFO - Placa recuperada via JS: ATD-3011 -> ATD3011
+2025-05-16 13:40:17,606 - WARNING - Célula da placa vazia na linha 13
+2025-05-16 13:40:17,612 - INFO - Placa recuperada via JS: NKS-9224 -> NKS9224
+2025-05-16 13:40:17,634 - WARNING - Célula da placa vazia na linha 14
+2025-05-16 13:40:17,641 - INFO - Placa recuperada via JS: TAK-3A03 -> TAK3A03
+2025-05-16 13:40:17,662 - WARNING - Célula da placa vazia na linha 15
+2025-05-16 13:40:17,670 - INFO - Placa recuperada via JS: JQI-0556 -> JQI0556
+2025-05-16 13:40:17,670 - INFO - Total de placas encontradas: 13
+2025-05-16 13:40:17,670 - INFO - Placa 1: AXL6G70
+2025-05-16 13:40:17,671 - INFO - Placa 2: MKQ1B65
+2025-05-16 13:40:17,671 - INFO - Placa 3: ARV8C21
+2025-05-16 13:40:17,671 - INFO - Placa 4: DBL2I25
+2025-05-16 13:40:17,671 - INFO - Placa 5: AZO5G94
+2025-05-16 13:40:17,672 - INFO - Placa 6: APY4F10
+2025-05-16 13:40:17,672 - INFO - Placa 7: AZD7648
+2025-05-16 13:40:17,672 - INFO - Placa 8: NKK1I30
+2025-05-16 13:40:17,672 - INFO - Placa 9: IMH3181
+2025-05-16 13:40:17,672 - INFO - Placa 10: ATD3011
+2025-05-16 13:40:17,673 - INFO - Placa 11: NKS9224
+2025-05-16 13:40:17,673 - INFO - Placa 12: TAK3A03
+2025-05-16 13:40:17,673 - INFO - Placa 13: JQI0556
+2025-05-16 13:40:19,964 - INFO - Placas recebidas para processamento: ['AXL6G70', 'MKQ1B65', 'ARV8C21', 'DBL2I25', 'AZO5G94', 'APY4F10', 'AZD7648', 'NKK1I30', 'IMH3181', 'ATD3011', 'NKS9224', 'TAK3A03', 'JQI0556']
+2025-05-16 13:40:19,965 - INFO - Obtendo token da API...
+2025-05-16 13:40:20,094 - INFO - Token da API obtido com sucesso.
+2025-05-16 13:40:20,095 - INFO - Processando placa: AXL6G70
+2025-05-16 13:40:21,633 - INFO - Localização para AXL6G70: São Paulo, São Paulo
+2025-05-16 13:40:21,634 - INFO - Processando placa: MKQ1B65
+2025-05-16 13:40:23,062 - INFO - Localização para MKQ1B65: Wenceslau Braz, Paraná
+2025-05-16 13:40:23,063 - INFO - Processando placa: ARV8C21
+2025-05-16 13:40:23,313 - WARNING - Estrutura de resposta da API inesperada para a placa ARV8C21 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 999, 'Detalhes': '{Mensagem:Object reference not set to an instance of an object.}', 'ErrosValidacao': []}
+2025-05-16 13:40:23,313 - INFO - Processando placa: DBL2I25
+2025-05-16 13:40:24,833 - INFO - Localização para DBL2I25: Garuva, Santa Catarina
+2025-05-16 13:40:24,834 - INFO - Processando placa: AZO5G94
+2025-05-16 13:40:26,573 - INFO - Localização para AZO5G94: Pouso Alegre, Minas Gerais
+2025-05-16 13:40:26,573 - INFO - Processando placa: APY4F10
+2025-05-16 13:40:28,090 - INFO - Localização para APY4F10: Fazenda Rio Grande, Paraná
+2025-05-16 13:40:28,091 - INFO - Processando placa: AZD7648
+2025-05-16 13:40:29,566 - INFO - Localização para AZD7648: Região Geográfica Imediata de Guaraí, Tocantins
+2025-05-16 13:40:29,567 - INFO - Processando placa: NKK1I30
+2025-05-16 13:40:31,052 - INFO - Localização para NKK1I30: Bocaiuva, Minas Gerais
+2025-05-16 13:40:31,053 - INFO - Processando placa: IMH3181
+2025-05-16 13:40:32,570 - INFO - Localização para IMH3181: Vitória da Conquista, Bahia
+2025-05-16 13:40:32,571 - INFO - Processando placa: ATD3011
+2025-05-16 13:40:34,017 - INFO - Localização para ATD3011: Jaguaquara, Bahia
+2025-05-16 13:40:34,017 - INFO - Processando placa: NKS9224
+2025-05-16 13:40:35,476 - INFO - Localização para NKS9224: Parnamirim, Rio Grande do Norte
+2025-05-16 13:40:35,477 - INFO - Processando placa: TAK3A03
+2025-05-16 13:40:36,918 - INFO - Localização para TAK3A03: Fortaleza, Ceará
+2025-05-16 13:40:36,920 - INFO - Processando placa: JQI0556
+2025-05-16 13:40:38,383 - INFO - Localização para JQI0556: Estiva, Minas Gerais
+2025-05-16 13:40:38,388 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-16 13:40:38,389 - INFO - 13 veículos com localização obtidos.
+2025-05-16 13:40:38,391 - INFO - Iniciando processamento individual de cada veículo no sistema SSW...
+2025-05-16 13:40:38,393 - INFO - Processando veículo 1/13: Placa AXL6G70 - São Paulo/São Paulo
+2025-05-16 13:40:38,398 - INFO - Iniciando atualização no SSW para a placa: AXL6G70 - São Paulo/São Paulo
+2025-05-16 13:40:40,023 - INFO - WebDriver iniciado para placa AXL6G70.
+2025-05-16 13:41:04,022 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-16 13:41:04,138 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-16 13:41:06,422 - INFO - WebDriver finalizado para placa AXL6G70.
+2025-05-16 13:41:06,423 - INFO - Função atualizar_sistema_para_placa (AXL6G70) concluída.
+2025-05-16 13:41:06,423 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:41:11,424 - INFO - Processando veículo 2/13: Placa MKQ1B65 - Wenceslau Braz/Paraná
+2025-05-16 13:41:11,426 - INFO - Iniciando atualização no SSW para a placa: MKQ1B65 - Wenceslau Braz/Paraná
+2025-05-16 13:41:13,023 - INFO - WebDriver iniciado para placa MKQ1B65.
+2025-05-16 13:41:34,539 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:41:34,642 - INFO - AUTORIZADO encontrado para manifesto: CTA 025612-9
+2025-05-16 13:41:34,644 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256129
+2025-05-16 13:41:34,676 - INFO - AUTORIZADO encontrado para manifesto: CTA 025613-7
+2025-05-16 13:41:34,676 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256137
+2025-05-16 13:41:34,676 - INFO - Total de manifestos encontrados: 2
+2025-05-16 13:41:34,677 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-16 13:41:34,677 - INFO - Números: ['0256129', '0256137']
+2025-05-16 13:41:34,677 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-16 13:41:37,181 - INFO - Processando manifesto 1/2: CTA - 0256129
+2025-05-16 13:41:47,411 - INFO - Processando manifesto 2/2: CTA - 0256137
+2025-05-16 13:42:09,650 - INFO - Todos os 2 manifestos foram processados
+2025-05-16 13:42:11,983 - INFO - WebDriver finalizado para placa MKQ1B65.
+2025-05-16 13:42:11,983 - INFO - Função atualizar_sistema_para_placa (MKQ1B65) concluída.
+2025-05-16 13:42:11,983 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:42:16,984 - WARNING - Veículo 3 com dados incompletos. Pulando processamento: {'placa': 'ARV8C21', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}
+2025-05-16 13:42:16,985 - INFO - Processando veículo 4/13: Placa DBL2I25 - Garuva/Santa Catarina
+2025-05-16 13:42:16,986 - INFO - Iniciando atualização no SSW para a placa: DBL2I25 - Garuva/Santa Catarina
+2025-05-16 13:42:18,784 - INFO - WebDriver iniciado para placa DBL2I25.
+2025-05-16 13:42:54,853 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:42:55,099 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-16 13:42:55,099 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-16 13:42:57,243 - INFO - WebDriver finalizado para placa DBL2I25.
+2025-05-16 13:42:57,243 - INFO - Função atualizar_sistema_para_placa (DBL2I25) concluída.
+2025-05-16 13:42:57,244 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:43:02,245 - INFO - Processando veículo 5/13: Placa AZO5G94 - Pouso Alegre/Minas Gerais
+2025-05-16 13:43:02,248 - INFO - Iniciando atualização no SSW para a placa: AZO5G94 - Pouso Alegre/Minas Gerais
+2025-05-16 13:43:03,911 - INFO - WebDriver iniciado para placa AZO5G94.
+2025-05-16 13:45:04,501 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:45:04,606 - INFO - AUTORIZADO encontrado para manifesto: CTA 025604-8
+2025-05-16 13:45:04,607 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256048
+2025-05-16 13:45:04,640 - INFO - AUTORIZADO encontrado para manifesto: CTA 025605-6
+2025-05-16 13:45:04,640 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256056
+2025-05-16 13:45:04,674 - INFO - AUTORIZADO encontrado para manifesto: CTA 025600-5
+2025-05-16 13:45:04,676 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256005
+2025-05-16 13:45:04,716 - INFO - AUTORIZADO encontrado para manifesto: CTA 025603-0
+2025-05-16 13:45:04,717 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256030
+2025-05-16 13:45:04,830 - INFO - Total de manifestos encontrados: 4
+2025-05-16 13:45:04,830 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA', 'CTA']
+2025-05-16 13:45:04,830 - INFO - Números: ['0256048', '0256056', '0256005', '0256030']
+2025-05-16 13:45:04,831 - INFO - Total de manifestos autorizados encontrados: 4
+2025-05-16 13:45:07,043 - INFO - Processando manifesto 1/4: CTA - 0256048
+2025-05-16 13:45:24,987 - INFO - Processando manifesto 2/4: CTA - 0256056
+2025-05-16 13:45:34,712 - INFO - Processando manifesto 3/4: CTA - 0256005
+2025-05-16 13:45:44,965 - INFO - Processando manifesto 4/4: CTA - 0256030
+2025-05-16 13:45:57,182 - INFO - Todos os 4 manifestos foram processados
+2025-05-16 13:45:59,382 - INFO - WebDriver finalizado para placa AZO5G94.
+2025-05-16 13:45:59,383 - INFO - Função atualizar_sistema_para_placa (AZO5G94) concluída.
+2025-05-16 13:45:59,384 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:46:04,387 - INFO - Processando veículo 6/13: Placa APY4F10 - Fazenda Rio Grande/Paraná
+2025-05-16 13:46:04,388 - INFO - Iniciando atualização no SSW para a placa: APY4F10 - Fazenda Rio Grande/Paraná
+2025-05-16 13:46:06,254 - INFO - WebDriver iniciado para placa APY4F10.
+2025-05-16 13:46:46,736 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:46:46,842 - INFO - AUTORIZADO encontrado para manifesto: CTA 025595-5
+2025-05-16 13:46:46,843 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255955
+2025-05-16 13:46:46,874 - INFO - AUTORIZADO encontrado para manifesto: CTA 025596-3
+2025-05-16 13:46:46,874 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255963
+2025-05-16 13:46:46,874 - INFO - Total de manifestos encontrados: 2
+2025-05-16 13:46:46,875 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-16 13:46:46,875 - INFO - Números: ['0255955', '0255963']
+2025-05-16 13:46:46,875 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-16 13:46:49,118 - INFO - Processando manifesto 1/2: CTA - 0255955
+2025-05-16 13:47:07,175 - INFO - Processando manifesto 2/2: CTA - 0255963
+2025-05-16 13:47:22,551 - INFO - Todos os 2 manifestos foram processados
+2025-05-16 13:47:24,786 - INFO - WebDriver finalizado para placa APY4F10.
+2025-05-16 13:47:24,786 - INFO - Função atualizar_sistema_para_placa (APY4F10) concluída.
+2025-05-16 13:47:24,787 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:47:29,788 - INFO - Processando veículo 7/13: Placa AZD7648 - Região Geográfica Imediata de Guaraí/Tocantins
+2025-05-16 13:47:29,789 - INFO - Iniciando atualização no SSW para a placa: AZD7648 - Região Geográfica Imediata de Guaraí/Tocantins
+2025-05-16 13:47:31,469 - INFO - WebDriver iniciado para placa AZD7648.
+2025-05-16 13:48:12,404 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:48:12,541 - INFO - AUTORIZADO encontrado para manifesto: CTA 025521-1
+2025-05-16 13:48:12,541 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255211
+2025-05-16 13:48:12,568 - INFO - AUTORIZADO encontrado para manifesto: CTA 025520-3
+2025-05-16 13:48:12,569 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255203
+2025-05-16 13:48:12,597 - INFO - AUTORIZADO encontrado para manifesto: CTA 025519-0
+2025-05-16 13:48:12,598 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255190
+2025-05-16 13:48:12,629 - INFO - Total de manifestos encontrados: 3
+2025-05-16 13:48:12,629 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA']
+2025-05-16 13:48:12,630 - INFO - Números: ['0255211', '0255203', '0255190']
+2025-05-16 13:48:12,630 - INFO - Total de manifestos autorizados encontrados: 3
+2025-05-16 13:48:14,915 - INFO - Processando manifesto 1/3: CTA - 0255211
+2025-05-16 13:48:26,265 - INFO - Processando manifesto 2/3: CTA - 0255203
+2025-05-16 13:48:35,930 - INFO - Processando manifesto 3/3: CTA - 0255190
+2025-05-16 13:48:48,634 - INFO - Todos os 3 manifestos foram processados
+2025-05-16 13:48:50,956 - INFO - WebDriver finalizado para placa AZD7648.
+2025-05-16 13:48:50,957 - INFO - Função atualizar_sistema_para_placa (AZD7648) concluída.
+2025-05-16 13:48:50,958 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:48:55,959 - INFO - Processando veículo 8/13: Placa NKK1I30 - Bocaiuva/Minas Gerais
+2025-05-16 13:48:55,959 - INFO - Iniciando atualização no SSW para a placa: NKK1I30 - Bocaiuva/Minas Gerais
+2025-05-16 13:48:57,436 - INFO - WebDriver iniciado para placa NKK1I30.
+2025-05-16 13:49:27,370 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:49:27,479 - INFO - AUTORIZADO encontrado para manifesto: CTA 025570-0
+2025-05-16 13:49:27,479 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255700
+2025-05-16 13:49:27,542 - INFO - Total de manifestos encontrados: 1
+2025-05-16 13:49:27,542 - INFO - Manifestos CTA: ['CTA']
+2025-05-16 13:49:27,543 - INFO - Números: ['0255700']
+2025-05-16 13:49:27,543 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-16 13:49:30,115 - INFO - Processando manifesto 1/1: CTA - 0255700
+2025-05-16 13:49:48,657 - INFO - Todos os 1 manifestos foram processados
+2025-05-16 13:49:50,995 - INFO - WebDriver finalizado para placa NKK1I30.
+2025-05-16 13:49:50,996 - INFO - Função atualizar_sistema_para_placa (NKK1I30) concluída.
+2025-05-16 13:49:50,996 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:49:55,997 - INFO - Processando veículo 9/13: Placa IMH3181 - Vitória da Conquista/Bahia
+2025-05-16 13:49:55,998 - INFO - Iniciando atualização no SSW para a placa: IMH3181 - Vitória da Conquista/Bahia
+2025-05-16 13:49:57,563 - INFO - WebDriver iniciado para placa IMH3181.
+2025-05-16 13:50:18,479 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 13:50:18,581 - INFO - AUTORIZADO encontrado para manifesto: CTA 025564-5
+2025-05-16 13:50:18,581 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255645
+2025-05-16 13:50:18,608 - INFO - AUTORIZADO encontrado para manifesto: CTA 025562-9
+2025-05-16 13:50:18,610 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255629
+2025-05-16 13:50:18,638 - INFO - AUTORIZADO encontrado para manifesto: CTA 025563-7
+2025-05-16 13:50:18,638 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255637
+2025-05-16 13:50:18,638 - INFO - Total de manifestos encontrados: 3
+2025-05-16 13:50:18,639 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA']
+2025-05-16 13:50:18,639 - INFO - Números: ['0255645', '0255629', '0255637']
+2025-05-16 13:50:18,639 - INFO - Total de manifestos autorizados encontrados: 3
+2025-05-16 13:50:21,083 - INFO - Processando manifesto 1/3: CTA - 0255645
+2025-05-16 13:50:32,344 - INFO - Processando manifesto 2/3: CTA - 0255629
+2025-05-16 13:50:48,324 - INFO - Processando manifesto 3/3: CTA - 0255637
+2025-05-16 13:51:01,146 - INFO - Todos os 3 manifestos foram processados
+2025-05-16 13:51:03,454 - INFO - WebDriver finalizado para placa IMH3181.
+2025-05-16 13:51:03,455 - INFO - Função atualizar_sistema_para_placa (IMH3181) concluída.
+2025-05-16 13:51:03,456 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 13:51:08,457 - INFO - Processando veículo 10/13: Placa ATD3011 - Jaguaquara/Bahia
+2025-05-16 13:51:08,457 - INFO - Iniciando atualização no SSW para a placa: ATD3011 - Jaguaquara/Bahia
+2025-05-16 13:51:10,574 - INFO - WebDriver iniciado para placa ATD3011.
+2025-05-16 14:08:53,215 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 14:08:53,323 - INFO - AUTORIZADO encontrado para manifesto: CTA 025513-1
+2025-05-16 14:08:53,324 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255131
+2025-05-16 14:08:53,391 - INFO - Total de manifestos encontrados: 1
+2025-05-16 14:08:53,392 - INFO - Manifestos CTA: ['CTA']
+2025-05-16 14:08:53,393 - INFO - Números: ['0255131']
+2025-05-16 14:08:53,394 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-16 14:08:55,924 - INFO - Processando manifesto 1/1: CTA - 0255131
+2025-05-16 14:09:15,594 - INFO - Todos os 1 manifestos foram processados
+2025-05-16 14:09:18,045 - INFO - WebDriver finalizado para placa ATD3011.
+2025-05-16 14:09:18,046 - INFO - Função atualizar_sistema_para_placa (ATD3011) concluída.
+2025-05-16 14:09:18,047 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 14:09:23,048 - INFO - Processando veículo 11/13: Placa NKS9224 - Parnamirim/Rio Grande do Norte
+2025-05-16 14:09:23,050 - INFO - Iniciando atualização no SSW para a placa: NKS9224 - Parnamirim/Rio Grande do Norte
+2025-05-16 14:09:24,784 - INFO - WebDriver iniciado para placa NKS9224.
+2025-05-16 14:09:41,663 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 14:09:41,802 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-16 14:09:41,802 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-16 14:09:44,120 - INFO - WebDriver finalizado para placa NKS9224.
+2025-05-16 14:09:44,121 - INFO - Função atualizar_sistema_para_placa (NKS9224) concluída.
+2025-05-16 14:09:44,121 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 14:09:49,122 - INFO - Processando veículo 12/13: Placa TAK3A03 - Fortaleza/Ceará
+2025-05-16 14:09:49,123 - INFO - Iniciando atualização no SSW para a placa: TAK3A03 - Fortaleza/Ceará
+2025-05-16 14:09:50,746 - INFO - WebDriver iniciado para placa TAK3A03.
+2025-05-16 14:10:07,142 - INFO - Tabela encontrada, processando manifestos...
+2025-05-16 14:10:07,294 - WARNING - Nenhum manifesto autorizado encontrado
+2025-05-16 14:10:07,294 - WARNING - Nenhum manifesto autorizado encontrado na tabela
+2025-05-16 14:10:09,482 - INFO - WebDriver finalizado para placa TAK3A03.
+2025-05-16 14:10:09,483 - INFO - Função atualizar_sistema_para_placa (TAK3A03) concluída.
+2025-05-16 14:10:09,484 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-16 14:10:14,486 - INFO - Processando veículo 13/13: Placa JQI0556 - Estiva/Minas Gerais
+2025-05-16 14:10:14,487 - INFO - Iniciando atualização no SSW para a placa: JQI0556 - Estiva/Minas Gerais
+2025-05-16 14:10:15,945 - INFO - WebDriver iniciado para placa JQI0556.
+2025-05-16 14:10:59,477 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-16 14:11:41,756 - INFO - Manifesto encontrado - CTA: CTA, Número: 254941

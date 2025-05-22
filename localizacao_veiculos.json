@@ -1,0 +1,69 @@
+[
+    {
+        "placa": "MKR0G29",
+        "cidade": "Colombo",
+        "estado": "Paraná"
+    },
+    {
+        "placa": "IMI7I73",
+        "cidade": "Curitiba",
+        "estado": "Paraná"
+    },
+    {
+        "placa": "MSH0A08",
+        "Latitude": null,
+        "Longitude": null,
+        "Erro": "Estrutura de resposta inesperada"
+    },
+    {
+        "placa": "FSV4I99",
+        "cidade": "Curitiba",
+        "estado": "Paraná"
+    },
+    {
+        "placa": "OVF8H54",
+        "cidade": "Fazenda Rio Grande",
+        "estado": "Paraná"
+    },
+    {
+        "placa": "TAY4G55",
+        "cidade": "Aparecida de Goiânia",
+        "estado": "Goiás"
+    },
+    {
+        "placa": "MFV2F58",
+        "cidade": "Colinas do Tocantins",
+        "estado": "Tocantins"
+    },
+    {
+        "placa": "EZU2F66",
+        "Latitude": null,
+        "Longitude": null,
+        "Erro": "Estrutura de resposta inesperada"
+    },
+    {
+        "placa": "MXD4E39",
+        "cidade": "Cabo de Santo Agostinho",
+        "estado": "Pernambuco"
+    },
+    {
+        "placa": "AXL6G70",
+        "cidade": "Aracaju",
+        "estado": "Sergipe"
+    },
+    {
+        "placa": "MKQ1B65",
+        "cidade": "São Luís",
+        "estado": "Maranhão"
+    },
+    {
+        "placa": "AZO5G94",
+        "cidade": "Petrolina",
+        "estado": "Pernambuco"
+    },
+    {
+        "placa": "APY4F10",
+        "cidade": "Jequié",
+        "estado": "Bahia"
+    }
+]

@@ -1,0 +1,950 @@
+2025-05-20 08:19:51,967 - INFO - Iniciando script principal...
+2025-05-20 08:19:51,968 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-20 08:19:51,968 - INFO - Iniciando o processo de localização de veículos...
+2025-05-20 08:19:51,969 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 08:19:51,969 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 08:19:52,754 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 08:19:52,850 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 08:19:52,852 - INFO - Iniciando processo de extração de dados...
+2025-05-20 08:19:58,484 - INFO - Acessando URL: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-20 08:19:58,856 - INFO - Aguardando página de login carregar...
+2025-05-20 08:19:59,910 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 08:20:00,104 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 08:20:02,404 - INFO - Aguardando redirecionamento após login...
+2025-05-20 08:20:07,416 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/Rastreamento/Index
+2025-05-20 08:20:07,416 - INFO - Iniciando extração de dados...
+2025-05-20 08:20:07,417 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 08:20:07,551 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 08:20:14,802 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 08:20:14,820 - WARNING - Célula da placa vazia na linha 4
+2025-05-20 08:20:14,831 - INFO - Placa recuperada via JS: MFV-2F58 -> MFV2F58
+2025-05-20 08:20:14,850 - WARNING - Célula da placa vazia na linha 5
+2025-05-20 08:20:14,855 - INFO - Placa recuperada via JS: EZU-2F66 -> EZU2F66
+2025-05-20 08:20:14,871 - WARNING - Célula da placa vazia na linha 6
+2025-05-20 08:20:14,879 - INFO - Placa recuperada via JS: AUC-7B87 -> AUC7B87
+2025-05-20 08:20:14,898 - WARNING - Célula da placa vazia na linha 7
+2025-05-20 08:20:14,902 - INFO - Placa recuperada via JS: AOE-1440 -> AOE1440
+2025-05-20 08:20:14,918 - WARNING - Célula da placa vazia na linha 8
+2025-05-20 08:20:14,924 - INFO - Placa recuperada via JS: MXD-4E39 -> MXD4E39
+2025-05-20 08:20:14,943 - WARNING - Célula da placa vazia na linha 9
+2025-05-20 08:20:14,948 - INFO - Placa recuperada via JS: FSC-2A29 -> FSC2A29
+2025-05-20 08:20:14,965 - WARNING - Célula da placa vazia na linha 10
+2025-05-20 08:20:14,970 - INFO - Placa recuperada via JS: RYZ-8I09 -> RYZ8I09
+2025-05-20 08:20:14,987 - WARNING - Célula da placa vazia na linha 11
+2025-05-20 08:20:14,992 - INFO - Placa recuperada via JS: AXL-6G70 -> AXL6G70
+2025-05-20 08:20:15,010 - WARNING - Célula da placa vazia na linha 12
+2025-05-20 08:20:15,015 - INFO - Placa recuperada via JS: MKQ-1B65 -> MKQ1B65
+2025-05-20 08:20:15,046 - WARNING - Célula da placa vazia na linha 13
+2025-05-20 08:20:15,051 - INFO - Placa recuperada via JS: AZO-5G94 -> AZO5G94
+2025-05-20 08:20:15,068 - WARNING - Célula da placa vazia na linha 14
+2025-05-20 08:20:15,073 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-20 08:20:15,089 - WARNING - Célula da placa vazia na linha 15
+2025-05-20 08:20:15,097 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-20 08:20:15,097 - INFO - Total de placas encontradas: 13
+2025-05-20 08:20:15,098 - INFO - Placa 1: MJQ9F49
+2025-05-20 08:20:15,098 - INFO - Placa 2: MFV2F58
+2025-05-20 08:20:15,098 - INFO - Placa 3: EZU2F66
+2025-05-20 08:20:15,099 - INFO - Placa 4: AUC7B87
+2025-05-20 08:20:15,099 - INFO - Placa 5: AOE1440
+2025-05-20 08:20:15,099 - INFO - Placa 6: MXD4E39
+2025-05-20 08:20:15,099 - INFO - Placa 7: FSC2A29
+2025-05-20 08:20:15,100 - INFO - Placa 8: RYZ8I09
+2025-05-20 08:20:15,100 - INFO - Placa 9: AXL6G70
+2025-05-20 08:20:15,100 - INFO - Placa 10: MKQ1B65
+2025-05-20 08:20:15,100 - INFO - Placa 11: AZO5G94
+2025-05-20 08:20:15,100 - INFO - Placa 12: APY4F10
+2025-05-20 08:20:15,101 - INFO - Placa 13: AZD7648
+2025-05-20 08:20:17,385 - INFO - Placas recebidas para processamento: ['MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'MXD4E39', 'FSC2A29', 'RYZ8I09', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-20 08:20:17,386 - INFO - Obtendo token da API...
+2025-05-20 08:20:17,500 - INFO - Token da API obtido com sucesso.
+2025-05-20 08:20:17,500 - INFO - Processando placa: MJQ9F49
+2025-05-20 08:20:18,990 - INFO - Localização para MJQ9F49: Quatro Barras, Paraná
+2025-05-20 08:20:18,991 - INFO - Processando placa: MFV2F58
+2025-05-20 08:20:20,438 - INFO - Localização para MFV2F58: Itumbiara, Goiás
+2025-05-20 08:20:20,439 - INFO - Processando placa: EZU2F66
+2025-05-20 08:20:20,681 - WARNING - Estrutura de resposta da API inesperada para a placa EZU2F66 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-20 08:20:20,682 - INFO - Processando placa: AUC7B87
+2025-05-20 08:20:22,174 - INFO - Localização para AUC7B87: Quatro Barras, Paraná
+2025-05-20 08:20:22,174 - INFO - Processando placa: AOE1440
+2025-05-20 08:20:23,613 - INFO - Localização para AOE1440: Aparecida de Goiânia, Goiás
+2025-05-20 08:20:23,614 - INFO - Processando placa: MXD4E39
+2025-05-20 08:20:25,116 - INFO - Localização para MXD4E39: Jequié, Bahia
+2025-05-20 08:20:25,117 - INFO - Processando placa: FSC2A29
+2025-05-20 08:20:26,531 - INFO - Localização para FSC2A29: Aparecida de Goiânia, Goiás
+2025-05-20 08:20:26,532 - INFO - Processando placa: RYZ8I09
+2025-05-20 08:20:28,011 - INFO - Localização para RYZ8I09: Xexéu, Pernambuco
+2025-05-20 08:20:28,011 - INFO - Processando placa: AXL6G70
+2025-05-20 08:20:29,596 - INFO - Localização para AXL6G70: Conceição do Jacuípe, Bahia
+2025-05-20 08:20:29,597 - INFO - Processando placa: MKQ1B65
+2025-05-20 08:20:30,994 - INFO - Localização para MKQ1B65: Tuntum, Maranhão
+2025-05-20 08:20:30,995 - INFO - Processando placa: AZO5G94
+2025-05-20 08:20:32,483 - INFO - Localização para AZO5G94: Petrolina, Pernambuco
+2025-05-20 08:20:32,483 - INFO - Processando placa: APY4F10
+2025-05-20 08:20:33,888 - INFO - Localização para APY4F10: Campo Limpo Paulista, São Paulo
+2025-05-20 08:20:33,888 - INFO - Processando placa: AZD7648
+2025-05-20 08:20:35,324 - INFO - Localização para AZD7648: Marituba, Pará
+2025-05-20 08:20:35,330 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-20 08:20:35,331 - INFO - 13 veículos com localização obtidos.
+2025-05-20 08:20:35,336 - INFO - Iniciando processamento individual de cada veículo no sistema SSW...
+2025-05-20 08:20:35,340 - INFO - Processando veículo 1/13: Placa MJQ9F49 - Quatro Barras/Paraná
+2025-05-20 08:20:35,344 - INFO - Iniciando atualização no SSW para a placa: MJQ9F49 - Quatro Barras/Paraná
+2025-05-20 08:20:37,089 - INFO - WebDriver iniciado para placa MJQ9F49.
+2025-05-20 08:20:57,095 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:20:57,176 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:20:57,277 - INFO - AUTORIZADO encontrado para manifesto: CTA 025653-6
+2025-05-20 08:20:57,279 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256536
+2025-05-20 08:20:57,302 - INFO - Pulando linha - penúltima coluna preenchida: 06/05/25 07:24
+2025-05-20 08:20:57,331 - INFO - Pulando linha - penúltima coluna preenchida: 29/04/25 07:27
+2025-05-20 08:20:57,331 - INFO - Total de manifestos encontrados: 1
+2025-05-20 08:20:57,331 - INFO - Manifestos CTA: ['CTA']
+2025-05-20 08:20:57,332 - INFO - Números: ['0256536']
+2025-05-20 08:20:57,332 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-20 08:20:59,541 - INFO - Processando manifesto 1/1: CTA - 0256536
+2025-05-20 08:21:22,602 - INFO - Todos os 1 manifestos foram processados
+2025-05-20 08:21:24,820 - INFO - WebDriver finalizado para placa MJQ9F49.
+2025-05-20 08:21:24,820 - INFO - Função atualizar_sistema_para_placa (MJQ9F49) concluída.
+2025-05-20 08:21:24,821 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:21:29,822 - INFO - Processando veículo 2/13: Placa MFV2F58 - Itumbiara/Goiás
+2025-05-20 08:21:29,823 - INFO - Iniciando atualização no SSW para a placa: MFV2F58 - Itumbiara/Goiás
+2025-05-20 08:21:33,596 - ERROR - Erro crítico na função atualizar_sistema_para_placa (MFV2F58): Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+	GetHandleVerifier [0x00007FF733A302E5+25029]
+	(No symbol) [0x00007FF7339852F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF733CAD73A+1947706]
+	(No symbol) [0x00007FF73379280D]
+	(No symbol) [0x00007FF7337903B3]
+	(No symbol) [0x00007FF7337D52CD]
+	(No symbol) [0x00007FF7337D43CB]
+	(No symbol) [0x00007FF7337C8DF3]
+	(No symbol) [0x00007FF73379D6A6]
+	(No symbol) [0x00007FF73379CBB3]
+	(No symbol) [0x00007FF73379D4D3]
+	(No symbol) [0x00007FF73389638D]
+	(No symbol) [0x00007FF7338A3F2F]
+	(No symbol) [0x00007FF73389C91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF733B176EA+284650]
+	(No symbol) [0x00007FF733992C81]
+	(No symbol) [0x00007FF73398B724]
+	(No symbol) [0x00007FF73398B873]
+	(No symbol) [0x00007FF73397D4B6]
+	BaseThreadInitThunk [0x00007FF9ED437374+20]
+	RtlUserThreadStart [0x00007FF9EE8DCC91+33]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\Documents\Projetos\auto_rastreador\atualizacao_ssw.py", line 71, in atualizar_sistema_para_placa
+    driver = webdriver.Edge(options=edge_options)
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\edge\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.EDGE["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\chromium\webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 260, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 357, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Roaming\Python\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+	GetHandleVerifier [0x00007FF733A302E5+25029]
+	(No symbol) [0x00007FF7339852F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF733CAD73A+1947706]
+	(No symbol) [0x00007FF73379280D]
+	(No symbol) [0x00007FF7337903B3]
+	(No symbol) [0x00007FF7337D52CD]
+	(No symbol) [0x00007FF7337D43CB]
+	(No symbol) [0x00007FF7337C8DF3]
+	(No symbol) [0x00007FF73379D6A6]
+	(No symbol) [0x00007FF73379CBB3]
+	(No symbol) [0x00007FF73379D4D3]
+	(No symbol) [0x00007FF73389638D]
+	(No symbol) [0x00007FF7338A3F2F]
+	(No symbol) [0x00007FF73389C91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF733B176EA+284650]
+	(No symbol) [0x00007FF733992C81]
+	(No symbol) [0x00007FF73398B724]
+	(No symbol) [0x00007FF73398B873]
+	(No symbol) [0x00007FF73397D4B6]
+	BaseThreadInitThunk [0x00007FF9ED437374+20]
+	RtlUserThreadStart [0x00007FF9EE8DCC91+33]
+
+2025-05-20 08:21:33,674 - INFO - Função atualizar_sistema_para_placa (MFV2F58) concluída.
+2025-05-20 08:21:33,674 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:21:38,676 - WARNING - Veículo 3 com dados incompletos. Pulando processamento: {'placa': 'EZU2F66', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}
+2025-05-20 08:21:38,677 - INFO - Processando veículo 4/13: Placa AUC7B87 - Quatro Barras/Paraná
+2025-05-20 08:21:38,677 - INFO - Iniciando atualização no SSW para a placa: AUC7B87 - Quatro Barras/Paraná
+2025-05-20 08:21:40,634 - INFO - WebDriver iniciado para placa AUC7B87.
+2025-05-20 08:22:18,585 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:22:18,655 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:22:18,704 - INFO - AUTORIZADO encontrado para manifesto: CTA 025645-5
+2025-05-20 08:22:18,704 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256455
+2025-05-20 08:22:18,733 - INFO - Pulando linha - penúltima coluna preenchida: 15/05/25 09:55
+2025-05-20 08:22:18,762 - INFO - Pulando linha - penúltima coluna preenchida: 14/05/25 10:39
+2025-05-20 08:22:18,788 - INFO - Pulando linha - penúltima coluna preenchida: 08/05/25 00:32
+2025-05-20 08:22:18,788 - INFO - Total de manifestos encontrados: 1
+2025-05-20 08:22:18,789 - INFO - Manifestos CTA: ['CTA']
+2025-05-20 08:22:18,789 - INFO - Números: ['0256455']
+2025-05-20 08:22:18,790 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-20 08:22:21,037 - INFO - Processando manifesto 1/1: CTA - 0256455
+2025-05-20 08:22:35,893 - INFO - Todos os 1 manifestos foram processados
+2025-05-20 08:22:38,173 - INFO - WebDriver finalizado para placa AUC7B87.
+2025-05-20 08:22:38,174 - INFO - Função atualizar_sistema_para_placa (AUC7B87) concluída.
+2025-05-20 08:22:38,174 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:22:43,175 - INFO - Processando veículo 5/13: Placa AOE1440 - Aparecida de Goiânia/Goiás
+2025-05-20 08:22:43,176 - INFO - Iniciando atualização no SSW para a placa: AOE1440 - Aparecida de Goiânia/Goiás
+2025-05-20 08:22:45,333 - INFO - WebDriver iniciado para placa AOE1440.
+2025-05-20 08:23:01,904 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:23:01,969 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:23:01,999 - INFO - Pulando linha - penúltima coluna preenchida: 19/05/25 08:18
+2025-05-20 08:23:02,038 - INFO - AUTORIZADO encontrado para manifesto: CTA 025644-7
+2025-05-20 08:23:02,039 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256447
+2025-05-20 08:23:02,069 - INFO - Pulando linha - penúltima coluna preenchida: 08/05/25 11:18
+2025-05-20 08:23:02,105 - INFO - Pulando linha - penúltima coluna preenchida: 07/05/25 08:32
+2025-05-20 08:23:02,139 - INFO - Pulando linha - penúltima coluna preenchida: 05/05/25 09:03
+2025-05-20 08:23:02,165 - INFO - Pulando linha - penúltima coluna preenchida: 24/04/25 12:10
+2025-05-20 08:23:02,166 - INFO - Total de manifestos encontrados: 1
+2025-05-20 08:23:02,166 - INFO - Manifestos CTA: ['CTA']
+2025-05-20 08:23:02,167 - INFO - Números: ['0256447']
+2025-05-20 08:23:02,167 - INFO - Total de manifestos autorizados encontrados: 1
+2025-05-20 08:23:04,484 - INFO - Processando manifesto 1/1: CTA - 0256447
+2025-05-20 08:23:19,010 - INFO - Todos os 1 manifestos foram processados
+2025-05-20 08:23:21,236 - INFO - WebDriver finalizado para placa AOE1440.
+2025-05-20 08:23:21,236 - INFO - Função atualizar_sistema_para_placa (AOE1440) concluída.
+2025-05-20 08:23:21,237 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:23:26,238 - INFO - Processando veículo 6/13: Placa MXD4E39 - Jequié/Bahia
+2025-05-20 08:23:26,239 - INFO - Iniciando atualização no SSW para a placa: MXD4E39 - Jequié/Bahia
+2025-05-20 08:23:28,033 - INFO - WebDriver iniciado para placa MXD4E39.
+2025-05-20 08:23:46,538 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:23:46,608 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:23:46,659 - INFO - AUTORIZADO encontrado para manifesto: CTA 025631-5
+2025-05-20 08:23:46,660 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256315
+2025-05-20 08:23:46,705 - INFO - AUTORIZADO encontrado para manifesto: CTA 025632-3
+2025-05-20 08:23:46,705 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256323
+2025-05-20 08:23:46,706 - INFO - Total de manifestos encontrados: 2
+2025-05-20 08:23:46,706 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-20 08:23:46,707 - INFO - Números: ['0256315', '0256323']
+2025-05-20 08:23:46,707 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-20 08:23:48,927 - INFO - Processando manifesto 1/2: CTA - 0256315
+2025-05-20 08:24:00,636 - INFO - Processando manifesto 2/2: CTA - 0256323
+2025-05-20 08:24:22,168 - INFO - Todos os 2 manifestos foram processados
+2025-05-20 08:24:24,386 - INFO - WebDriver finalizado para placa MXD4E39.
+2025-05-20 08:24:24,387 - INFO - Função atualizar_sistema_para_placa (MXD4E39) concluída.
+2025-05-20 08:24:24,387 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:24:29,388 - INFO - Processando veículo 7/13: Placa FSC2A29 - Aparecida de Goiânia/Goiás
+2025-05-20 08:24:29,388 - INFO - Iniciando atualização no SSW para a placa: FSC2A29 - Aparecida de Goiânia/Goiás
+2025-05-20 08:24:31,148 - INFO - WebDriver iniciado para placa FSC2A29.
+2025-05-20 08:25:03,300 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-20 08:25:03,458 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-20 08:25:05,646 - INFO - WebDriver finalizado para placa FSC2A29.
+2025-05-20 08:25:05,646 - INFO - Função atualizar_sistema_para_placa (FSC2A29) concluída.
+2025-05-20 08:25:05,647 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:25:10,648 - INFO - Processando veículo 8/13: Placa RYZ8I09 - Xexéu/Pernambuco
+2025-05-20 08:25:10,648 - INFO - Iniciando atualização no SSW para a placa: RYZ8I09 - Xexéu/Pernambuco
+2025-05-20 08:25:14,617 - INFO - WebDriver iniciado para placa RYZ8I09.
+2025-05-20 08:25:31,321 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:25:31,388 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:25:31,432 - INFO - AUTORIZADO encontrado para manifesto: CTA 025610-2
+2025-05-20 08:25:31,433 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256102
+2025-05-20 08:25:31,469 - INFO - AUTORIZADO encontrado para manifesto: CTA 025606-4
+2025-05-20 08:25:31,472 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256064
+2025-05-20 08:25:31,472 - INFO - Total de manifestos encontrados: 2
+2025-05-20 08:25:31,473 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-20 08:25:31,474 - INFO - Números: ['0256102', '0256064']
+2025-05-20 08:25:31,474 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-20 08:25:33,657 - INFO - Processando manifesto 1/2: CTA - 0256102
+2025-05-20 08:25:51,432 - INFO - Processando manifesto 2/2: CTA - 0256064
+2025-05-20 08:26:15,550 - INFO - Todos os 2 manifestos foram processados
+2025-05-20 08:26:17,770 - INFO - WebDriver finalizado para placa RYZ8I09.
+2025-05-20 08:26:17,771 - INFO - Função atualizar_sistema_para_placa (RYZ8I09) concluída.
+2025-05-20 08:26:17,771 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:26:22,772 - INFO - Processando veículo 9/13: Placa AXL6G70 - Conceição do Jacuípe/Bahia
+2025-05-20 08:26:22,772 - INFO - Iniciando atualização no SSW para a placa: AXL6G70 - Conceição do Jacuípe/Bahia
+2025-05-20 08:26:24,936 - INFO - WebDriver iniciado para placa AXL6G70.
+2025-05-20 08:26:48,415 - INFO - Tabela não encontrada, executando fluxo alternativo...
+2025-05-20 08:26:48,527 - WARNING - Nenhum manifesto válido encontrado no formulário
+2025-05-20 08:26:50,722 - INFO - WebDriver finalizado para placa AXL6G70.
+2025-05-20 08:26:50,723 - INFO - Função atualizar_sistema_para_placa (AXL6G70) concluída.
+2025-05-20 08:26:50,724 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:26:55,725 - INFO - Processando veículo 10/13: Placa MKQ1B65 - Tuntum/Maranhão
+2025-05-20 08:26:55,726 - INFO - Iniciando atualização no SSW para a placa: MKQ1B65 - Tuntum/Maranhão
+2025-05-20 08:26:58,200 - INFO - WebDriver iniciado para placa MKQ1B65.
+2025-05-20 08:27:19,457 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:27:19,567 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:27:19,639 - INFO - AUTORIZADO encontrado para manifesto: CTA 025612-9
+2025-05-20 08:27:19,640 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256129
+2025-05-20 08:27:19,688 - INFO - AUTORIZADO encontrado para manifesto: CTA 025613-7
+2025-05-20 08:27:19,689 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256137
+2025-05-20 08:27:19,689 - INFO - Total de manifestos encontrados: 2
+2025-05-20 08:27:19,689 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-20 08:27:19,689 - INFO - Números: ['0256129', '0256137']
+2025-05-20 08:27:19,690 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-20 08:27:21,974 - INFO - Processando manifesto 1/2: CTA - 0256129
+2025-05-20 08:27:32,528 - INFO - Processando manifesto 2/2: CTA - 0256137
+2025-05-20 08:27:53,655 - INFO - Todos os 2 manifestos foram processados
+2025-05-20 08:27:55,863 - INFO - WebDriver finalizado para placa MKQ1B65.
+2025-05-20 08:27:55,864 - INFO - Função atualizar_sistema_para_placa (MKQ1B65) concluída.
+2025-05-20 08:27:55,864 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:28:00,865 - INFO - Processando veículo 11/13: Placa AZO5G94 - Petrolina/Pernambuco
+2025-05-20 08:28:00,866 - INFO - Iniciando atualização no SSW para a placa: AZO5G94 - Petrolina/Pernambuco
+2025-05-20 08:28:02,922 - INFO - WebDriver iniciado para placa AZO5G94.
+2025-05-20 08:28:26,455 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:28:26,525 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:28:26,559 - INFO - Pulando linha - penúltima coluna preenchida: 20/05/25 08:25
+2025-05-20 08:28:26,608 - INFO - AUTORIZADO encontrado para manifesto: CTA 025605-6
+2025-05-20 08:28:26,608 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256056
+2025-05-20 08:28:26,655 - INFO - AUTORIZADO encontrado para manifesto: CTA 025600-5
+2025-05-20 08:28:26,656 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256005
+2025-05-20 08:28:26,707 - INFO - AUTORIZADO encontrado para manifesto: CTA 025604-8
+2025-05-20 08:28:26,707 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0256048
+2025-05-20 08:28:26,743 - INFO - Pulando linha - penúltima coluna preenchida: 29/04/25 13:05
+2025-05-20 08:28:26,779 - INFO - Pulando linha - penúltima coluna preenchida: 06/05/25 10:44
+2025-05-20 08:28:26,812 - INFO - Pulando linha - penúltima coluna preenchida: 02/05/25 08:22
+2025-05-20 08:28:26,843 - INFO - Pulando linha - penúltima coluna preenchida: 05/05/25 16:03
+2025-05-20 08:28:26,844 - INFO - Total de manifestos encontrados: 3
+2025-05-20 08:28:26,844 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA']
+2025-05-20 08:28:26,844 - INFO - Números: ['0256056', '0256005', '0256048']
+2025-05-20 08:28:26,845 - INFO - Total de manifestos autorizados encontrados: 3
+2025-05-20 08:28:29,040 - INFO - Processando manifesto 1/3: CTA - 0256056
+2025-05-20 08:28:38,629 - INFO - Processando manifesto 2/3: CTA - 0256005
+2025-05-20 08:28:48,747 - INFO - Processando manifesto 3/3: CTA - 0256048
+2025-05-20 08:29:07,813 - INFO - Todos os 3 manifestos foram processados
+2025-05-20 08:29:10,052 - INFO - WebDriver finalizado para placa AZO5G94.
+2025-05-20 08:29:10,052 - INFO - Função atualizar_sistema_para_placa (AZO5G94) concluída.
+2025-05-20 08:29:10,052 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:29:15,054 - INFO - Processando veículo 12/13: Placa APY4F10 - Campo Limpo Paulista/São Paulo
+2025-05-20 08:29:15,055 - INFO - Iniciando atualização no SSW para a placa: APY4F10 - Campo Limpo Paulista/São Paulo
+2025-05-20 08:29:16,708 - INFO - WebDriver iniciado para placa APY4F10.
+2025-05-20 08:29:55,343 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:29:55,418 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:29:55,467 - INFO - AUTORIZADO encontrado para manifesto: CTA 025595-5
+2025-05-20 08:29:55,468 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255955
+2025-05-20 08:29:55,517 - INFO - AUTORIZADO encontrado para manifesto: CTA 025596-3
+2025-05-20 08:29:55,517 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255963
+2025-05-20 08:29:55,518 - INFO - Total de manifestos encontrados: 2
+2025-05-20 08:29:55,518 - INFO - Manifestos CTA: ['CTA', 'CTA']
+2025-05-20 08:29:55,518 - INFO - Números: ['0255955', '0255963']
+2025-05-20 08:29:55,518 - INFO - Total de manifestos autorizados encontrados: 2
+2025-05-20 08:29:57,799 - INFO - Processando manifesto 1/2: CTA - 0255955
+2025-05-20 08:30:31,683 - INFO - Processando manifesto 2/2: CTA - 0255963
+2025-05-20 08:30:47,198 - INFO - Todos os 2 manifestos foram processados
+2025-05-20 08:30:49,780 - INFO - WebDriver finalizado para placa APY4F10.
+2025-05-20 08:30:49,781 - INFO - Função atualizar_sistema_para_placa (APY4F10) concluída.
+2025-05-20 08:30:49,782 - INFO - Aguardando intervalo antes do próximo veículo...
+2025-05-20 08:30:54,783 - INFO - Processando veículo 13/13: Placa AZD7648 - Marituba/Pará
+2025-05-20 08:30:54,784 - INFO - Iniciando atualização no SSW para a placa: AZD7648 - Marituba/Pará
+2025-05-20 08:30:56,458 - INFO - WebDriver iniciado para placa AZD7648.
+2025-05-20 08:31:16,777 - INFO - Tabela encontrada, processando manifestos...
+2025-05-20 08:31:16,852 - INFO - Pulando linha - penúltima coluna preenchida: Chegada
+2025-05-20 08:31:16,884 - INFO - Pulando linha - penúltima coluna preenchida: 15/05/25 08:22
+2025-05-20 08:31:16,935 - INFO - AUTORIZADO encontrado para manifesto: CTA 025521-1
+2025-05-20 08:31:16,936 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255211
+2025-05-20 08:31:16,980 - INFO - AUTORIZADO encontrado para manifesto: CTA 025520-3
+2025-05-20 08:31:16,981 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255203
+2025-05-20 08:31:17,028 - INFO - AUTORIZADO encontrado para manifesto: CTA 025519-0
+2025-05-20 08:31:17,029 - INFO - Manifesto processado e armazenado: CTA=CTA, Número=0255190
+2025-05-20 08:31:17,063 - INFO - Pulando linha - penúltima coluna preenchida: 16/05/25 08:15
+2025-05-20 08:31:17,064 - INFO - Total de manifestos encontrados: 3
+2025-05-20 08:31:17,064 - INFO - Manifestos CTA: ['CTA', 'CTA', 'CTA']
+2025-05-20 08:31:17,066 - INFO - Números: ['0255211', '0255203', '0255190']
+2025-05-20 08:31:17,067 - INFO - Total de manifestos autorizados encontrados: 3
+2025-05-20 08:31:19,305 - INFO - Processando manifesto 1/3: CTA - 0255211
+2025-05-20 08:31:30,971 - INFO - Processando manifesto 2/3: CTA - 0255203
+2025-05-20 08:31:40,541 - INFO - Processando manifesto 3/3: CTA - 0255190
+2025-05-20 08:31:53,282 - INFO - Todos os 3 manifestos foram processados
+2025-05-20 08:31:55,538 - INFO - WebDriver finalizado para placa AZD7648.
+2025-05-20 08:31:55,540 - INFO - Função atualizar_sistema_para_placa (AZD7648) concluída.
+2025-05-20 08:31:55,541 - INFO - Todos os veículos listados foram processados.
+2025-05-20 08:31:55,541 - INFO - Script principal finalizado.
+2025-05-20 10:03:30,934 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:03:30,935 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:03:30,935 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:03:31,412 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:03:31,538 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:03:31,539 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:03:35,369 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:03:37,436 - INFO - Aguardando página de login carregar...
+2025-05-20 10:03:37,476 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:03:37,661 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:03:37,986 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:03:43,028 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:03:43,029 - INFO - Iniciando extração de dados...
+2025-05-20 10:03:43,030 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:03:43,231 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:03:45,323 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:03:45,341 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:03:45,360 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:03:45,378 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:03:45,400 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:03:45,422 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:03:45,440 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:03:45,459 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:03:45,476 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:03:45,496 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:03:45,519 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:03:45,541 - WARNING - Célula da placa vazia na linha 13
+2025-05-20 10:03:45,547 - INFO - Placa sem traço via JS adicionada: 0,281 KM DE REDE FLECHA
+2025-05-20 10:03:45,569 - WARNING - Célula da placa vazia na linha 14
+2025-05-20 10:03:45,574 - INFO - Placa sem traço via JS adicionada: 2,407 KM DE SANTO ANTONIO DOS LOPES
+2025-05-20 10:03:45,593 - WARNING - Célula da placa vazia na linha 15
+2025-05-20 10:03:45,598 - INFO - Placa recuperada via JS: 1,816 KM DE RUA DOIS - COHAB IV - PETROLINA, PERNAMBUCO - BRASIL -> 1,816 KM DE RUA DOIS  COHAB IV  PETROLINA, PERNAMBUCO  BRASIL
+2025-05-20 10:03:45,619 - WARNING - Célula da placa vazia na linha 16
+2025-05-20 10:03:45,626 - INFO - Placa recuperada via JS: 0,440 KM DE P. PAULINO - ITAPEVA/MG -> 0,440 KM DE P. PAULINO  ITAPEVA/MG
+2025-05-20 10:03:45,643 - WARNING - Célula da placa vazia na linha 17
+2025-05-20 10:03:45,647 - INFO - Placa recuperada via JS: 0,098 KM DE P. JACAUNA - ANANINDEUA/PA -> 0,098 KM DE P. JACAUNA  ANANINDEUA/PA
+2025-05-20 10:03:45,648 - INFO - Total de placas encontradas: 16
+2025-05-20 10:03:45,648 - INFO - Placa 1: DBL2I25
+2025-05-20 10:03:45,649 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:03:45,651 - INFO - Placa 3: MFV2F58
+2025-05-20 10:03:45,654 - INFO - Placa 4: EZU2F66
+2025-05-20 10:03:45,656 - INFO - Placa 5: AUC7B87
+2025-05-20 10:03:45,657 - INFO - Placa 6: AOE1440
+2025-05-20 10:03:45,658 - INFO - Placa 7: AYO8H84
+2025-05-20 10:03:45,658 - INFO - Placa 8: MXD4E39
+2025-05-20 10:03:45,658 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:03:45,658 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:03:45,659 - INFO - Placa 11: MIT8I71
+2025-05-20 10:03:45,659 - INFO - Placa 12: 0,281 KM DE REDE FLECHA
+2025-05-20 10:03:45,659 - INFO - Placa 13: 2,407 KM DE SANTO ANTONIO DOS LOPES
+2025-05-20 10:03:45,660 - INFO - Placa 14: 1,816 KM DE RUA DOIS  COHAB IV  PETROLINA, PERNAMBUCO  BRASIL
+2025-05-20 10:03:45,660 - INFO - Placa 15: 0,440 KM DE P. PAULINO  ITAPEVA/MG
+2025-05-20 10:03:45,661 - INFO - Placa 16: 0,098 KM DE P. JACAUNA  ANANINDEUA/PA
+2025-05-20 10:03:48,076 - INFO - Placas extraídas com sucesso: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', '0,281 KM DE REDE FLECHA', '2,407 KM DE SANTO ANTONIO DOS LOPES', '1,816 KM DE RUA DOIS  COHAB IV  PETROLINA, PERNAMBUCO  BRASIL', '0,440 KM DE P. PAULINO  ITAPEVA/MG', '0,098 KM DE P. JACAUNA  ANANINDEUA/PA']
+2025-05-20 10:03:48,078 - INFO - Programa finalizado
+2025-05-20 10:05:18,165 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:05:18,167 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:05:18,167 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:05:18,681 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:05:18,790 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:05:18,791 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:05:20,477 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:05:22,382 - INFO - Aguardando página de login carregar...
+2025-05-20 10:05:22,402 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:05:22,572 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:05:22,830 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:05:27,841 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:05:27,841 - INFO - Iniciando extração de dados...
+2025-05-20 10:05:27,842 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:05:28,007 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:05:50,126 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:05:55,822 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:06:02,334 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:06:06,911 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:06:12,087 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:06:17,286 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:06:20,615 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:06:24,398 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:06:32,439 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:06:39,605 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:06:59,799 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:07:10,278 - WARNING - Célula da placa vazia na linha 13
+2025-05-20 10:07:30,004 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:07:30,004 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:07:30,006 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:07:30,483 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:07:30,579 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:07:30,579 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:07:32,299 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:07:33,524 - INFO - Aguardando página de login carregar...
+2025-05-20 10:07:34,608 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:07:34,782 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:07:35,019 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:07:40,034 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:07:40,035 - INFO - Iniciando extração de dados...
+2025-05-20 10:07:40,035 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:07:40,135 - ERROR - Erro ao configurar número de registros na tabela: Message: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72AC902E5+25029]
+	(No symbol) [0x00007FF72ABE52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF72AF0D73A+1947706]
+	(No symbol) [0x00007FF72A9C230C]
+	(No symbol) [0x00007FF72A9C4B9C]
+	(No symbol) [0x00007FF72A9C4C6F]
+	(No symbol) [0x00007FF72AA08C83]
+	(No symbol) [0x00007FF72AA0BD45]
+	(No symbol) [0x00007FF72A9FF43C]
+	(No symbol) [0x00007FF72AA2908A]
+	(No symbol) [0x00007FF72A9FE15D]
+	(No symbol) [0x00007FF72A9FE01D]
+	(No symbol) [0x00007FF72AA29350]
+	(No symbol) [0x00007FF72A9FE15D]
+	(No symbol) [0x00007FF72AA46698]
+	(No symbol) [0x00007FF72AA28DF3]
+	(No symbol) [0x00007FF72A9FD6A6]
+	(No symbol) [0x00007FF72A9FCBB3]
+	(No symbol) [0x00007FF72A9FD4D3]
+	(No symbol) [0x00007FF72AAF638D]
+	(No symbol) [0x00007FF72AB03F2F]
+	(No symbol) [0x00007FF72AAFC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF72AD776EA+284650]
+	(No symbol) [0x00007FF72ABF2C81]
+	(No symbol) [0x00007FF72ABEB724]
+	(No symbol) [0x00007FF72ABEB873]
+	(No symbol) [0x00007FF72ABDD4B6]
+	BaseThreadInitThunk [0x00007FF9ED437374+20]
+	RtlUserThreadStart [0x00007FF9EE8DCC91+33]
+
+2025-05-20 10:07:40,222 - WARNING - Célula da placa vazia na linha 2
+2025-05-20 10:07:40,229 - INFO - Placa recuperada via JS: DBL-2I25 -> DBL2I25
+2025-05-20 10:07:40,247 - WARNING - Célula da placa vazia na linha 3
+2025-05-20 10:07:40,252 - INFO - Placa recuperada via JS: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:07:40,270 - WARNING - Célula da placa vazia na linha 4
+2025-05-20 10:07:40,280 - INFO - Placa recuperada via JS: MFV-2F58 -> MFV2F58
+2025-05-20 10:07:40,300 - WARNING - Célula da placa vazia na linha 5
+2025-05-20 10:07:40,305 - INFO - Placa recuperada via JS: EZU-2F66 -> EZU2F66
+2025-05-20 10:07:40,326 - WARNING - Célula da placa vazia na linha 6
+2025-05-20 10:07:40,332 - INFO - Placa recuperada via JS: AUC-7B87 -> AUC7B87
+2025-05-20 10:07:40,351 - WARNING - Célula da placa vazia na linha 7
+2025-05-20 10:07:40,357 - INFO - Placa recuperada via JS: AOE-1440 -> AOE1440
+2025-05-20 10:07:40,379 - WARNING - Célula da placa vazia na linha 8
+2025-05-20 10:07:40,384 - INFO - Placa recuperada via JS: AYO-8H84 -> AYO8H84
+2025-05-20 10:07:40,434 - WARNING - Célula da placa vazia na linha 9
+2025-05-20 10:07:40,465 - INFO - Placa recuperada via JS: MXD-4E39 -> MXD4E39
+2025-05-20 10:07:40,499 - WARNING - Célula da placa vazia na linha 10
+2025-05-20 10:07:40,504 - INFO - Placa recuperada via JS: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:07:40,523 - WARNING - Célula da placa vazia na linha 11
+2025-05-20 10:07:40,532 - INFO - Placa recuperada via JS: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:07:40,532 - INFO - Total de placas encontradas: 10
+2025-05-20 10:07:40,532 - INFO - Placa 1: DBL2I25
+2025-05-20 10:07:40,533 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:07:40,534 - INFO - Placa 3: MFV2F58
+2025-05-20 10:07:40,534 - INFO - Placa 4: EZU2F66
+2025-05-20 10:07:40,534 - INFO - Placa 5: AUC7B87
+2025-05-20 10:07:40,535 - INFO - Placa 6: AOE1440
+2025-05-20 10:07:40,535 - INFO - Placa 7: AYO8H84
+2025-05-20 10:07:40,535 - INFO - Placa 8: MXD4E39
+2025-05-20 10:07:40,535 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:07:40,536 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:07:44,339 - INFO - Placas extraídas com sucesso: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09']
+2025-05-20 10:07:44,340 - INFO - Programa finalizado
+2025-05-20 10:07:54,022 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:07:54,023 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:07:54,024 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:07:54,486 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:07:54,559 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:07:54,560 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:07:56,133 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:07:57,790 - INFO - Aguardando página de login carregar...
+2025-05-20 10:07:57,808 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:07:57,978 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:07:59,219 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:08:04,233 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:08:04,234 - INFO - Iniciando extração de dados...
+2025-05-20 10:08:04,235 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:08:04,362 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:08:06,450 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:08:06,472 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:08:06,497 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:08:06,521 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:08:06,545 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:08:06,569 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:08:06,590 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:08:06,611 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:08:06,631 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:08:06,651 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:08:06,672 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:08:06,688 - WARNING - Célula da placa vazia na linha 13
+2025-05-20 10:08:06,694 - INFO - Placa recuperada via JS: AXL-6G70 -> AXL6G70
+2025-05-20 10:08:06,712 - WARNING - Célula da placa vazia na linha 14
+2025-05-20 10:08:06,717 - INFO - Placa recuperada via JS: MKQ-1B65 -> MKQ1B65
+2025-05-20 10:08:06,738 - WARNING - Célula da placa vazia na linha 15
+2025-05-20 10:08:06,742 - INFO - Placa recuperada via JS: AZO-5G94 -> AZO5G94
+2025-05-20 10:08:06,761 - WARNING - Célula da placa vazia na linha 16
+2025-05-20 10:08:06,768 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-20 10:08:06,787 - WARNING - Célula da placa vazia na linha 17
+2025-05-20 10:08:06,793 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-20 10:08:06,794 - INFO - Total de placas encontradas: 16
+2025-05-20 10:08:06,794 - INFO - Placa 1: DBL2I25
+2025-05-20 10:08:06,794 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:08:06,794 - INFO - Placa 3: MFV2F58
+2025-05-20 10:08:06,795 - INFO - Placa 4: EZU2F66
+2025-05-20 10:08:06,795 - INFO - Placa 5: AUC7B87
+2025-05-20 10:08:06,795 - INFO - Placa 6: AOE1440
+2025-05-20 10:08:06,795 - INFO - Placa 7: AYO8H84
+2025-05-20 10:08:06,795 - INFO - Placa 8: MXD4E39
+2025-05-20 10:08:06,796 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:08:06,796 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:08:06,796 - INFO - Placa 11: MIT8I71
+2025-05-20 10:08:06,796 - INFO - Placa 12: AXL6G70
+2025-05-20 10:08:06,796 - INFO - Placa 13: MKQ1B65
+2025-05-20 10:08:06,797 - INFO - Placa 14: AZO5G94
+2025-05-20 10:08:06,797 - INFO - Placa 15: APY4F10
+2025-05-20 10:08:06,797 - INFO - Placa 16: AZD7648
+2025-05-20 10:08:09,175 - INFO - Placas extraídas com sucesso: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-20 10:08:09,176 - INFO - Programa finalizado
+2025-05-20 10:08:19,556 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:08:19,557 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:08:19,557 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:08:20,006 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:08:20,100 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:08:20,101 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:08:21,730 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:08:23,380 - INFO - Aguardando página de login carregar...
+2025-05-20 10:08:23,396 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:08:23,569 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:08:23,822 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:08:28,830 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:08:28,831 - INFO - Iniciando extração de dados...
+2025-05-20 10:08:28,831 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:08:28,924 - ERROR - Erro ao configurar número de registros na tabela: Message: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF72AC902E5+25029]
+	(No symbol) [0x00007FF72ABE52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF72AF0D73A+1947706]
+	(No symbol) [0x00007FF72A9C230C]
+	(No symbol) [0x00007FF72A9C4B9C]
+	(No symbol) [0x00007FF72A9C4C6F]
+	(No symbol) [0x00007FF72AA08C83]
+	(No symbol) [0x00007FF72AA0BD45]
+	(No symbol) [0x00007FF72A9FF43C]
+	(No symbol) [0x00007FF72AA2908A]
+	(No symbol) [0x00007FF72A9FE15D]
+	(No symbol) [0x00007FF72A9FE01D]
+	(No symbol) [0x00007FF72AA29350]
+	(No symbol) [0x00007FF72A9FE15D]
+	(No symbol) [0x00007FF72AA46698]
+	(No symbol) [0x00007FF72AA28DF3]
+	(No symbol) [0x00007FF72A9FD6A6]
+	(No symbol) [0x00007FF72A9FCBB3]
+	(No symbol) [0x00007FF72A9FD4D3]
+	(No symbol) [0x00007FF72AAF638D]
+	(No symbol) [0x00007FF72AB03F2F]
+	(No symbol) [0x00007FF72AAFC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF72AD776EA+284650]
+	(No symbol) [0x00007FF72ABF2C81]
+	(No symbol) [0x00007FF72ABEB724]
+	(No symbol) [0x00007FF72ABEB873]
+	(No symbol) [0x00007FF72ABDD4B6]
+	BaseThreadInitThunk [0x00007FF9ED437374+20]
+	RtlUserThreadStart [0x00007FF9EE8DCC91+33]
+
+2025-05-20 10:08:28,985 - WARNING - Célula da placa vazia na linha 2
+2025-05-20 10:08:28,990 - INFO - Placa recuperada via JS: DBL-2I25 -> DBL2I25
+2025-05-20 10:08:29,009 - WARNING - Célula da placa vazia na linha 3
+2025-05-20 10:08:29,019 - INFO - Placa recuperada via JS: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:08:29,037 - WARNING - Célula da placa vazia na linha 4
+2025-05-20 10:08:29,041 - INFO - Placa recuperada via JS: MFV-2F58 -> MFV2F58
+2025-05-20 10:08:29,059 - WARNING - Célula da placa vazia na linha 5
+2025-05-20 10:08:29,064 - INFO - Placa recuperada via JS: EZU-2F66 -> EZU2F66
+2025-05-20 10:08:29,077 - WARNING - Célula da placa vazia na linha 6
+2025-05-20 10:08:29,085 - INFO - Placa recuperada via JS: AUC-7B87 -> AUC7B87
+2025-05-20 10:08:29,099 - WARNING - Célula da placa vazia na linha 7
+2025-05-20 10:08:29,103 - INFO - Placa recuperada via JS: AOE-1440 -> AOE1440
+2025-05-20 10:08:29,118 - WARNING - Célula da placa vazia na linha 8
+2025-05-20 10:08:29,122 - INFO - Placa recuperada via JS: AYO-8H84 -> AYO8H84
+2025-05-20 10:08:29,137 - WARNING - Célula da placa vazia na linha 9
+2025-05-20 10:08:29,140 - INFO - Placa recuperada via JS: MXD-4E39 -> MXD4E39
+2025-05-20 10:08:29,158 - WARNING - Célula da placa vazia na linha 10
+2025-05-20 10:08:29,163 - INFO - Placa recuperada via JS: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:08:29,177 - WARNING - Célula da placa vazia na linha 11
+2025-05-20 10:08:29,184 - INFO - Placa recuperada via JS: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:08:29,184 - INFO - Total de placas encontradas: 10
+2025-05-20 10:08:29,184 - INFO - Placa 1: DBL2I25
+2025-05-20 10:08:29,185 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:08:29,185 - INFO - Placa 3: MFV2F58
+2025-05-20 10:08:29,185 - INFO - Placa 4: EZU2F66
+2025-05-20 10:08:29,185 - INFO - Placa 5: AUC7B87
+2025-05-20 10:08:29,185 - INFO - Placa 6: AOE1440
+2025-05-20 10:08:29,186 - INFO - Placa 7: AYO8H84
+2025-05-20 10:08:29,186 - INFO - Placa 8: MXD4E39
+2025-05-20 10:08:29,186 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:08:29,186 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:08:32,430 - INFO - Placas extraídas com sucesso: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09']
+2025-05-20 10:08:32,431 - INFO - Programa finalizado
+2025-05-20 10:10:51,169 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:10:51,170 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:10:51,170 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:10:51,640 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:10:51,726 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:10:51,727 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:10:53,361 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:10:55,284 - INFO - Aguardando página de login carregar...
+2025-05-20 10:10:55,302 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:10:55,487 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:10:56,437 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:11:01,444 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:11:01,444 - INFO - Iniciando extração de dados...
+2025-05-20 10:11:01,445 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:11:01,552 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:11:03,640 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:11:03,661 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:11:03,686 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:11:03,711 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:11:03,729 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:11:03,751 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:11:03,776 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:11:03,796 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:11:03,815 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:11:03,835 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:11:03,853 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:11:03,876 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-20 10:11:03,894 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-20 10:11:03,912 - INFO - Placa processada com sucesso: AZO-5G94 -> AZO5G94
+2025-05-20 10:11:03,930 - WARNING - Célula da placa vazia na linha 16
+2025-05-20 10:11:03,936 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-20 10:11:03,954 - WARNING - Célula da placa vazia na linha 17
+2025-05-20 10:11:03,963 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-20 10:11:03,964 - INFO - Total de placas encontradas: 16
+2025-05-20 10:11:03,964 - INFO - Placa 1: DBL2I25
+2025-05-20 10:11:03,964 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:11:03,964 - INFO - Placa 3: MFV2F58
+2025-05-20 10:11:03,965 - INFO - Placa 4: EZU2F66
+2025-05-20 10:11:03,965 - INFO - Placa 5: AUC7B87
+2025-05-20 10:11:03,965 - INFO - Placa 6: AOE1440
+2025-05-20 10:11:03,966 - INFO - Placa 7: AYO8H84
+2025-05-20 10:11:03,966 - INFO - Placa 8: MXD4E39
+2025-05-20 10:11:03,966 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:11:03,966 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:11:03,967 - INFO - Placa 11: MIT8I71
+2025-05-20 10:11:03,967 - INFO - Placa 12: AXL6G70
+2025-05-20 10:11:03,967 - INFO - Placa 13: MKQ1B65
+2025-05-20 10:11:03,967 - INFO - Placa 14: AZO5G94
+2025-05-20 10:11:03,968 - INFO - Placa 15: APY4F10
+2025-05-20 10:11:03,968 - INFO - Placa 16: AZD7648
+2025-05-20 10:11:06,284 - INFO - Placas extraídas com sucesso: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-20 10:11:06,287 - INFO - Programa finalizado
+2025-05-20 10:11:09,495 - INFO - Iniciando execução automática de extração de dados Komando
+2025-05-20 10:11:09,495 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:11:09,496 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:11:09,965 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:11:10,049 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:11:10,050 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:11:11,772 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:11:13,638 - INFO - Aguardando página de login carregar...
+2025-05-20 10:11:13,665 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:11:13,849 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:11:14,089 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:11:19,095 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:11:19,096 - INFO - Iniciando extração de dados...
+2025-05-20 10:11:19,096 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:11:19,216 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:11:21,280 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:11:21,298 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:11:21,314 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:11:21,337 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:11:21,354 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:11:21,370 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:11:21,386 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:11:21,405 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:11:21,422 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:11:21,438 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:11:21,454 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:11:21,469 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-20 10:11:21,482 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-20 10:11:21,499 - INFO - Placa processada com sucesso: AZO-5G94 -> AZO5G94
+2025-05-20 10:11:21,514 - WARNING - Célula da placa vazia na linha 16
+2025-05-20 10:11:21,521 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-20 10:11:21,538 - WARNING - Célula da placa vazia na linha 17
+2025-05-20 10:11:21,543 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-20 10:11:21,543 - INFO - Total de placas encontradas: 16
+2025-05-20 10:11:21,544 - INFO - Placa 1: DBL2I25
+2025-05-20 10:11:21,544 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:11:21,544 - INFO - Placa 3: MFV2F58
+2025-05-20 10:11:21,544 - INFO - Placa 4: EZU2F66
+2025-05-20 10:11:21,545 - INFO - Placa 5: AUC7B87
+2025-05-20 10:11:21,545 - INFO - Placa 6: AOE1440
+2025-05-20 10:11:21,545 - INFO - Placa 7: AYO8H84
+2025-05-20 10:11:21,545 - INFO - Placa 8: MXD4E39
+2025-05-20 10:11:21,545 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:11:21,546 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:11:21,546 - INFO - Placa 11: MIT8I71
+2025-05-20 10:11:21,546 - INFO - Placa 12: AXL6G70
+2025-05-20 10:11:21,546 - INFO - Placa 13: MKQ1B65
+2025-05-20 10:11:21,546 - INFO - Placa 14: AZO5G94
+2025-05-20 10:11:21,547 - INFO - Placa 15: APY4F10
+2025-05-20 10:11:21,547 - INFO - Placa 16: AZD7648
+2025-05-20 10:11:23,796 - INFO - Placas extraídas com sucesso: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-20 10:11:23,796 - INFO - Programa finalizado
+2025-05-20 10:11:32,346 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-20 10:11:32,347 - INFO - Iniciando o processo de localização de veículos...
+2025-05-20 10:11:32,347 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:11:32,347 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:11:32,812 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:11:32,889 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:11:32,893 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:11:34,532 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:11:36,199 - INFO - Aguardando página de login carregar...
+2025-05-20 10:11:36,223 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:11:36,409 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:11:36,647 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:11:41,673 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:11:41,675 - INFO - Iniciando extração de dados...
+2025-05-20 10:11:41,676 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:11:41,814 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:11:43,892 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:11:43,910 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:11:43,935 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:11:43,959 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:11:43,984 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:11:44,005 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:11:44,025 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:11:44,045 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:11:44,066 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:11:44,084 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:11:44,102 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:11:44,121 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-20 10:11:44,140 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-20 10:11:44,160 - INFO - Placa processada com sucesso: AZO-5G94 -> AZO5G94
+2025-05-20 10:11:44,216 - WARNING - Célula da placa vazia na linha 16
+2025-05-20 10:11:44,277 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-20 10:11:44,296 - WARNING - Célula da placa vazia na linha 17
+2025-05-20 10:11:44,303 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-20 10:11:44,303 - INFO - Total de placas encontradas: 16
+2025-05-20 10:11:44,303 - INFO - Placa 1: DBL2I25
+2025-05-20 10:11:44,304 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:11:44,304 - INFO - Placa 3: MFV2F58
+2025-05-20 10:11:44,304 - INFO - Placa 4: EZU2F66
+2025-05-20 10:11:44,304 - INFO - Placa 5: AUC7B87
+2025-05-20 10:11:44,305 - INFO - Placa 6: AOE1440
+2025-05-20 10:11:44,305 - INFO - Placa 7: AYO8H84
+2025-05-20 10:11:44,305 - INFO - Placa 8: MXD4E39
+2025-05-20 10:11:44,305 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:11:44,305 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:11:44,306 - INFO - Placa 11: MIT8I71
+2025-05-20 10:11:44,306 - INFO - Placa 12: AXL6G70
+2025-05-20 10:11:44,306 - INFO - Placa 13: MKQ1B65
+2025-05-20 10:11:44,306 - INFO - Placa 14: AZO5G94
+2025-05-20 10:11:44,306 - INFO - Placa 15: APY4F10
+2025-05-20 10:11:44,307 - INFO - Placa 16: AZD7648
+2025-05-20 10:11:46,925 - INFO - Placas recebidas para processamento: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-20 10:11:46,927 - INFO - Obtendo token da API...
+2025-05-20 10:11:47,062 - INFO - Token da API obtido com sucesso.
+2025-05-20 10:11:47,062 - INFO - Processando placa: DBL2I25
+2025-05-20 10:11:48,543 - INFO - Localização para DBL2I25: Colombo, Paraná
+2025-05-20 10:11:48,544 - INFO - Processando placa: MJQ9F49
+2025-05-20 10:11:50,037 - INFO - Localização para MJQ9F49: Quatro Barras, Paraná
+2025-05-20 10:11:50,037 - INFO - Processando placa: MFV2F58
+2025-05-20 10:11:50,497 - INFO - Nome da cidade ajustado para: Piracanjuba
+2025-05-20 10:11:51,499 - INFO - Localização para MFV2F58: Piracanjuba, Goiás
+2025-05-20 10:11:51,499 - INFO - Processando placa: EZU2F66
+2025-05-20 10:11:51,738 - WARNING - Estrutura de resposta da API inesperada para a placa EZU2F66 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-20 10:11:51,739 - INFO - Processando placa: AUC7B87
+2025-05-20 10:11:53,214 - INFO - Localização para AUC7B87: Quatro Barras, Paraná
+2025-05-20 10:11:53,215 - INFO - Processando placa: AOE1440
+2025-05-20 10:11:54,653 - INFO - Localização para AOE1440: Aparecida de Goiânia, Goiás
+2025-05-20 10:11:54,655 - INFO - Processando placa: AYO8H84
+2025-05-20 10:11:56,161 - INFO - Localização para AYO8H84: Ananindeua, Pará
+2025-05-20 10:11:56,161 - INFO - Processando placa: MXD4E39
+2025-05-20 10:11:57,993 - INFO - Localização para MXD4E39: Jequié, Bahia
+2025-05-20 10:11:57,994 - INFO - Processando placa: BCJ8G36
+2025-05-20 10:11:59,591 - INFO - Localização para BCJ8G36: Quatro Barras, Paraná
+2025-05-20 10:11:59,592 - INFO - Processando placa: RYZ8I09
+2025-05-20 10:12:01,031 - INFO - Localização para RYZ8I09: Ribeirão, Pernambuco
+2025-05-20 10:12:01,031 - INFO - Processando placa: MIT8I71
+2025-05-20 10:12:01,261 - WARNING - Estrutura de resposta da API inesperada para a placa MIT8I71 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-20 10:12:01,262 - INFO - Processando placa: AXL6G70
+2025-05-20 10:12:02,773 - INFO - Localização para AXL6G70: Conceição do Jacuípe, Bahia
+2025-05-20 10:12:02,773 - INFO - Processando placa: MKQ1B65
+2025-05-20 10:12:04,232 - INFO - Localização para MKQ1B65: Codó, Maranhão
+2025-05-20 10:12:04,233 - INFO - Processando placa: AZO5G94
+2025-05-20 10:12:05,688 - INFO - Localização para AZO5G94: Petrolina, Pernambuco
+2025-05-20 10:12:05,690 - INFO - Processando placa: APY4F10
+2025-05-20 10:12:07,136 - INFO - Localização para APY4F10: Camanducaia, Minas Gerais
+2025-05-20 10:12:07,136 - INFO - Processando placa: AZD7648
+2025-05-20 10:12:08,593 - INFO - Localização para AZD7648: Marituba, Pará
+2025-05-20 10:12:08,596 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-20 10:12:08,597 - INFO - Processamento concluído. Dados: [{'placa': 'DBL2I25', 'cidade': 'Colombo', 'estado': 'Paraná'}, {'placa': 'MJQ9F49', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'MFV2F58', 'cidade': 'Piracanjuba', 'estado': 'Goiás'}, {'placa': 'EZU2F66', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}, {'placa': 'AUC7B87', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'AOE1440', 'cidade': 'Aparecida de Goiânia', 'estado': 'Goiás'}, {'placa': 'AYO8H84', 'cidade': 'Ananindeua', 'estado': 'Pará'}, {'placa': 'MXD4E39', 'cidade': 'Jequié', 'estado': 'Bahia'}, {'placa': 'BCJ8G36', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'RYZ8I09', 'cidade': 'Ribeirão', 'estado': 'Pernambuco'}, {'placa': 'MIT8I71', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}, {'placa': 'AXL6G70', 'cidade': 'Conceição do Jacuípe', 'estado': 'Bahia'}, {'placa': 'MKQ1B65', 'cidade': 'Codó', 'estado': 'Maranhão'}, {'placa': 'AZO5G94', 'cidade': 'Petrolina', 'estado': 'Pernambuco'}, {'placa': 'APY4F10', 'cidade': 'Camanducaia', 'estado': 'Minas Gerais'}, {'placa': 'AZD7648', 'cidade': 'Marituba', 'estado': 'Pará'}]
+2025-05-20 10:12:08,603 - INFO - Arquivo de saída: localizacao_veiculos.json
+2025-05-20 10:14:48,732 - INFO - Iniciando script processador_placas.py diretamente.
+2025-05-20 10:14:48,733 - INFO - Iniciando o processo de localização de veículos...
+2025-05-20 10:14:48,733 - INFO - Sistema iniciado e pronto para extração.
+2025-05-20 10:14:48,734 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-20 10:14:49,216 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-20 10:14:49,335 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-20 10:14:49,336 - INFO - Iniciando processo de extração de dados...
+2025-05-20 10:14:53,272 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:14:55,713 - INFO - Aguardando página de login carregar...
+2025-05-20 10:14:55,734 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-20 10:14:55,950 - INFO - Tentando clicar no botão de login por ID...
+2025-05-20 10:14:57,764 - INFO - Aguardando redirecionamento após login...
+2025-05-20 10:15:02,772 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-20 10:15:02,772 - INFO - Iniciando extração de dados...
+2025-05-20 10:15:02,772 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-20 10:15:02,981 - INFO - Opção de 50 registros por página selecionada
+2025-05-20 10:15:05,043 - INFO - Placa processada com sucesso: DBL-2I25 -> DBL2I25
+2025-05-20 10:15:05,060 - INFO - Placa processada com sucesso: MJQ-9F49 -> MJQ9F49
+2025-05-20 10:15:05,078 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-20 10:15:05,099 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-20 10:15:05,118 - INFO - Placa processada com sucesso: AUC-7B87 -> AUC7B87
+2025-05-20 10:15:05,139 - INFO - Placa processada com sucesso: AOE-1440 -> AOE1440
+2025-05-20 10:15:05,160 - INFO - Placa processada com sucesso: AYO-8H84 -> AYO8H84
+2025-05-20 10:15:05,179 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-20 10:15:05,198 - INFO - Placa processada com sucesso: BCJ-8G36 -> BCJ8G36
+2025-05-20 10:15:05,216 - INFO - Placa processada com sucesso: RYZ-8I09 -> RYZ8I09
+2025-05-20 10:15:05,238 - INFO - Placa processada com sucesso: MIT-8I71 -> MIT8I71
+2025-05-20 10:15:05,257 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-20 10:15:05,274 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-20 10:15:05,291 - INFO - Placa processada com sucesso: AZO-5G94 -> AZO5G94
+2025-05-20 10:15:05,316 - WARNING - Célula da placa vazia na linha 16
+2025-05-20 10:15:05,323 - INFO - Placa recuperada via JS: APY-4F10 -> APY4F10
+2025-05-20 10:15:05,342 - WARNING - Célula da placa vazia na linha 17
+2025-05-20 10:15:05,346 - INFO - Placa recuperada via JS: AZD-7648 -> AZD7648
+2025-05-20 10:15:05,346 - INFO - Total de placas encontradas: 16
+2025-05-20 10:15:05,347 - INFO - Placa 1: DBL2I25
+2025-05-20 10:15:05,347 - INFO - Placa 2: MJQ9F49
+2025-05-20 10:15:05,347 - INFO - Placa 3: MFV2F58
+2025-05-20 10:15:05,348 - INFO - Placa 4: EZU2F66
+2025-05-20 10:15:05,348 - INFO - Placa 5: AUC7B87
+2025-05-20 10:15:05,348 - INFO - Placa 6: AOE1440
+2025-05-20 10:15:05,348 - INFO - Placa 7: AYO8H84
+2025-05-20 10:15:05,349 - INFO - Placa 8: MXD4E39
+2025-05-20 10:15:05,349 - INFO - Placa 9: BCJ8G36
+2025-05-20 10:15:05,349 - INFO - Placa 10: RYZ8I09
+2025-05-20 10:15:05,349 - INFO - Placa 11: MIT8I71
+2025-05-20 10:15:05,350 - INFO - Placa 12: AXL6G70
+2025-05-20 10:15:05,350 - INFO - Placa 13: MKQ1B65
+2025-05-20 10:15:05,350 - INFO - Placa 14: AZO5G94
+2025-05-20 10:15:05,350 - INFO - Placa 15: APY4F10
+2025-05-20 10:15:05,351 - INFO - Placa 16: AZD7648
+2025-05-20 10:15:07,664 - INFO - Placas recebidas para processamento: ['DBL2I25', 'MJQ9F49', 'MFV2F58', 'EZU2F66', 'AUC7B87', 'AOE1440', 'AYO8H84', 'MXD4E39', 'BCJ8G36', 'RYZ8I09', 'MIT8I71', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10', 'AZD7648']
+2025-05-20 10:15:07,665 - INFO - Obtendo token da API...
+2025-05-20 10:15:07,786 - INFO - Token da API obtido com sucesso.
+2025-05-20 10:15:07,786 - INFO - Processando placa: DBL2I25
+2025-05-20 10:15:09,228 - INFO - Localização para DBL2I25: Colombo, Paraná
+2025-05-20 10:15:09,229 - INFO - Processando placa: MJQ9F49
+2025-05-20 10:15:10,697 - INFO - Localização para MJQ9F49: Quatro Barras, Paraná
+2025-05-20 10:15:10,700 - INFO - Processando placa: MFV2F58
+2025-05-20 10:15:11,148 - INFO - Nome da cidade ajustado para: Piracanjuba
+2025-05-20 10:15:12,149 - INFO - Localização para MFV2F58: Piracanjuba, Goiás
+2025-05-20 10:15:12,150 - INFO - Processando placa: EZU2F66
+2025-05-20 10:15:12,393 - WARNING - Estrutura de resposta da API inesperada para a placa EZU2F66 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-20 10:15:12,403 - INFO - Processando placa: AUC7B87
+2025-05-20 10:15:13,829 - INFO - Localização para AUC7B87: Quatro Barras, Paraná
+2025-05-20 10:15:13,829 - INFO - Processando placa: AOE1440
+2025-05-20 10:15:15,233 - INFO - Localização para AOE1440: Aparecida de Goiânia, Goiás
+2025-05-20 10:15:15,234 - INFO - Processando placa: AYO8H84
+2025-05-20 10:15:16,703 - INFO - Localização para AYO8H84: Ananindeua, Pará
+2025-05-20 10:15:16,704 - INFO - Processando placa: MXD4E39
+2025-05-20 10:15:18,350 - INFO - Localização para MXD4E39: Jequié, Bahia
+2025-05-20 10:15:18,351 - INFO - Processando placa: BCJ8G36
+2025-05-20 10:15:19,768 - INFO - Localização para BCJ8G36: Quatro Barras, Paraná
+2025-05-20 10:15:19,769 - INFO - Processando placa: RYZ8I09
+2025-05-20 10:15:21,363 - INFO - Localização para RYZ8I09: Ribeirão, Pernambuco
+2025-05-20 10:15:21,363 - INFO - Processando placa: MIT8I71
+2025-05-20 10:15:21,597 - WARNING - Estrutura de resposta da API inesperada para a placa MIT8I71 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-20 10:15:21,602 - INFO - Processando placa: AXL6G70
+2025-05-20 10:15:23,060 - INFO - Localização para AXL6G70: Conceição do Jacuípe, Bahia
+2025-05-20 10:15:23,061 - INFO - Processando placa: MKQ1B65
+2025-05-20 10:15:24,536 - INFO - Localização para MKQ1B65: Capinzal do Norte, Maranhão
+2025-05-20 10:15:24,536 - INFO - Processando placa: AZO5G94
+2025-05-20 10:15:26,020 - INFO - Localização para AZO5G94: Petrolina, Pernambuco
+2025-05-20 10:15:26,021 - INFO - Processando placa: APY4F10
+2025-05-20 10:15:27,473 - INFO - Localização para APY4F10: Camanducaia, Minas Gerais
+2025-05-20 10:15:27,474 - INFO - Processando placa: AZD7648
+2025-05-20 10:15:28,920 - INFO - Localização para AZD7648: Marituba, Pará
+2025-05-20 10:15:28,924 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-20 10:15:28,924 - INFO - Processamento concluído. Dados: [{'placa': 'DBL2I25', 'cidade': 'Colombo', 'estado': 'Paraná'}, {'placa': 'MJQ9F49', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'MFV2F58', 'cidade': 'Piracanjuba', 'estado': 'Goiás'}, {'placa': 'EZU2F66', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}, {'placa': 'AUC7B87', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'AOE1440', 'cidade': 'Aparecida de Goiânia', 'estado': 'Goiás'}, {'placa': 'AYO8H84', 'cidade': 'Ananindeua', 'estado': 'Pará'}, {'placa': 'MXD4E39', 'cidade': 'Jequié', 'estado': 'Bahia'}, {'placa': 'BCJ8G36', 'cidade': 'Quatro Barras', 'estado': 'Paraná'}, {'placa': 'RYZ8I09', 'cidade': 'Ribeirão', 'estado': 'Pernambuco'}, {'placa': 'MIT8I71', 'Latitude': None, 'Longitude': None, 'Erro': 'Estrutura de resposta inesperada'}, {'placa': 'AXL6G70', 'cidade': 'Conceição do Jacuípe', 'estado': 'Bahia'}, {'placa': 'MKQ1B65', 'cidade': 'Capinzal do Norte', 'estado': 'Maranhão'}, {'placa': 'AZO5G94', 'cidade': 'Petrolina', 'estado': 'Pernambuco'}, {'placa': 'APY4F10', 'cidade': 'Camanducaia', 'estado': 'Minas Gerais'}, {'placa': 'AZD7648', 'cidade': 'Marituba', 'estado': 'Pará'}]
+2025-05-20 10:15:28,932 - INFO - Arquivo de saída: localizacao_veiculos.json

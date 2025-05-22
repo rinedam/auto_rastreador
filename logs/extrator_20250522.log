@@ -1,0 +1,149 @@
+2025-05-22 08:52:54,037 - INFO - Iniciando script principal...
+2025-05-22 08:52:54,038 - INFO - Consultando placas e localizações via processador_placas.py...
+2025-05-22 08:52:54,038 - INFO - Iniciando o processo de localização de veículos...
+2025-05-22 08:52:54,039 - INFO - Sistema iniciado e pronto para extração.
+2025-05-22 08:52:54,041 - INFO - Diretório de download configurado para: C:\Users\Administrador\Downloads. Esta verificação de existência será pulada no sandbox.
+2025-05-22 08:52:54,496 - INFO - Conexão com https://www.google.com/ verificada com sucesso
+2025-05-22 08:52:54,584 - INFO - Conexão com http://vstrack.ddns.net/ verificada com sucesso
+2025-05-22 08:52:54,586 - INFO - Iniciando processo de extração de dados...
+2025-05-22 08:52:58,095 - INFO - Acessando URL: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-22 08:52:59,099 - INFO - Aguardando página de login carregar...
+2025-05-22 08:53:00,037 - INFO - Página de login carregada. Preenchendo credenciais...
+2025-05-22 08:53:00,240 - INFO - Tentando clicar no botão de login por ID...
+2025-05-22 08:53:00,488 - INFO - Aguardando redirecionamento após login...
+2025-05-22 08:53:05,500 - INFO - Login concluído. URL atual: http://vstrack.ddns.net/komando/PosicaoVeiculoRastreamento/Index
+2025-05-22 08:53:05,501 - INFO - Iniciando extração de dados...
+2025-05-22 08:53:05,501 - INFO - Aguardando carregamento da tabela de dados...
+2025-05-22 08:53:05,659 - INFO - Opção de 50 registros por página selecionada
+2025-05-22 08:53:07,742 - INFO - Placa processada com sucesso: MKR-0G29 -> MKR0G29
+2025-05-22 08:53:07,760 - INFO - Placa processada com sucesso: IMI-7I73 -> IMI7I73
+2025-05-22 08:53:07,779 - INFO - Placa processada com sucesso: MSH-0A08 -> MSH0A08
+2025-05-22 08:53:07,801 - INFO - Placa processada com sucesso: FSV-4I99 -> FSV4I99
+2025-05-22 08:53:07,829 - INFO - Placa processada com sucesso: OVF-8H54 -> OVF8H54
+2025-05-22 08:53:07,849 - INFO - Placa processada com sucesso: TAY-4G55 -> TAY4G55
+2025-05-22 08:53:07,877 - INFO - Placa processada com sucesso: MFV-2F58 -> MFV2F58
+2025-05-22 08:53:07,895 - INFO - Placa processada com sucesso: EZU-2F66 -> EZU2F66
+2025-05-22 08:53:07,916 - INFO - Placa processada com sucesso: MXD-4E39 -> MXD4E39
+2025-05-22 08:53:07,934 - INFO - Placa processada com sucesso: AXL-6G70 -> AXL6G70
+2025-05-22 08:53:07,959 - INFO - Placa processada com sucesso: MKQ-1B65 -> MKQ1B65
+2025-05-22 08:53:07,978 - INFO - Placa processada com sucesso: AZO-5G94 -> AZO5G94
+2025-05-22 08:53:07,996 - INFO - Placa processada com sucesso: APY-4F10 -> APY4F10
+2025-05-22 08:53:07,996 - INFO - Total de placas encontradas: 13
+2025-05-22 08:53:07,997 - INFO - Placa 1: MKR0G29
+2025-05-22 08:53:07,997 - INFO - Placa 2: IMI7I73
+2025-05-22 08:53:07,997 - INFO - Placa 3: MSH0A08
+2025-05-22 08:53:07,997 - INFO - Placa 4: FSV4I99
+2025-05-22 08:53:07,997 - INFO - Placa 5: OVF8H54
+2025-05-22 08:53:07,998 - INFO - Placa 6: TAY4G55
+2025-05-22 08:53:07,998 - INFO - Placa 7: MFV2F58
+2025-05-22 08:53:07,998 - INFO - Placa 8: EZU2F66
+2025-05-22 08:53:07,998 - INFO - Placa 9: MXD4E39
+2025-05-22 08:53:07,998 - INFO - Placa 10: AXL6G70
+2025-05-22 08:53:07,998 - INFO - Placa 11: MKQ1B65
+2025-05-22 08:53:07,999 - INFO - Placa 12: AZO5G94
+2025-05-22 08:53:07,999 - INFO - Placa 13: APY4F10
+2025-05-22 08:53:11,001 - INFO - Placas recebidas para processamento: ['MKR0G29', 'IMI7I73', 'MSH0A08', 'FSV4I99', 'OVF8H54', 'TAY4G55', 'MFV2F58', 'EZU2F66', 'MXD4E39', 'AXL6G70', 'MKQ1B65', 'AZO5G94', 'APY4F10']
+2025-05-22 08:53:11,007 - INFO - Obtendo token da API...
+2025-05-22 08:53:11,139 - INFO - Token da API obtido com sucesso.
+2025-05-22 08:53:11,143 - INFO - Processando placa: MKR0G29
+2025-05-22 08:53:12,595 - INFO - Localização para MKR0G29: Colombo, Paraná
+2025-05-22 08:53:12,595 - INFO - Processando placa: IMI7I73
+2025-05-22 08:53:13,988 - INFO - Localização para IMI7I73: Curitiba, Paraná
+2025-05-22 08:53:13,989 - INFO - Processando placa: MSH0A08
+2025-05-22 08:53:14,099 - WARNING - Estrutura de resposta da API inesperada para a placa MSH0A08 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-22 08:53:14,099 - INFO - Processando placa: FSV4I99
+2025-05-22 08:53:15,480 - INFO - Localização para FSV4I99: Curitiba, Paraná
+2025-05-22 08:53:15,482 - INFO - Processando placa: OVF8H54
+2025-05-22 08:53:16,917 - INFO - Localização para OVF8H54: Fazenda Rio Grande, Paraná
+2025-05-22 08:53:16,922 - INFO - Processando placa: TAY4G55
+2025-05-22 08:53:18,326 - INFO - Localização para TAY4G55: Aparecida de Goiânia, Goiás
+2025-05-22 08:53:18,326 - INFO - Processando placa: MFV2F58
+2025-05-22 08:53:18,729 - INFO - Nome da cidade ajustado para: Colinas do Tocantins
+2025-05-22 08:53:19,731 - INFO - Localização para MFV2F58: Colinas do Tocantins, Tocantins
+2025-05-22 08:53:19,733 - INFO - Processando placa: EZU2F66
+2025-05-22 08:53:19,982 - WARNING - Estrutura de resposta da API inesperada para a placa EZU2F66 (esperado 'Posicoes' como lista com itens). Resposta: {'Status': 111, 'ErrosValidacao': [{'Codigo': 24, 'Descricao': 'Consulta veículo não encontrada, favor solicitar consulta. - Nenhuma posição da placa informada foi encontrada.'}]}
+2025-05-22 08:53:19,986 - INFO - Processando placa: MXD4E39
+2025-05-22 08:53:21,443 - INFO - Localização para MXD4E39: Ipojuca, Pernambuco
+2025-05-22 08:53:21,444 - INFO - Processando placa: AXL6G70
+2025-05-22 08:53:22,906 - INFO - Localização para AXL6G70: Aracaju, Sergipe
+2025-05-22 08:53:22,908 - INFO - Processando placa: MKQ1B65
+2025-05-22 08:53:24,436 - INFO - Localização para MKQ1B65: São Luís, Maranhão
+2025-05-22 08:53:24,437 - INFO - Processando placa: AZO5G94
+2025-05-22 08:53:25,876 - INFO - Localização para AZO5G94: Petrolina, Pernambuco
+2025-05-22 08:53:25,878 - INFO - Processando placa: APY4F10
+2025-05-22 08:53:27,291 - INFO - Localização para APY4F10: Jequié, Bahia
+2025-05-22 08:53:27,293 - INFO - Resultados salvos em: localizacao_veiculos.json
+2025-05-22 08:53:27,293 - INFO - Total de 13 veículos com localização obtidos.
+2025-05-22 08:53:27,293 - INFO - Processando veículo 1/13: Placa MKR0G29 - Colombo/Paraná
+2025-05-22 08:53:27,293 - INFO - Iniciando atualização no SSW para a placa: MKR0G29 - Colombo/Paraná
+2025-05-22 08:53:30,681 - INFO - WebDriver iniciado para placa MKR0G29.
+2025-05-22 08:53:40,244 - ERROR - Erro crítico na função atualizar_sistema_para_placa (MKR0G29): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CB0902E5+25029]
+	(No symbol) [0x00007FF7CAFE52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7CB30D73A+1947706]
+	(No symbol) [0x00007FF7CADAA2CC]
+	(No symbol) [0x00007FF7CADAB21F]
+	(No symbol) [0x00007FF7CADBBF4C]
+	(No symbol) [0x00007FF7CAD9BD1D]
+	(No symbol) [0x00007FF7CAE380E8]
+	(No symbol) [0x00007FF7CAE29050]
+	(No symbol) [0x00007FF7CADFD6A6]
+	(No symbol) [0x00007FF7CADFCBB3]
+	(No symbol) [0x00007FF7CADFD4D3]
+	(No symbol) [0x00007FF7CAEF638D]
+	(No symbol) [0x00007FF7CAF03F2F]
+	(No symbol) [0x00007FF7CAEFC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7CB1776EA+284650]
+	(No symbol) [0x00007FF7CAFF2C81]
+	(No symbol) [0x00007FF7CAFEB724]
+	(No symbol) [0x00007FF7CAFEB873]
+	(No symbol) [0x00007FF7CAFDD4B6]
+	BaseThreadInitThunk [0x00007FFF87F37374+20]
+	RtlUserThreadStart [0x00007FFF8913CC91+33]
+Traceback (most recent call last):
+  File "c:\Users\Administrador\Documents\Projetos\auto_rastreador\atualizacao_ssw.py", line 115, in atualizar_sistema_para_placa
+    driver.switch_to.window(driver.window_handles[-1])
+                            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\Projetos\auto_rastreador\autorastreador\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 631, in window_handles
+    return self.execute(Command.W3C_GET_WINDOW_HANDLES)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\Projetos\auto_rastreador\autorastreador\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\Projetos\auto_rastreador\autorastreador\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CB0902E5+25029]
+	(No symbol) [0x00007FF7CAFE52F0]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7CB30D73A+1947706]
+	(No symbol) [0x00007FF7CADAA2CC]
+	(No symbol) [0x00007FF7CADAB21F]
+	(No symbol) [0x00007FF7CADBBF4C]
+	(No symbol) [0x00007FF7CAD9BD1D]
+	(No symbol) [0x00007FF7CAE380E8]
+	(No symbol) [0x00007FF7CAE29050]
+	(No symbol) [0x00007FF7CADFD6A6]
+	(No symbol) [0x00007FF7CADFCBB3]
+	(No symbol) [0x00007FF7CADFD4D3]
+	(No symbol) [0x00007FF7CAEF638D]
+	(No symbol) [0x00007FF7CAF03F2F]
+	(No symbol) [0x00007FF7CAEFC91F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7CB1776EA+284650]
+	(No symbol) [0x00007FF7CAFF2C81]
+	(No symbol) [0x00007FF7CAFEB724]
+	(No symbol) [0x00007FF7CAFEB873]
+	(No symbol) [0x00007FF7CAFDD4B6]
+	BaseThreadInitThunk [0x00007FFF87F37374+20]
+	RtlUserThreadStart [0x00007FFF8913CC91+33]
+
+2025-05-22 08:53:42,425 - INFO - WebDriver finalizado para placa MKR0G29.
+2025-05-22 08:53:42,426 - INFO - Função atualizar_sistema_para_placa (MKR0G29) concluída.
+2025-05-22 08:53:42,426 - INFO - Veículo MKR0G29 atualizado com sucesso no sistema.
+2025-05-22 08:53:42,427 - INFO - Aguardando intervalo de 5 segundos antes do próximo veículo...
+2025-05-22 08:53:45,377 - INFO - Script principal finalizado.
